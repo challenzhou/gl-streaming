@@ -145,13 +145,13 @@ static inline float randf(void)
   return (float)rand() / (float)RAND_MAX;
 }
 
-
-static inline float get_diff_time(struct timeval start, struct timeval end)
+/*
+float get_diff_time(struct timeval start, struct timeval end)
 {
   float dt = (float)(end.tv_sec - start.tv_sec) + (float)(end.tv_usec - start.tv_usec) * 0.000001f;
   return dt;
 }
-
+*/
 
 GLuint create_texture(const char *filename)
 {

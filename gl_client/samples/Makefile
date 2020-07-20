@@ -1,7 +1,7 @@
 CFLAGS=-O3 -Wall
 
 INCLUDES=-I.. -I../include -I../../common
-LIBS=-lpthread -lm -ldl
+LIBS=-lpthread -lm -ldl -lX11
 OBJS=../fifo.o ../server.o ../glclient.o ../glsutil.o ../clientegl.o ../clientgles.o
 EXES=sample1 sample2
 
