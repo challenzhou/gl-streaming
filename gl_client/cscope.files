@@ -1,0 +1,17 @@
+./clientgles.c
+./samples/sample2.c
+./samples/model1.h
+./samples/sample1.c
+./clientegl.c
+./include/EGL/eglext.h
+./include/EGL/eglplatform.h
+./include/EGL/egl.h
+./include/KHR/khrplatform.h
+./include/GLES2/gl2platform.h
+./include/GLES2/gl2.h
+./glclient.c
+./glsutil.c
+./model1.h
+./main.c
+./glsutil.h
+./glclient.h

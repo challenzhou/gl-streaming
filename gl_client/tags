@@ -1,0 +1,1629 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BATCH_AUTO_FLUSH_SIZE	glclient.h	56;"	d
+CFLAGS	Makefile	/^CFLAGS=-O3 -Wall -I..\/common -I. -I.\/include -DUSE_X11 -fPIC$/;"	m
+CFLAGS	samples/Makefile	/^CFLAGS=-O3 -Wall$/;"	m
+EGLAPI	include/EGL/eglplatform.h	50;"	d
+EGLAPIENTRY	include/EGL/eglplatform.h	54;"	d
+EGLAPIENTRYP	include/EGL/eglplatform.h	56;"	d
+EGLAttrib	include/EGL/egl.h	/^typedef intptr_t EGLAttrib;$/;"	t
+EGLAttribKHR	include/EGL/eglext.h	/^typedef intptr_t EGLAttribKHR;$/;"	t
+EGLBoolean	include/EGL/egl.h	/^typedef unsigned int EGLBoolean;$/;"	t
+EGLClientBuffer	include/EGL/egl.h	/^typedef void *EGLClientBuffer;$/;"	t
+EGLClientPixmapHI	include/EGL/eglext.h	/^struct EGLClientPixmapHI {$/;"	s
+EGLConfig	include/EGL/egl.h	/^typedef void *EGLConfig;$/;"	t
+EGLContext	include/EGL/egl.h	/^typedef void *EGLContext;$/;"	t
+EGLDEBUGPROCKHR	include/EGL/eglext.h	/^typedef void (EGLAPIENTRY  *EGLDEBUGPROCKHR)(EGLenum error,const char *command,EGLint messageType,EGLLabelKHR threadLabel,EGLLabelKHR objectLabel,const char* message);$/;"	t
+EGLDeviceEXT	include/EGL/eglext.h	/^typedef void *EGLDeviceEXT;$/;"	t
+EGLDisplay	include/EGL/egl.h	/^typedef void *EGLDisplay;$/;"	t
+EGLGetBlobFuncANDROID	include/EGL/eglext.h	/^typedef EGLsizeiANDROID (*EGLGetBlobFuncANDROID) (const void *key, EGLsizeiANDROID keySize, void *value, EGLsizeiANDROID valueSize);$/;"	t
+EGLImage	include/EGL/egl.h	/^typedef void *EGLImage;$/;"	t
+EGLImageKHR	include/EGL/eglext.h	/^typedef void *EGLImageKHR;$/;"	t
+EGLLabelKHR	include/EGL/eglext.h	/^typedef void *EGLLabelKHR;$/;"	t
+EGLNativeDisplayType	include/EGL/eglplatform.h	/^typedef Display *EGLNativeDisplayType;$/;"	t
+EGLNativeDisplayType	include/EGL/eglplatform.h	/^typedef HDC     EGLNativeDisplayType;$/;"	t
+EGLNativeDisplayType	include/EGL/eglplatform.h	/^typedef int   EGLNativeDisplayType;$/;"	t
+EGLNativeDisplayType	include/EGL/eglplatform.h	/^typedef int EGLNativeDisplayType;$/;"	t
+EGLNativeDisplayType	include/EGL/eglplatform.h	/^typedef intptr_t EGLNativeDisplayType;$/;"	t
+EGLNativeDisplayType	include/EGL/eglplatform.h	/^typedef struct gbm_device  *EGLNativeDisplayType;$/;"	t	typeref:struct:gbm_device
+EGLNativeDisplayType	include/EGL/eglplatform.h	/^typedef struct wl_display     *EGLNativeDisplayType;$/;"	t	typeref:struct:wl_display
+EGLNativeDisplayType	include/EGL/eglplatform.h	/^typedef void              *EGLNativeDisplayType;$/;"	t
+EGLNativeDisplayType	include/EGL/eglplatform.h	/^typedef void             *EGLNativeDisplayType;$/;"	t
+EGLNativeDisplayType	include/EGL/eglplatform.h	/^typedef void*                           EGLNativeDisplayType;$/;"	t
+EGLNativeFileDescriptorKHR	include/EGL/eglext.h	/^typedef int EGLNativeFileDescriptorKHR;$/;"	t
+EGLNativePixmapType	include/EGL/eglplatform.h	/^typedef HBITMAP EGLNativePixmapType;$/;"	t
+EGLNativePixmapType	include/EGL/eglplatform.h	/^typedef Pixmap   EGLNativePixmapType;$/;"	t
+EGLNativePixmapType	include/EGL/eglplatform.h	/^typedef int EGLNativePixmapType;$/;"	t
+EGLNativePixmapType	include/EGL/eglplatform.h	/^typedef intptr_t EGLNativePixmapType;$/;"	t
+EGLNativePixmapType	include/EGL/eglplatform.h	/^typedef khronos_uintptr_t  EGLNativePixmapType;$/;"	t
+EGLNativePixmapType	include/EGL/eglplatform.h	/^typedef khronos_uintptr_t EGLNativePixmapType;$/;"	t
+EGLNativePixmapType	include/EGL/eglplatform.h	/^typedef struct egl_native_pixmap_t*     EGLNativePixmapType;$/;"	t	typeref:struct:egl_native_pixmap_t
+EGLNativePixmapType	include/EGL/eglplatform.h	/^typedef struct gbm_bo      *EGLNativePixmapType;$/;"	t	typeref:struct:gbm_bo
+EGLNativePixmapType	include/EGL/eglplatform.h	/^typedef struct wl_egl_pixmap  *EGLNativePixmapType;$/;"	t	typeref:struct:wl_egl_pixmap
+EGLNativePixmapType	include/EGL/eglplatform.h	/^typedef void *EGLNativePixmapType;$/;"	t
+EGLNativeWindowType	include/EGL/eglplatform.h	/^typedef HWND    EGLNativeWindowType;$/;"	t
+EGLNativeWindowType	include/EGL/eglplatform.h	/^typedef Window   EGLNativeWindowType;$/;"	t
+EGLNativeWindowType	include/EGL/eglplatform.h	/^typedef int EGLNativeWindowType;$/;"	t
+EGLNativeWindowType	include/EGL/eglplatform.h	/^typedef intptr_t EGLNativeWindowType;$/;"	t
+EGLNativeWindowType	include/EGL/eglplatform.h	/^typedef khronos_uintptr_t  EGLNativeWindowType;$/;"	t
+EGLNativeWindowType	include/EGL/eglplatform.h	/^typedef khronos_uintptr_t EGLNativeWindowType;$/;"	t
+EGLNativeWindowType	include/EGL/eglplatform.h	/^typedef struct ANativeWindow*           EGLNativeWindowType;$/;"	t	typeref:struct:ANativeWindow
+EGLNativeWindowType	include/EGL/eglplatform.h	/^typedef struct wl_egl_window  *EGLNativeWindowType;$/;"	t	typeref:struct:wl_egl_window
+EGLNativeWindowType	include/EGL/eglplatform.h	/^typedef void               *EGLNativeWindowType;$/;"	t
+EGLNativeWindowType	include/EGL/eglplatform.h	/^typedef void *EGLNativeWindowType;$/;"	t
+EGLObjectKHR	include/EGL/eglext.h	/^typedef void *EGLObjectKHR;$/;"	t
+EGLOutputLayerEXT	include/EGL/eglext.h	/^typedef void *EGLOutputLayerEXT;$/;"	t
+EGLOutputPortEXT	include/EGL/eglext.h	/^typedef void *EGLOutputPortEXT;$/;"	t
+EGLSetBlobFuncANDROID	include/EGL/eglext.h	/^typedef void (*EGLSetBlobFuncANDROID) (const void *key, EGLsizeiANDROID keySize, const void *value, EGLsizeiANDROID valueSize);$/;"	t
+EGLStreamKHR	include/EGL/eglext.h	/^typedef void *EGLStreamKHR;$/;"	t
+EGLSurface	include/EGL/egl.h	/^typedef void *EGLSurface;$/;"	t
+EGLSync	include/EGL/egl.h	/^typedef void *EGLSync;$/;"	t
+EGLSyncKHR	include/EGL/eglext.h	/^typedef void *EGLSyncKHR;$/;"	t
+EGLSyncNV	include/EGL/eglext.h	/^typedef void *EGLSyncNV;$/;"	t
+EGLTime	include/EGL/egl.h	/^typedef khronos_utime_nanoseconds_t EGLTime;$/;"	t
+EGLTimeKHR	include/EGL/eglext.h	/^typedef khronos_utime_nanoseconds_t EGLTimeKHR;$/;"	t
+EGLTimeNV	include/EGL/eglext.h	/^typedef khronos_utime_nanoseconds_t EGLTimeNV;$/;"	t
+EGL_ALPHA_FORMAT	include/EGL/egl.h	209;"	d
+EGL_ALPHA_FORMAT_NONPRE	include/EGL/egl.h	210;"	d
+EGL_ALPHA_FORMAT_PRE	include/EGL/egl.h	211;"	d
+EGL_ALPHA_MASK_SIZE	include/EGL/egl.h	212;"	d
+EGL_ALPHA_SIZE	include/EGL/egl.h	66;"	d
+EGL_ALREADY_SIGNALED_NV	include/EGL/eglext.h	1313;"	d
+EGL_ANDROID_GLES_layers	include/EGL/eglext.h	466;"	d
+EGL_ANDROID_blob_cache	include/EGL/eglext.h	470;"	d
+EGL_ANDROID_create_native_client_buffer	include/EGL/eglext.h	481;"	d
+EGL_ANDROID_framebuffer_target	include/EGL/eglext.h	493;"	d
+EGL_ANDROID_front_buffer_auto_refresh	include/EGL/eglext.h	498;"	d
+EGL_ANDROID_get_frame_timestamps	include/EGL/eglext.h	503;"	d
+EGL_ANDROID_get_native_client_buffer	include/EGL/eglext.h	535;"	d
+EGL_ANDROID_image_native_buffer	include/EGL/eglext.h	544;"	d
+EGL_ANDROID_native_fence_sync	include/EGL/eglext.h	549;"	d
+EGL_ANDROID_presentation_time	include/EGL/eglext.h	561;"	d
+EGL_ANDROID_recordable	include/EGL/eglext.h	569;"	d
+EGL_ANGLE_d3d_share_handle_client_buffer	include/EGL/eglext.h	574;"	d
+EGL_ANGLE_device_d3d	include/EGL/eglext.h	579;"	d
+EGL_ANGLE_query_surface_pointer	include/EGL/eglext.h	585;"	d
+EGL_ANGLE_surface_d3d_texture_2d_share_handle	include/EGL/eglext.h	593;"	d
+EGL_ANGLE_window_fixed_size	include/EGL/eglext.h	597;"	d
+EGL_ARM_implicit_external_sync	include/EGL/eglext.h	602;"	d
+EGL_ARM_pixmap_multisample_discard	include/EGL/eglext.h	607;"	d
+EGL_AUTO_STEREO_NV	include/EGL/eglext.h	1071;"	d
+EGL_BACK_BUFFER	include/EGL/egl.h	179;"	d
+EGL_BAD_ACCESS	include/EGL/egl.h	67;"	d
+EGL_BAD_ALLOC	include/EGL/egl.h	68;"	d
+EGL_BAD_ATTRIBUTE	include/EGL/egl.h	69;"	d
+EGL_BAD_CONFIG	include/EGL/egl.h	70;"	d
+EGL_BAD_CONTEXT	include/EGL/egl.h	71;"	d
+EGL_BAD_CURRENT_SURFACE	include/EGL/egl.h	72;"	d
+EGL_BAD_DEVICE_EXT	include/EGL/eglext.h	671;"	d
+EGL_BAD_DISPLAY	include/EGL/egl.h	73;"	d
+EGL_BAD_MATCH	include/EGL/egl.h	74;"	d
+EGL_BAD_NATIVE_PIXMAP	include/EGL/egl.h	75;"	d
+EGL_BAD_NATIVE_WINDOW	include/EGL/egl.h	76;"	d
+EGL_BAD_OUTPUT_LAYER_EXT	include/EGL/eglext.h	809;"	d
+EGL_BAD_OUTPUT_PORT_EXT	include/EGL/eglext.h	810;"	d
+EGL_BAD_PARAMETER	include/EGL/egl.h	77;"	d
+EGL_BAD_STATE_KHR	include/EGL/eglext.h	346;"	d
+EGL_BAD_STREAM_KHR	include/EGL/eglext.h	345;"	d
+EGL_BAD_SURFACE	include/EGL/egl.h	78;"	d
+EGL_BIND_TO_TEXTURE_RGB	include/EGL/egl.h	180;"	d
+EGL_BIND_TO_TEXTURE_RGBA	include/EGL/egl.h	181;"	d
+EGL_BITMAP_ORIGIN_KHR	include/EGL/eglext.h	240;"	d
+EGL_BITMAP_PITCH_KHR	include/EGL/eglext.h	239;"	d
+EGL_BITMAP_PIXEL_ALPHA_OFFSET_KHR	include/EGL/eglext.h	244;"	d
+EGL_BITMAP_PIXEL_BLUE_OFFSET_KHR	include/EGL/eglext.h	243;"	d
+EGL_BITMAP_PIXEL_GREEN_OFFSET_KHR	include/EGL/eglext.h	242;"	d
+EGL_BITMAP_PIXEL_LUMINANCE_OFFSET_KHR	include/EGL/eglext.h	245;"	d
+EGL_BITMAP_PIXEL_RED_OFFSET_KHR	include/EGL/eglext.h	241;"	d
+EGL_BITMAP_PIXEL_SIZE_KHR	include/EGL/eglext.h	258;"	d
+EGL_BITMAP_POINTER_KHR	include/EGL/eglext.h	238;"	d
+EGL_BLUE_SIZE	include/EGL/egl.h	79;"	d
+EGL_BOTTOM_NV	include/EGL/eglext.h	1249;"	d
+EGL_BUFFER_AGE_EXT	include/EGL/eglext.h	618;"	d
+EGL_BUFFER_AGE_KHR	include/EGL/eglext.h	281;"	d
+EGL_BUFFER_DESTROYED	include/EGL/egl.h	214;"	d
+EGL_BUFFER_PRESERVED	include/EGL/egl.h	213;"	d
+EGL_BUFFER_SIZE	include/EGL/egl.h	80;"	d
+EGL_CAST	include/EGL/eglplatform.h	171;"	d
+EGL_CAST	include/EGL/eglplatform.h	173;"	d
+EGL_CLIENT_APIS	include/EGL/egl.h	215;"	d
+EGL_CLIENT_PIXMAP_POINTER_HI	include/EGL/eglext.h	971;"	d
+EGL_CL_EVENT_HANDLE	include/EGL/egl.h	302;"	d
+EGL_CL_EVENT_HANDLE_KHR	include/EGL/eglext.h	54;"	d
+EGL_COLORSPACE	include/EGL/egl.h	216;"	d
+EGL_COLORSPACE_LINEAR	include/EGL/egl.h	218;"	d
+EGL_COLORSPACE_sRGB	include/EGL/egl.h	217;"	d
+EGL_COLOR_ARGB_HI	include/EGL/eglext.h	983;"	d
+EGL_COLOR_BUFFER_TYPE	include/EGL/egl.h	219;"	d
+EGL_COLOR_COMPONENT_TYPE_EXT	include/EGL/eglext.h	847;"	d
+EGL_COLOR_COMPONENT_TYPE_FIXED_EXT	include/EGL/eglext.h	848;"	d
+EGL_COLOR_COMPONENT_TYPE_FLOAT_EXT	include/EGL/eglext.h	849;"	d
+EGL_COLOR_FORMAT_HI	include/EGL/eglext.h	980;"	d
+EGL_COLOR_RGBA_HI	include/EGL/eglext.h	982;"	d
+EGL_COLOR_RGB_HI	include/EGL/eglext.h	981;"	d
+EGL_COMPOSITE_DEADLINE_ANDROID	include/EGL/eglext.h	508;"	d
+EGL_COMPOSITE_INTERVAL_ANDROID	include/EGL/eglext.h	509;"	d
+EGL_COMPOSITE_TO_PRESENT_LATENCY_ANDROID	include/EGL/eglext.h	510;"	d
+EGL_COMPOSITION_LATCH_TIME_ANDROID	include/EGL/eglext.h	513;"	d
+EGL_COMPOSITOR_DROP_NEWEST_FRAME_EXT	include/EGL/eglext.h	639;"	d
+EGL_COMPOSITOR_KEEP_NEWEST_FRAME_EXT	include/EGL/eglext.h	640;"	d
+EGL_CONDITION_SATISFIED	include/EGL/egl.h	314;"	d
+EGL_CONDITION_SATISFIED_KHR	include/EGL/eglext.h	316;"	d
+EGL_CONDITION_SATISFIED_NV	include/EGL/eglext.h	1315;"	d
+EGL_CONFIG_CAVEAT	include/EGL/egl.h	81;"	d
+EGL_CONFIG_ID	include/EGL/egl.h	82;"	d
+EGL_CONFORMANT	include/EGL/egl.h	254;"	d
+EGL_CONFORMANT_KHR	include/EGL/eglext.h	75;"	d
+EGL_CONSUMER_ACQUIRE_TIMEOUT_USEC_KHR	include/EGL/eglext.h	383;"	d
+EGL_CONSUMER_AUTO_ORIENTATION_NV	include/EGL/eglext.h	1244;"	d
+EGL_CONSUMER_FRAME_KHR	include/EGL/eglext.h	337;"	d
+EGL_CONSUMER_LATENCY_USEC_KHR	include/EGL/eglext.h	335;"	d
+EGL_CONSUMER_MAX_FRAME_HINT_NV	include/EGL/eglext.h	1210;"	d
+EGL_CONSUMER_METADATA_NV	include/EGL/eglext.h	1219;"	d
+EGL_CONTEXT_CLIENT_TYPE	include/EGL/egl.h	220;"	d
+EGL_CONTEXT_CLIENT_VERSION	include/EGL/egl.h	255;"	d
+EGL_CONTEXT_FLAGS_KHR	include/EGL/eglext.h	91;"	d
+EGL_CONTEXT_LOST	include/EGL/egl.h	182;"	d
+EGL_CONTEXT_MAJOR_VERSION	include/EGL/egl.h	290;"	d
+EGL_CONTEXT_MAJOR_VERSION_KHR	include/EGL/eglext.h	89;"	d
+EGL_CONTEXT_MINOR_VERSION	include/EGL/egl.h	291;"	d
+EGL_CONTEXT_MINOR_VERSION_KHR	include/EGL/eglext.h	90;"	d
+EGL_CONTEXT_OPENGL_COMPATIBILITY_PROFILE_BIT	include/EGL/egl.h	297;"	d
+EGL_CONTEXT_OPENGL_COMPATIBILITY_PROFILE_BIT_KHR	include/EGL/eglext.h	100;"	d
+EGL_CONTEXT_OPENGL_CORE_PROFILE_BIT	include/EGL/egl.h	296;"	d
+EGL_CONTEXT_OPENGL_CORE_PROFILE_BIT_KHR	include/EGL/eglext.h	99;"	d
+EGL_CONTEXT_OPENGL_DEBUG	include/EGL/egl.h	298;"	d
+EGL_CONTEXT_OPENGL_DEBUG_BIT_KHR	include/EGL/eglext.h	96;"	d
+EGL_CONTEXT_OPENGL_FORWARD_COMPATIBLE	include/EGL/egl.h	299;"	d
+EGL_CONTEXT_OPENGL_FORWARD_COMPATIBLE_BIT_KHR	include/EGL/eglext.h	97;"	d
+EGL_CONTEXT_OPENGL_NO_ERROR_KHR	include/EGL/eglext.h	106;"	d
+EGL_CONTEXT_OPENGL_PROFILE_MASK	include/EGL/egl.h	292;"	d
+EGL_CONTEXT_OPENGL_PROFILE_MASK_KHR	include/EGL/eglext.h	92;"	d
+EGL_CONTEXT_OPENGL_RESET_NOTIFICATION_STRATEGY	include/EGL/egl.h	293;"	d
+EGL_CONTEXT_OPENGL_RESET_NOTIFICATION_STRATEGY_EXT	include/EGL/eglext.h	662;"	d
+EGL_CONTEXT_OPENGL_RESET_NOTIFICATION_STRATEGY_KHR	include/EGL/eglext.h	93;"	d
+EGL_CONTEXT_OPENGL_ROBUST_ACCESS	include/EGL/egl.h	300;"	d
+EGL_CONTEXT_OPENGL_ROBUST_ACCESS_BIT_KHR	include/EGL/eglext.h	98;"	d
+EGL_CONTEXT_OPENGL_ROBUST_ACCESS_EXT	include/EGL/eglext.h	661;"	d
+EGL_CONTEXT_PRIORITY_HIGH_IMG	include/EGL/eglext.h	989;"	d
+EGL_CONTEXT_PRIORITY_LEVEL_IMG	include/EGL/eglext.h	988;"	d
+EGL_CONTEXT_PRIORITY_LOW_IMG	include/EGL/eglext.h	991;"	d
+EGL_CONTEXT_PRIORITY_MEDIUM_IMG	include/EGL/eglext.h	990;"	d
+EGL_CONTEXT_PRIORITY_REALTIME_NV	include/EGL/eglext.h	1076;"	d
+EGL_CONTEXT_RELEASE_BEHAVIOR_FLUSH_KHR	include/EGL/eglext.h	84;"	d
+EGL_CONTEXT_RELEASE_BEHAVIOR_KHR	include/EGL/eglext.h	83;"	d
+EGL_CONTEXT_RELEASE_BEHAVIOR_NONE_KHR	include/EGL/eglext.h	82;"	d
+EGL_CORE_NATIVE_ENGINE	include/EGL/egl.h	83;"	d
+EGL_COVERAGE_BUFFERS_NV	include/EGL/eglext.h	1081;"	d
+EGL_COVERAGE_SAMPLES_NV	include/EGL/eglext.h	1082;"	d
+EGL_COVERAGE_SAMPLE_RESOLVE_DEFAULT_NV	include/EGL/eglext.h	1088;"	d
+EGL_COVERAGE_SAMPLE_RESOLVE_NONE_NV	include/EGL/eglext.h	1089;"	d
+EGL_COVERAGE_SAMPLE_RESOLVE_NV	include/EGL/eglext.h	1087;"	d
+EGL_CTA861_3_MAX_CONTENT_LIGHT_LEVEL_EXT	include/EGL/eglext.h	899;"	d
+EGL_CTA861_3_MAX_FRAME_AVERAGE_LEVEL_EXT	include/EGL/eglext.h	900;"	d
+EGL_CUDA_DEVICE_NV	include/EGL/eglext.h	1108;"	d
+EGL_CUDA_EVENT_HANDLE_NV	include/EGL/eglext.h	1094;"	d
+EGL_D3D11_DEVICE_ANGLE	include/EGL/eglext.h	581;"	d
+EGL_D3D9_DEVICE_ANGLE	include/EGL/eglext.h	580;"	d
+EGL_D3D_TEXTURE_2D_SHARE_HANDLE_ANGLE	include/EGL/eglext.h	575;"	d
+EGL_DEBUG_CALLBACK_KHR	include/EGL/eglext.h	125;"	d
+EGL_DEBUG_MSG_CRITICAL_KHR	include/EGL/eglext.h	121;"	d
+EGL_DEBUG_MSG_ERROR_KHR	include/EGL/eglext.h	122;"	d
+EGL_DEBUG_MSG_INFO_KHR	include/EGL/eglext.h	124;"	d
+EGL_DEBUG_MSG_WARN_KHR	include/EGL/eglext.h	123;"	d
+EGL_DEFAULT_DISPLAY	include/EGL/egl.h	270;"	d
+EGL_DEPTH_ENCODING_NONE_NV	include/EGL/eglext.h	1102;"	d
+EGL_DEPTH_ENCODING_NONLINEAR_NV	include/EGL/eglext.h	1103;"	d
+EGL_DEPTH_ENCODING_NV	include/EGL/eglext.h	1101;"	d
+EGL_DEPTH_SIZE	include/EGL/egl.h	84;"	d
+EGL_DEQUEUE_READY_TIME_ANDROID	include/EGL/eglext.h	518;"	d
+EGL_DEVICE_EXT	include/EGL/eglext.h	672;"	d
+EGL_DISCARD_SAMPLES_ARM	include/EGL/eglext.h	608;"	d
+EGL_DISPLAY_PRESENT_TIME_ANDROID	include/EGL/eglext.h	517;"	d
+EGL_DISPLAY_SCALING	include/EGL/egl.h	221;"	d
+EGL_DMA_BUF_PLANE0_FD_EXT	include/EGL/eglext.h	743;"	d
+EGL_DMA_BUF_PLANE0_MODIFIER_HI_EXT	include/EGL/eglext.h	771;"	d
+EGL_DMA_BUF_PLANE0_MODIFIER_LO_EXT	include/EGL/eglext.h	770;"	d
+EGL_DMA_BUF_PLANE0_OFFSET_EXT	include/EGL/eglext.h	744;"	d
+EGL_DMA_BUF_PLANE0_PITCH_EXT	include/EGL/eglext.h	745;"	d
+EGL_DMA_BUF_PLANE1_FD_EXT	include/EGL/eglext.h	746;"	d
+EGL_DMA_BUF_PLANE1_MODIFIER_HI_EXT	include/EGL/eglext.h	773;"	d
+EGL_DMA_BUF_PLANE1_MODIFIER_LO_EXT	include/EGL/eglext.h	772;"	d
+EGL_DMA_BUF_PLANE1_OFFSET_EXT	include/EGL/eglext.h	747;"	d
+EGL_DMA_BUF_PLANE1_PITCH_EXT	include/EGL/eglext.h	748;"	d
+EGL_DMA_BUF_PLANE2_FD_EXT	include/EGL/eglext.h	749;"	d
+EGL_DMA_BUF_PLANE2_MODIFIER_HI_EXT	include/EGL/eglext.h	775;"	d
+EGL_DMA_BUF_PLANE2_MODIFIER_LO_EXT	include/EGL/eglext.h	774;"	d
+EGL_DMA_BUF_PLANE2_OFFSET_EXT	include/EGL/eglext.h	750;"	d
+EGL_DMA_BUF_PLANE2_PITCH_EXT	include/EGL/eglext.h	751;"	d
+EGL_DMA_BUF_PLANE3_FD_EXT	include/EGL/eglext.h	767;"	d
+EGL_DMA_BUF_PLANE3_MODIFIER_HI_EXT	include/EGL/eglext.h	777;"	d
+EGL_DMA_BUF_PLANE3_MODIFIER_LO_EXT	include/EGL/eglext.h	776;"	d
+EGL_DMA_BUF_PLANE3_OFFSET_EXT	include/EGL/eglext.h	768;"	d
+EGL_DMA_BUF_PLANE3_PITCH_EXT	include/EGL/eglext.h	769;"	d
+EGL_DONT_CARE	include/EGL/egl.h	85;"	d
+EGL_DRAW	include/EGL/egl.h	86;"	d
+EGL_DRM_BUFFER_FORMAT_ARGB32_MESA	include/EGL/eglext.h	1004;"	d
+EGL_DRM_BUFFER_FORMAT_MESA	include/EGL/eglext.h	1002;"	d
+EGL_DRM_BUFFER_MESA	include/EGL/eglext.h	1005;"	d
+EGL_DRM_BUFFER_STRIDE_MESA	include/EGL/eglext.h	1006;"	d
+EGL_DRM_BUFFER_USE_CURSOR_MESA	include/EGL/eglext.h	1009;"	d
+EGL_DRM_BUFFER_USE_MESA	include/EGL/eglext.h	1003;"	d
+EGL_DRM_BUFFER_USE_SCANOUT_MESA	include/EGL/eglext.h	1007;"	d
+EGL_DRM_BUFFER_USE_SHARE_MESA	include/EGL/eglext.h	1008;"	d
+EGL_DRM_CONNECTOR_EXT	include/EGL/eglext.h	836;"	d
+EGL_DRM_CRTC_EXT	include/EGL/eglext.h	834;"	d
+EGL_DRM_DEVICE_FILE_EXT	include/EGL/eglext.h	687;"	d
+EGL_DRM_MASTER_FD_EXT	include/EGL/eglext.h	688;"	d
+EGL_DRM_PLANE_EXT	include/EGL/eglext.h	835;"	d
+EGL_EGLEXT_VERSION	include/EGL/eglext.h	41;"	d
+EGL_EGL_PROTOTYPES	include/EGL/egl.h	42;"	d
+EGL_EXTENSIONS	include/EGL/egl.h	87;"	d
+EGL_EXTERNAL_REF_ID_EXT	include/EGL/eglext.h	638;"	d
+EGL_EXT_bind_to_front	include/EGL/eglext.h	612;"	d
+EGL_EXT_buffer_age	include/EGL/eglext.h	617;"	d
+EGL_EXT_client_extensions	include/EGL/eglext.h	622;"	d
+EGL_EXT_client_sync	include/EGL/eglext.h	626;"	d
+EGL_EXT_compositor	include/EGL/eglext.h	636;"	d
+EGL_EXT_create_context_robustness	include/EGL/eglext.h	660;"	d
+EGL_EXT_device_base	include/EGL/eglext.h	668;"	d
+EGL_EXT_device_drm	include/EGL/eglext.h	686;"	d
+EGL_EXT_device_enumeration	include/EGL/eglext.h	692;"	d
+EGL_EXT_device_openwf	include/EGL/eglext.h	696;"	d
+EGL_EXT_device_query	include/EGL/eglext.h	701;"	d
+EGL_EXT_gl_colorspace_bt2020_linear	include/EGL/eglext.h	705;"	d
+EGL_EXT_gl_colorspace_bt2020_pq	include/EGL/eglext.h	710;"	d
+EGL_EXT_gl_colorspace_display_p3	include/EGL/eglext.h	715;"	d
+EGL_EXT_gl_colorspace_display_p3_linear	include/EGL/eglext.h	720;"	d
+EGL_EXT_gl_colorspace_display_p3_passthrough	include/EGL/eglext.h	725;"	d
+EGL_EXT_gl_colorspace_scrgb	include/EGL/eglext.h	730;"	d
+EGL_EXT_gl_colorspace_scrgb_linear	include/EGL/eglext.h	735;"	d
+EGL_EXT_image_dma_buf_import	include/EGL/eglext.h	740;"	d
+EGL_EXT_image_dma_buf_import_modifiers	include/EGL/eglext.h	766;"	d
+EGL_EXT_image_gl_colorspace	include/EGL/eglext.h	787;"	d
+EGL_EXT_image_implicit_sync_control	include/EGL/eglext.h	792;"	d
+EGL_EXT_multiview_window	include/EGL/eglext.h	799;"	d
+EGL_EXT_output_base	include/EGL/eglext.h	804;"	d
+EGL_EXT_output_drm	include/EGL/eglext.h	833;"	d
+EGL_EXT_output_openwf	include/EGL/eglext.h	840;"	d
+EGL_EXT_pixel_format_float	include/EGL/eglext.h	846;"	d
+EGL_EXT_platform_base	include/EGL/eglext.h	853;"	d
+EGL_EXT_platform_device	include/EGL/eglext.h	865;"	d
+EGL_EXT_platform_wayland	include/EGL/eglext.h	870;"	d
+EGL_EXT_platform_x11	include/EGL/eglext.h	875;"	d
+EGL_EXT_protected_content	include/EGL/eglext.h	881;"	d
+EGL_EXT_protected_surface	include/EGL/eglext.h	886;"	d
+EGL_EXT_stream_consumer_egloutput	include/EGL/eglext.h	890;"	d
+EGL_EXT_surface_CTA861_3_metadata	include/EGL/eglext.h	898;"	d
+EGL_EXT_surface_SMPTE2086_metadata	include/EGL/eglext.h	904;"	d
+EGL_EXT_swap_buffers_with_damage	include/EGL/eglext.h	919;"	d
+EGL_EXT_sync_reuse	include/EGL/eglext.h	927;"	d
+EGL_EXT_yuv_surface	include/EGL/eglext.h	935;"	d
+EGL_FALSE	include/EGL/egl.h	88;"	d
+EGL_FIRST_COMPOSITION_GPU_FINISHED_TIME_ANDROID	include/EGL/eglext.h	516;"	d
+EGL_FIRST_COMPOSITION_START_TIME_ANDROID	include/EGL/eglext.h	514;"	d
+EGL_FIXED_SIZE_ANGLE	include/EGL/eglext.h	598;"	d
+EGL_FOREVER	include/EGL/egl.h	312;"	d
+EGL_FOREVER_KHR	include/EGL/eglext.h	320;"	d
+EGL_FOREVER_NV	include/EGL/eglext.h	1312;"	d
+EGL_FORMAT_RGBA_8888_EXACT_KHR	include/EGL/eglext.h	234;"	d
+EGL_FORMAT_RGBA_8888_KHR	include/EGL/eglext.h	235;"	d
+EGL_FORMAT_RGB_565_EXACT_KHR	include/EGL/eglext.h	232;"	d
+EGL_FORMAT_RGB_565_KHR	include/EGL/eglext.h	233;"	d
+EGL_FRAMEBUFFER_TARGET_ANDROID	include/EGL/eglext.h	494;"	d
+EGL_FRONT_BUFFER_AUTO_REFRESH_ANDROID	include/EGL/eglext.h	499;"	d
+EGL_FRONT_BUFFER_EXT	include/EGL/eglext.h	613;"	d
+EGL_GENERATE_RESET_ON_VIDEO_MEMORY_PURGE_NV	include/EGL/eglext.h	1143;"	d
+EGL_GL_COLORSPACE	include/EGL/egl.h	317;"	d
+EGL_GL_COLORSPACE_BT2020_LINEAR_EXT	include/EGL/eglext.h	706;"	d
+EGL_GL_COLORSPACE_BT2020_PQ_EXT	include/EGL/eglext.h	711;"	d
+EGL_GL_COLORSPACE_DEFAULT_EXT	include/EGL/eglext.h	788;"	d
+EGL_GL_COLORSPACE_DISPLAY_P3_EXT	include/EGL/eglext.h	716;"	d
+EGL_GL_COLORSPACE_DISPLAY_P3_LINEAR_EXT	include/EGL/eglext.h	721;"	d
+EGL_GL_COLORSPACE_DISPLAY_P3_PASSTHROUGH_EXT	include/EGL/eglext.h	726;"	d
+EGL_GL_COLORSPACE_KHR	include/EGL/eglext.h	171;"	d
+EGL_GL_COLORSPACE_LINEAR	include/EGL/egl.h	319;"	d
+EGL_GL_COLORSPACE_LINEAR_KHR	include/EGL/eglext.h	173;"	d
+EGL_GL_COLORSPACE_SCRGB_EXT	include/EGL/eglext.h	731;"	d
+EGL_GL_COLORSPACE_SCRGB_LINEAR_EXT	include/EGL/eglext.h	736;"	d
+EGL_GL_COLORSPACE_SRGB	include/EGL/egl.h	318;"	d
+EGL_GL_COLORSPACE_SRGB_KHR	include/EGL/eglext.h	172;"	d
+EGL_GL_RENDERBUFFER	include/EGL/egl.h	320;"	d
+EGL_GL_RENDERBUFFER_KHR	include/EGL/eglext.h	178;"	d
+EGL_GL_TEXTURE_2D	include/EGL/egl.h	321;"	d
+EGL_GL_TEXTURE_2D_KHR	include/EGL/eglext.h	183;"	d
+EGL_GL_TEXTURE_3D	include/EGL/egl.h	323;"	d
+EGL_GL_TEXTURE_3D_KHR	include/EGL/eglext.h	189;"	d
+EGL_GL_TEXTURE_CUBE_MAP_NEGATIVE_X	include/EGL/egl.h	326;"	d
+EGL_GL_TEXTURE_CUBE_MAP_NEGATIVE_X_KHR	include/EGL/eglext.h	196;"	d
+EGL_GL_TEXTURE_CUBE_MAP_NEGATIVE_Y	include/EGL/egl.h	328;"	d
+EGL_GL_TEXTURE_CUBE_MAP_NEGATIVE_Y_KHR	include/EGL/eglext.h	198;"	d
+EGL_GL_TEXTURE_CUBE_MAP_NEGATIVE_Z	include/EGL/egl.h	330;"	d
+EGL_GL_TEXTURE_CUBE_MAP_NEGATIVE_Z_KHR	include/EGL/eglext.h	200;"	d
+EGL_GL_TEXTURE_CUBE_MAP_POSITIVE_X	include/EGL/egl.h	325;"	d
+EGL_GL_TEXTURE_CUBE_MAP_POSITIVE_X_KHR	include/EGL/eglext.h	195;"	d
+EGL_GL_TEXTURE_CUBE_MAP_POSITIVE_Y	include/EGL/egl.h	327;"	d
+EGL_GL_TEXTURE_CUBE_MAP_POSITIVE_Y_KHR	include/EGL/eglext.h	197;"	d
+EGL_GL_TEXTURE_CUBE_MAP_POSITIVE_Z	include/EGL/egl.h	329;"	d
+EGL_GL_TEXTURE_CUBE_MAP_POSITIVE_Z_KHR	include/EGL/eglext.h	199;"	d
+EGL_GL_TEXTURE_LEVEL	include/EGL/egl.h	322;"	d
+EGL_GL_TEXTURE_LEVEL_KHR	include/EGL/eglext.h	184;"	d
+EGL_GL_TEXTURE_ZOFFSET	include/EGL/egl.h	324;"	d
+EGL_GL_TEXTURE_ZOFFSET_KHR	include/EGL/eglext.h	190;"	d
+EGL_GREEN_SIZE	include/EGL/egl.h	89;"	d
+EGL_HEIGHT	include/EGL/egl.h	90;"	d
+EGL_HI_clientpixmap	include/EGL/eglext.h	964;"	d
+EGL_HI_colorformats	include/EGL/eglext.h	979;"	d
+EGL_HORIZONTAL_RESOLUTION	include/EGL/egl.h	222;"	d
+EGL_IMAGE_PRESERVED	include/EGL/egl.h	331;"	d
+EGL_IMAGE_PRESERVED_KHR	include/EGL/eglext.h	218;"	d
+EGL_IMG_context_priority	include/EGL/eglext.h	987;"	d
+EGL_IMG_image_plane_attribs	include/EGL/eglext.h	995;"	d
+EGL_IMPORT_EXPLICIT_SYNC_EXT	include/EGL/eglext.h	795;"	d
+EGL_IMPORT_IMPLICIT_SYNC_EXT	include/EGL/eglext.h	794;"	d
+EGL_IMPORT_SYNC_TYPE_EXT	include/EGL/eglext.h	793;"	d
+EGL_ITU_REC2020_EXT	include/EGL/eglext.h	758;"	d
+EGL_ITU_REC601_EXT	include/EGL/eglext.h	756;"	d
+EGL_ITU_REC709_EXT	include/EGL/eglext.h	757;"	d
+EGL_KHR_cl_event	include/EGL/eglext.h	53;"	d
+EGL_KHR_cl_event2	include/EGL/eglext.h	60;"	d
+EGL_KHR_client_get_all_proc_addresses	include/EGL/eglext.h	70;"	d
+EGL_KHR_config_attribs	include/EGL/eglext.h	74;"	d
+EGL_KHR_context_flush_control	include/EGL/eglext.h	81;"	d
+EGL_KHR_create_context	include/EGL/eglext.h	88;"	d
+EGL_KHR_create_context_no_error	include/EGL/eglext.h	105;"	d
+EGL_KHR_debug	include/EGL/eglext.h	110;"	d
+EGL_KHR_display_reference	include/EGL/eglext.h	137;"	d
+EGL_KHR_fence_sync	include/EGL/eglext.h	146;"	d
+EGL_KHR_get_all_proc_addresses	include/EGL/eglext.h	166;"	d
+EGL_KHR_gl_colorspace	include/EGL/eglext.h	170;"	d
+EGL_KHR_gl_renderbuffer_image	include/EGL/eglext.h	177;"	d
+EGL_KHR_gl_texture_2D_image	include/EGL/eglext.h	182;"	d
+EGL_KHR_gl_texture_3D_image	include/EGL/eglext.h	188;"	d
+EGL_KHR_gl_texture_cubemap_image	include/EGL/eglext.h	194;"	d
+EGL_KHR_image	include/EGL/eglext.h	204;"	d
+EGL_KHR_image_base	include/EGL/eglext.h	217;"	d
+EGL_KHR_image_pixmap	include/EGL/eglext.h	222;"	d
+EGL_KHR_lock_surface	include/EGL/eglext.h	226;"	d
+EGL_KHR_lock_surface2	include/EGL/eglext.h	257;"	d
+EGL_KHR_lock_surface3	include/EGL/eglext.h	262;"	d
+EGL_KHR_mutable_render_buffer	include/EGL/eglext.h	270;"	d
+EGL_KHR_no_config_context	include/EGL/eglext.h	275;"	d
+EGL_KHR_partial_update	include/EGL/eglext.h	280;"	d
+EGL_KHR_platform_android	include/EGL/eglext.h	289;"	d
+EGL_KHR_platform_gbm	include/EGL/eglext.h	294;"	d
+EGL_KHR_platform_wayland	include/EGL/eglext.h	299;"	d
+EGL_KHR_platform_x11	include/EGL/eglext.h	304;"	d
+EGL_KHR_reusable_sync	include/EGL/eglext.h	310;"	d
+EGL_KHR_stream	include/EGL/eglext.h	330;"	d
+EGL_KHR_stream_attrib	include/EGL/eglext.h	363;"	d
+EGL_KHR_stream_consumer_gltexture	include/EGL/eglext.h	381;"	d
+EGL_KHR_stream_cross_process_fd	include/EGL/eglext.h	396;"	d
+EGL_KHR_stream_fifo	include/EGL/eglext.h	410;"	d
+EGL_KHR_stream_producer_aldatalocator	include/EGL/eglext.h	424;"	d
+EGL_KHR_stream_producer_eglsurface	include/EGL/eglext.h	430;"	d
+EGL_KHR_surfaceless_context	include/EGL/eglext.h	441;"	d
+EGL_KHR_swap_buffers_with_damage	include/EGL/eglext.h	445;"	d
+EGL_KHR_vg_parent_image	include/EGL/eglext.h	453;"	d
+EGL_KHR_wait_sync	include/EGL/eglext.h	458;"	d
+EGL_LARGEST_PBUFFER	include/EGL/egl.h	91;"	d
+EGL_LAST_COMPOSITION_START_TIME_ANDROID	include/EGL/eglext.h	515;"	d
+EGL_LEFT_NV	include/EGL/eglext.h	1246;"	d
+EGL_LEVEL	include/EGL/egl.h	92;"	d
+EGL_LINUX_DMA_BUF_EXT	include/EGL/eglext.h	741;"	d
+EGL_LINUX_DRM_FOURCC_EXT	include/EGL/eglext.h	742;"	d
+EGL_LOCK_SURFACE_BIT_KHR	include/EGL/eglext.h	229;"	d
+EGL_LOCK_USAGE_HINT_KHR	include/EGL/eglext.h	237;"	d
+EGL_LOSE_CONTEXT_ON_RESET	include/EGL/egl.h	295;"	d
+EGL_LOSE_CONTEXT_ON_RESET_EXT	include/EGL/eglext.h	664;"	d
+EGL_LOSE_CONTEXT_ON_RESET_KHR	include/EGL/eglext.h	95;"	d
+EGL_LOWER_LEFT_KHR	include/EGL/eglext.h	246;"	d
+EGL_LUMINANCE_BUFFER	include/EGL/egl.h	223;"	d
+EGL_LUMINANCE_SIZE	include/EGL/egl.h	224;"	d
+EGL_MAP_PRESERVE_PIXELS_KHR	include/EGL/eglext.h	236;"	d
+EGL_MATCH_FORMAT_KHR	include/EGL/eglext.h	231;"	d
+EGL_MATCH_NATIVE_PIXMAP	include/EGL/egl.h	256;"	d
+EGL_MAX_PBUFFER_HEIGHT	include/EGL/egl.h	93;"	d
+EGL_MAX_PBUFFER_PIXELS	include/EGL/egl.h	94;"	d
+EGL_MAX_PBUFFER_WIDTH	include/EGL/egl.h	95;"	d
+EGL_MAX_STREAM_METADATA_BLOCKS_NV	include/EGL/eglext.h	1215;"	d
+EGL_MAX_STREAM_METADATA_BLOCK_SIZE_NV	include/EGL/eglext.h	1216;"	d
+EGL_MAX_STREAM_METADATA_TOTAL_SIZE_NV	include/EGL/eglext.h	1217;"	d
+EGL_MAX_SWAP_INTERVAL	include/EGL/egl.h	184;"	d
+EGL_MESA_drm_image	include/EGL/eglext.h	1001;"	d
+EGL_MESA_image_dma_buf_export	include/EGL/eglext.h	1019;"	d
+EGL_MESA_platform_gbm	include/EGL/eglext.h	1029;"	d
+EGL_MESA_platform_surfaceless	include/EGL/eglext.h	1034;"	d
+EGL_MESA_query_driver	include/EGL/eglext.h	1039;"	d
+EGL_METADATA0_SIZE_NV	include/EGL/eglext.h	1221;"	d
+EGL_METADATA0_TYPE_NV	include/EGL/eglext.h	1225;"	d
+EGL_METADATA1_SIZE_NV	include/EGL/eglext.h	1222;"	d
+EGL_METADATA1_TYPE_NV	include/EGL/eglext.h	1226;"	d
+EGL_METADATA2_SIZE_NV	include/EGL/eglext.h	1223;"	d
+EGL_METADATA2_TYPE_NV	include/EGL/eglext.h	1227;"	d
+EGL_METADATA3_SIZE_NV	include/EGL/eglext.h	1224;"	d
+EGL_METADATA3_TYPE_NV	include/EGL/eglext.h	1228;"	d
+EGL_METADATA_SCALING_EXT	include/EGL/eglext.h	915;"	d
+EGL_MIN_SWAP_INTERVAL	include/EGL/egl.h	183;"	d
+EGL_MIPMAP_LEVEL	include/EGL/egl.h	186;"	d
+EGL_MIPMAP_TEXTURE	include/EGL/egl.h	185;"	d
+EGL_MULTISAMPLE_RESOLVE	include/EGL/egl.h	272;"	d
+EGL_MULTISAMPLE_RESOLVE_BOX	include/EGL/egl.h	274;"	d
+EGL_MULTISAMPLE_RESOLVE_BOX_BIT	include/EGL/egl.h	271;"	d
+EGL_MULTISAMPLE_RESOLVE_DEFAULT	include/EGL/egl.h	273;"	d
+EGL_MULTIVIEW_VIEW_COUNT_EXT	include/EGL/eglext.h	800;"	d
+EGL_MUTABLE_RENDER_BUFFER_BIT_KHR	include/EGL/eglext.h	271;"	d
+EGL_NATIVE_BUFFER_ANDROID	include/EGL/eglext.h	545;"	d
+EGL_NATIVE_BUFFER_MULTIPLANE_SEPARATE_IMG	include/EGL/eglext.h	996;"	d
+EGL_NATIVE_BUFFER_PLANE_OFFSET_IMG	include/EGL/eglext.h	997;"	d
+EGL_NATIVE_BUFFER_TIZEN	include/EGL/eglext.h	1357;"	d
+EGL_NATIVE_BUFFER_USAGE_ANDROID	include/EGL/eglext.h	482;"	d
+EGL_NATIVE_BUFFER_USAGE_PROTECTED_BIT_ANDROID	include/EGL/eglext.h	483;"	d
+EGL_NATIVE_BUFFER_USAGE_RENDERBUFFER_BIT_ANDROID	include/EGL/eglext.h	484;"	d
+EGL_NATIVE_BUFFER_USAGE_TEXTURE_BIT_ANDROID	include/EGL/eglext.h	485;"	d
+EGL_NATIVE_PIXMAP_KHR	include/EGL/eglext.h	206;"	d
+EGL_NATIVE_RENDERABLE	include/EGL/egl.h	96;"	d
+EGL_NATIVE_SURFACE_TIZEN	include/EGL/eglext.h	1362;"	d
+EGL_NATIVE_VISUAL_ID	include/EGL/egl.h	97;"	d
+EGL_NATIVE_VISUAL_TYPE	include/EGL/egl.h	98;"	d
+EGL_NOK_swap_region	include/EGL/eglext.h	1049;"	d
+EGL_NOK_swap_region2	include/EGL/eglext.h	1057;"	d
+EGL_NOK_texture_from_pixmap	include/EGL/eglext.h	1065;"	d
+EGL_NONE	include/EGL/egl.h	99;"	d
+EGL_NON_CONFORMANT_CONFIG	include/EGL/egl.h	100;"	d
+EGL_NOT_INITIALIZED	include/EGL/egl.h	101;"	d
+EGL_NO_CONFIG_KHR	include/EGL/eglext.h	276;"	d
+EGL_NO_CONTEXT	include/EGL/egl.h	102;"	d
+EGL_NO_DEVICE_EXT	include/EGL/eglext.h	670;"	d
+EGL_NO_DISPLAY	include/EGL/egl.h	103;"	d
+EGL_NO_FILE_DESCRIPTOR_KHR	include/EGL/eglext.h	399;"	d
+EGL_NO_IMAGE	include/EGL/egl.h	332;"	d
+EGL_NO_IMAGE_KHR	include/EGL/eglext.h	207;"	d
+EGL_NO_NATIVE_FENCE_FD_ANDROID	include/EGL/eglext.h	553;"	d
+EGL_NO_OUTPUT_LAYER_EXT	include/EGL/eglext.h	807;"	d
+EGL_NO_OUTPUT_PORT_EXT	include/EGL/eglext.h	808;"	d
+EGL_NO_RESET_NOTIFICATION	include/EGL/egl.h	294;"	d
+EGL_NO_RESET_NOTIFICATION_EXT	include/EGL/eglext.h	663;"	d
+EGL_NO_RESET_NOTIFICATION_KHR	include/EGL/eglext.h	94;"	d
+EGL_NO_STREAM_KHR	include/EGL/eglext.h	334;"	d
+EGL_NO_SURFACE	include/EGL/egl.h	104;"	d
+EGL_NO_SYNC	include/EGL/egl.h	315;"	d
+EGL_NO_SYNC_KHR	include/EGL/eglext.h	321;"	d
+EGL_NO_SYNC_NV	include/EGL/eglext.h	1319;"	d
+EGL_NO_TEXTURE	include/EGL/egl.h	187;"	d
+EGL_NV_3dvision_surface	include/EGL/eglext.h	1070;"	d
+EGL_NV_context_priority_realtime	include/EGL/eglext.h	1075;"	d
+EGL_NV_coverage_sample	include/EGL/eglext.h	1080;"	d
+EGL_NV_coverage_sample_resolve	include/EGL/eglext.h	1086;"	d
+EGL_NV_cuda_event	include/EGL/eglext.h	1093;"	d
+EGL_NV_depth_nonlinear	include/EGL/eglext.h	1100;"	d
+EGL_NV_device_cuda	include/EGL/eglext.h	1107;"	d
+EGL_NV_native_query	include/EGL/eglext.h	1112;"	d
+EGL_NV_post_convert_rounding	include/EGL/eglext.h	1124;"	d
+EGL_NV_post_sub_buffer	include/EGL/eglext.h	1128;"	d
+EGL_NV_quadruple_buffer	include/EGL/eglext.h	1137;"	d
+EGL_NV_robustness_video_memory_purge	include/EGL/eglext.h	1142;"	d
+EGL_NV_stream_consumer_gltexture_yuv	include/EGL/eglext.h	1147;"	d
+EGL_NV_stream_cross_display	include/EGL/eglext.h	1158;"	d
+EGL_NV_stream_cross_object	include/EGL/eglext.h	1163;"	d
+EGL_NV_stream_cross_partition	include/EGL/eglext.h	1168;"	d
+EGL_NV_stream_cross_process	include/EGL/eglext.h	1173;"	d
+EGL_NV_stream_cross_system	include/EGL/eglext.h	1178;"	d
+EGL_NV_stream_dma	include/EGL/eglext.h	1183;"	d
+EGL_NV_stream_fifo_next	include/EGL/eglext.h	1189;"	d
+EGL_NV_stream_fifo_synchronous	include/EGL/eglext.h	1195;"	d
+EGL_NV_stream_flush	include/EGL/eglext.h	1200;"	d
+EGL_NV_stream_frame_limits	include/EGL/eglext.h	1208;"	d
+EGL_NV_stream_metadata	include/EGL/eglext.h	1214;"	d
+EGL_NV_stream_origin	include/EGL/eglext.h	1240;"	d
+EGL_NV_stream_remote	include/EGL/eglext.h	1255;"	d
+EGL_NV_stream_reset	include/EGL/eglext.h	1267;"	d
+EGL_NV_stream_socket	include/EGL/eglext.h	1277;"	d
+EGL_NV_stream_socket_inet	include/EGL/eglext.h	1284;"	d
+EGL_NV_stream_socket_unix	include/EGL/eglext.h	1289;"	d
+EGL_NV_stream_sync	include/EGL/eglext.h	1294;"	d
+EGL_NV_sync	include/EGL/eglext.h	1303;"	d
+EGL_NV_system_time	include/EGL/eglext.h	1338;"	d
+EGL_NV_triple_buffer	include/EGL/eglext.h	1351;"	d
+EGL_OBJECT_CONTEXT_KHR	include/EGL/eglext.h	116;"	d
+EGL_OBJECT_DISPLAY_KHR	include/EGL/eglext.h	115;"	d
+EGL_OBJECT_IMAGE_KHR	include/EGL/eglext.h	118;"	d
+EGL_OBJECT_STREAM_KHR	include/EGL/eglext.h	120;"	d
+EGL_OBJECT_SURFACE_KHR	include/EGL/eglext.h	117;"	d
+EGL_OBJECT_SYNC_KHR	include/EGL/eglext.h	119;"	d
+EGL_OBJECT_THREAD_KHR	include/EGL/eglext.h	114;"	d
+EGL_OPENGL_API	include/EGL/egl.h	275;"	d
+EGL_OPENGL_BIT	include/EGL/egl.h	276;"	d
+EGL_OPENGL_ES2_BIT	include/EGL/egl.h	257;"	d
+EGL_OPENGL_ES3_BIT	include/EGL/egl.h	301;"	d
+EGL_OPENGL_ES3_BIT_KHR	include/EGL/eglext.h	101;"	d
+EGL_OPENGL_ES_API	include/EGL/egl.h	227;"	d
+EGL_OPENGL_ES_BIT	include/EGL/egl.h	225;"	d
+EGL_OPENVG_API	include/EGL/egl.h	228;"	d
+EGL_OPENVG_BIT	include/EGL/egl.h	226;"	d
+EGL_OPENVG_IMAGE	include/EGL/egl.h	229;"	d
+EGL_OPENWF_DEVICE_ID_EXT	include/EGL/eglext.h	697;"	d
+EGL_OPENWF_PIPELINE_ID_EXT	include/EGL/eglext.h	841;"	d
+EGL_OPENWF_PORT_ID_EXT	include/EGL/eglext.h	842;"	d
+EGL_OPTIMAL_FORMAT_BIT_KHR	include/EGL/eglext.h	230;"	d
+EGL_PBUFFER_BIT	include/EGL/egl.h	105;"	d
+EGL_PENDING_FRAME_NV	include/EGL/eglext.h	1190;"	d
+EGL_PENDING_METADATA_NV	include/EGL/eglext.h	1220;"	d
+EGL_PIXEL_ASPECT_RATIO	include/EGL/egl.h	230;"	d
+EGL_PIXMAP_BIT	include/EGL/egl.h	106;"	d
+EGL_PLATFORM_ANDROID_KHR	include/EGL/eglext.h	290;"	d
+EGL_PLATFORM_DEVICE_EXT	include/EGL/eglext.h	866;"	d
+EGL_PLATFORM_GBM_KHR	include/EGL/eglext.h	295;"	d
+EGL_PLATFORM_GBM_MESA	include/EGL/eglext.h	1030;"	d
+EGL_PLATFORM_SURFACELESS_MESA	include/EGL/eglext.h	1035;"	d
+EGL_PLATFORM_WAYLAND_EXT	include/EGL/eglext.h	871;"	d
+EGL_PLATFORM_WAYLAND_KHR	include/EGL/eglext.h	300;"	d
+EGL_PLATFORM_X11_EXT	include/EGL/eglext.h	876;"	d
+EGL_PLATFORM_X11_KHR	include/EGL/eglext.h	305;"	d
+EGL_PLATFORM_X11_SCREEN_EXT	include/EGL/eglext.h	877;"	d
+EGL_PLATFORM_X11_SCREEN_KHR	include/EGL/eglext.h	306;"	d
+EGL_POST_SUB_BUFFER_SUPPORTED_NV	include/EGL/eglext.h	1129;"	d
+EGL_PRIMARY_COMPOSITOR_CONTEXT_EXT	include/EGL/eglext.h	637;"	d
+EGL_PRODUCER_AUTO_ORIENTATION_NV	include/EGL/eglext.h	1245;"	d
+EGL_PRODUCER_FRAME_KHR	include/EGL/eglext.h	336;"	d
+EGL_PRODUCER_MAX_FRAME_HINT_NV	include/EGL/eglext.h	1209;"	d
+EGL_PRODUCER_METADATA_NV	include/EGL/eglext.h	1218;"	d
+EGL_PROTECTED_CONTENT_EXT	include/EGL/eglext.h	882;"	d
+EGL_QUADRUPLE_BUFFER_NV	include/EGL/eglext.h	1138;"	d
+EGL_READ	include/EGL/egl.h	107;"	d
+EGL_READS_DONE_TIME_ANDROID	include/EGL/eglext.h	519;"	d
+EGL_READ_SURFACE_BIT_KHR	include/EGL/eglext.h	227;"	d
+EGL_RECORDABLE_ANDROID	include/EGL/eglext.h	570;"	d
+EGL_RED_SIZE	include/EGL/egl.h	108;"	d
+EGL_RENDERABLE_TYPE	include/EGL/egl.h	231;"	d
+EGL_RENDERING_COMPLETE_TIME_ANDROID	include/EGL/eglext.h	512;"	d
+EGL_RENDER_BUFFER	include/EGL/egl.h	232;"	d
+EGL_REQUESTED_PRESENT_TIME_ANDROID	include/EGL/eglext.h	511;"	d
+EGL_RGB_BUFFER	include/EGL/egl.h	233;"	d
+EGL_RIGHT_NV	include/EGL/eglext.h	1247;"	d
+EGL_SAMPLES	include/EGL/egl.h	109;"	d
+EGL_SAMPLE_BUFFERS	include/EGL/egl.h	110;"	d
+EGL_SAMPLE_RANGE_HINT_EXT	include/EGL/eglext.h	753;"	d
+EGL_SIGNALED	include/EGL/egl.h	309;"	d
+EGL_SIGNALED_KHR	include/EGL/eglext.h	313;"	d
+EGL_SIGNALED_NV	include/EGL/eglext.h	1309;"	d
+EGL_SINGLE_BUFFER	include/EGL/egl.h	234;"	d
+EGL_SLOW_CONFIG	include/EGL/egl.h	111;"	d
+EGL_SMPTE2086_DISPLAY_PRIMARY_BX_EXT	include/EGL/eglext.h	909;"	d
+EGL_SMPTE2086_DISPLAY_PRIMARY_BY_EXT	include/EGL/eglext.h	910;"	d
+EGL_SMPTE2086_DISPLAY_PRIMARY_GX_EXT	include/EGL/eglext.h	907;"	d
+EGL_SMPTE2086_DISPLAY_PRIMARY_GY_EXT	include/EGL/eglext.h	908;"	d
+EGL_SMPTE2086_DISPLAY_PRIMARY_RX_EXT	include/EGL/eglext.h	905;"	d
+EGL_SMPTE2086_DISPLAY_PRIMARY_RY_EXT	include/EGL/eglext.h	906;"	d
+EGL_SMPTE2086_MAX_LUMINANCE_EXT	include/EGL/eglext.h	913;"	d
+EGL_SMPTE2086_MIN_LUMINANCE_EXT	include/EGL/eglext.h	914;"	d
+EGL_SMPTE2086_WHITE_POINT_X_EXT	include/EGL/eglext.h	911;"	d
+EGL_SMPTE2086_WHITE_POINT_Y_EXT	include/EGL/eglext.h	912;"	d
+EGL_SOCKET_HANDLE_NV	include/EGL/eglext.h	1279;"	d
+EGL_SOCKET_TYPE_INET_NV	include/EGL/eglext.h	1285;"	d
+EGL_SOCKET_TYPE_NV	include/EGL/eglext.h	1280;"	d
+EGL_SOCKET_TYPE_UNIX_NV	include/EGL/eglext.h	1290;"	d
+EGL_STENCIL_SIZE	include/EGL/egl.h	112;"	d
+EGL_STREAM_BIT_KHR	include/EGL/eglext.h	432;"	d
+EGL_STREAM_CONSUMER_NV	include/EGL/eglext.h	1262;"	d
+EGL_STREAM_CROSS_DISPLAY_NV	include/EGL/eglext.h	1159;"	d
+EGL_STREAM_CROSS_OBJECT_NV	include/EGL/eglext.h	1164;"	d
+EGL_STREAM_CROSS_PARTITION_NV	include/EGL/eglext.h	1169;"	d
+EGL_STREAM_CROSS_PROCESS_NV	include/EGL/eglext.h	1174;"	d
+EGL_STREAM_CROSS_SYSTEM_NV	include/EGL/eglext.h	1179;"	d
+EGL_STREAM_DMA_NV	include/EGL/eglext.h	1184;"	d
+EGL_STREAM_DMA_SERVER_NV	include/EGL/eglext.h	1185;"	d
+EGL_STREAM_ENDPOINT_NV	include/EGL/eglext.h	1259;"	d
+EGL_STREAM_FIFO_LENGTH_KHR	include/EGL/eglext.h	412;"	d
+EGL_STREAM_FIFO_SYNCHRONOUS_NV	include/EGL/eglext.h	1196;"	d
+EGL_STREAM_FRAME_MAJOR_AXIS_NV	include/EGL/eglext.h	1243;"	d
+EGL_STREAM_FRAME_ORIGIN_X_NV	include/EGL/eglext.h	1241;"	d
+EGL_STREAM_FRAME_ORIGIN_Y_NV	include/EGL/eglext.h	1242;"	d
+EGL_STREAM_LOCAL_NV	include/EGL/eglext.h	1260;"	d
+EGL_STREAM_PRODUCER_NV	include/EGL/eglext.h	1261;"	d
+EGL_STREAM_PROTOCOL_FD_NV	include/EGL/eglext.h	1263;"	d
+EGL_STREAM_PROTOCOL_NV	include/EGL/eglext.h	1258;"	d
+EGL_STREAM_PROTOCOL_SOCKET_NV	include/EGL/eglext.h	1278;"	d
+EGL_STREAM_STATE_CONNECTING_KHR	include/EGL/eglext.h	340;"	d
+EGL_STREAM_STATE_CREATED_KHR	include/EGL/eglext.h	339;"	d
+EGL_STREAM_STATE_DISCONNECTED_KHR	include/EGL/eglext.h	344;"	d
+EGL_STREAM_STATE_EMPTY_KHR	include/EGL/eglext.h	341;"	d
+EGL_STREAM_STATE_INITIALIZING_NV	include/EGL/eglext.h	1256;"	d
+EGL_STREAM_STATE_KHR	include/EGL/eglext.h	338;"	d
+EGL_STREAM_STATE_NEW_FRAME_AVAILABLE_KHR	include/EGL/eglext.h	342;"	d
+EGL_STREAM_STATE_OLD_FRAME_AVAILABLE_KHR	include/EGL/eglext.h	343;"	d
+EGL_STREAM_TIME_CONSUMER_KHR	include/EGL/eglext.h	414;"	d
+EGL_STREAM_TIME_NOW_KHR	include/EGL/eglext.h	413;"	d
+EGL_STREAM_TIME_PENDING_NV	include/EGL/eglext.h	1191;"	d
+EGL_STREAM_TIME_PRODUCER_KHR	include/EGL/eglext.h	415;"	d
+EGL_STREAM_TYPE_NV	include/EGL/eglext.h	1257;"	d
+EGL_SUCCESS	include/EGL/egl.h	113;"	d
+EGL_SUPPORT_RESET_NV	include/EGL/eglext.h	1268;"	d
+EGL_SUPPORT_REUSE_NV	include/EGL/eglext.h	1269;"	d
+EGL_SURFACE_TYPE	include/EGL/egl.h	114;"	d
+EGL_SWAP_BEHAVIOR	include/EGL/egl.h	235;"	d
+EGL_SWAP_BEHAVIOR_PRESERVED_BIT	include/EGL/egl.h	277;"	d
+EGL_SWAP_INTERVAL_EXT	include/EGL/eglext.h	811;"	d
+EGL_SYNC_CLIENT_EXT	include/EGL/eglext.h	627;"	d
+EGL_SYNC_CLIENT_SIGNAL_EXT	include/EGL/eglext.h	628;"	d
+EGL_SYNC_CL_EVENT	include/EGL/egl.h	303;"	d
+EGL_SYNC_CL_EVENT_COMPLETE	include/EGL/egl.h	304;"	d
+EGL_SYNC_CL_EVENT_COMPLETE_KHR	include/EGL/eglext.h	56;"	d
+EGL_SYNC_CL_EVENT_KHR	include/EGL/eglext.h	55;"	d
+EGL_SYNC_CONDITION	include/EGL/egl.h	308;"	d
+EGL_SYNC_CONDITION_KHR	include/EGL/eglext.h	150;"	d
+EGL_SYNC_CONDITION_NV	include/EGL/eglext.h	1317;"	d
+EGL_SYNC_CUDA_EVENT_COMPLETE_NV	include/EGL/eglext.h	1096;"	d
+EGL_SYNC_CUDA_EVENT_NV	include/EGL/eglext.h	1095;"	d
+EGL_SYNC_FENCE	include/EGL/egl.h	316;"	d
+EGL_SYNC_FENCE_KHR	include/EGL/eglext.h	151;"	d
+EGL_SYNC_FENCE_NV	include/EGL/eglext.h	1318;"	d
+EGL_SYNC_FLUSH_COMMANDS_BIT	include/EGL/egl.h	311;"	d
+EGL_SYNC_FLUSH_COMMANDS_BIT_KHR	include/EGL/eglext.h	319;"	d
+EGL_SYNC_FLUSH_COMMANDS_BIT_NV	include/EGL/eglext.h	1311;"	d
+EGL_SYNC_NATIVE_FENCE_ANDROID	include/EGL/eglext.h	550;"	d
+EGL_SYNC_NATIVE_FENCE_FD_ANDROID	include/EGL/eglext.h	551;"	d
+EGL_SYNC_NATIVE_FENCE_SIGNALED_ANDROID	include/EGL/eglext.h	552;"	d
+EGL_SYNC_NEW_FRAME_NV	include/EGL/eglext.h	1295;"	d
+EGL_SYNC_PRIOR_COMMANDS_COMPLETE	include/EGL/egl.h	305;"	d
+EGL_SYNC_PRIOR_COMMANDS_COMPLETE_KHR	include/EGL/eglext.h	149;"	d
+EGL_SYNC_PRIOR_COMMANDS_COMPLETE_NV	include/EGL/eglext.h	1307;"	d
+EGL_SYNC_PRIOR_COMMANDS_IMPLICIT_EXTERNAL_ARM	include/EGL/eglext.h	603;"	d
+EGL_SYNC_REUSABLE_KHR	include/EGL/eglext.h	318;"	d
+EGL_SYNC_STATUS	include/EGL/egl.h	307;"	d
+EGL_SYNC_STATUS_KHR	include/EGL/eglext.h	312;"	d
+EGL_SYNC_STATUS_NV	include/EGL/eglext.h	1308;"	d
+EGL_SYNC_TYPE	include/EGL/egl.h	306;"	d
+EGL_SYNC_TYPE_KHR	include/EGL/eglext.h	317;"	d
+EGL_SYNC_TYPE_NV	include/EGL/eglext.h	1316;"	d
+EGL_TEXTURE_2D	include/EGL/egl.h	188;"	d
+EGL_TEXTURE_FORMAT	include/EGL/egl.h	189;"	d
+EGL_TEXTURE_RGB	include/EGL/egl.h	190;"	d
+EGL_TEXTURE_RGBA	include/EGL/egl.h	191;"	d
+EGL_TEXTURE_TARGET	include/EGL/egl.h	192;"	d
+EGL_TIMEOUT_EXPIRED	include/EGL/egl.h	313;"	d
+EGL_TIMEOUT_EXPIRED_KHR	include/EGL/eglext.h	315;"	d
+EGL_TIMEOUT_EXPIRED_NV	include/EGL/eglext.h	1314;"	d
+EGL_TIMESTAMPS_ANDROID	include/EGL/eglext.h	507;"	d
+EGL_TIMESTAMP_INVALID_ANDROID	include/EGL/eglext.h	506;"	d
+EGL_TIMESTAMP_PENDING_ANDROID	include/EGL/eglext.h	505;"	d
+EGL_TIZEN_image_native_buffer	include/EGL/eglext.h	1356;"	d
+EGL_TIZEN_image_native_surface	include/EGL/eglext.h	1361;"	d
+EGL_TOP_NV	include/EGL/eglext.h	1248;"	d
+EGL_TRACK_REFERENCES_KHR	include/EGL/eglext.h	138;"	d
+EGL_TRANSPARENT_BLUE_VALUE	include/EGL/egl.h	115;"	d
+EGL_TRANSPARENT_GREEN_VALUE	include/EGL/egl.h	116;"	d
+EGL_TRANSPARENT_RED_VALUE	include/EGL/egl.h	117;"	d
+EGL_TRANSPARENT_RGB	include/EGL/egl.h	118;"	d
+EGL_TRANSPARENT_TYPE	include/EGL/egl.h	119;"	d
+EGL_TRIPLE_BUFFER_NV	include/EGL/eglext.h	1352;"	d
+EGL_TRUE	include/EGL/egl.h	120;"	d
+EGL_UNKNOWN	include/EGL/egl.h	236;"	d
+EGL_UNSIGNALED	include/EGL/egl.h	310;"	d
+EGL_UNSIGNALED_KHR	include/EGL/eglext.h	314;"	d
+EGL_UNSIGNALED_NV	include/EGL/eglext.h	1310;"	d
+EGL_UPPER_LEFT_KHR	include/EGL/eglext.h	247;"	d
+EGL_VENDOR	include/EGL/egl.h	121;"	d
+EGL_VERSION	include/EGL/egl.h	122;"	d
+EGL_VERSION_1_0	include/EGL/egl.h	57;"	d
+EGL_VERSION_1_1	include/EGL/egl.h	178;"	d
+EGL_VERSION_1_2	include/EGL/egl.h	206;"	d
+EGL_VERSION_1_3	include/EGL/egl.h	253;"	d
+EGL_VERSION_1_4	include/EGL/egl.h	269;"	d
+EGL_VERSION_1_5	include/EGL/egl.h	285;"	d
+EGL_VERTICAL_RESOLUTION	include/EGL/egl.h	237;"	d
+EGL_VG_ALPHA_FORMAT	include/EGL/egl.h	258;"	d
+EGL_VG_ALPHA_FORMAT_NONPRE	include/EGL/egl.h	259;"	d
+EGL_VG_ALPHA_FORMAT_PRE	include/EGL/egl.h	260;"	d
+EGL_VG_ALPHA_FORMAT_PRE_BIT	include/EGL/egl.h	261;"	d
+EGL_VG_ALPHA_FORMAT_PRE_BIT_KHR	include/EGL/eglext.h	77;"	d
+EGL_VG_COLORSPACE	include/EGL/egl.h	262;"	d
+EGL_VG_COLORSPACE_LINEAR	include/EGL/egl.h	264;"	d
+EGL_VG_COLORSPACE_LINEAR_BIT	include/EGL/egl.h	265;"	d
+EGL_VG_COLORSPACE_LINEAR_BIT_KHR	include/EGL/eglext.h	76;"	d
+EGL_VG_COLORSPACE_sRGB	include/EGL/egl.h	263;"	d
+EGL_VG_PARENT_IMAGE_KHR	include/EGL/eglext.h	454;"	d
+EGL_WIDTH	include/EGL/egl.h	123;"	d
+EGL_WINDOW_BIT	include/EGL/egl.h	124;"	d
+EGL_WRITE_SURFACE_BIT_KHR	include/EGL/eglext.h	228;"	d
+EGL_X_AXIS_NV	include/EGL/eglext.h	1250;"	d
+EGL_YUV_BUFFER_EXT	include/EGL/eglext.h	942;"	d
+EGL_YUV_CHROMA_HORIZONTAL_SITING_HINT_EXT	include/EGL/eglext.h	754;"	d
+EGL_YUV_CHROMA_SITING_0_5_EXT	include/EGL/eglext.h	762;"	d
+EGL_YUV_CHROMA_SITING_0_EXT	include/EGL/eglext.h	761;"	d
+EGL_YUV_CHROMA_VERTICAL_SITING_HINT_EXT	include/EGL/eglext.h	755;"	d
+EGL_YUV_COLOR_SPACE_HINT_EXT	include/EGL/eglext.h	752;"	d
+EGL_YUV_CSC_STANDARD_2020_EXT	include/EGL/eglext.h	957;"	d
+EGL_YUV_CSC_STANDARD_601_EXT	include/EGL/eglext.h	955;"	d
+EGL_YUV_CSC_STANDARD_709_EXT	include/EGL/eglext.h	956;"	d
+EGL_YUV_CSC_STANDARD_EXT	include/EGL/eglext.h	940;"	d
+EGL_YUV_DEPTH_RANGE_EXT	include/EGL/eglext.h	939;"	d
+EGL_YUV_DEPTH_RANGE_FULL_EXT	include/EGL/eglext.h	954;"	d
+EGL_YUV_DEPTH_RANGE_LIMITED_EXT	include/EGL/eglext.h	953;"	d
+EGL_YUV_FULL_RANGE_EXT	include/EGL/eglext.h	759;"	d
+EGL_YUV_NARROW_RANGE_EXT	include/EGL/eglext.h	760;"	d
+EGL_YUV_NUMBER_OF_PLANES_EXT	include/EGL/eglext.h	937;"	d
+EGL_YUV_ORDER_AYUV_EXT	include/EGL/eglext.h	949;"	d
+EGL_YUV_ORDER_EXT	include/EGL/eglext.h	936;"	d
+EGL_YUV_ORDER_UYVY_EXT	include/EGL/eglext.h	946;"	d
+EGL_YUV_ORDER_VYUY_EXT	include/EGL/eglext.h	948;"	d
+EGL_YUV_ORDER_YUV_EXT	include/EGL/eglext.h	943;"	d
+EGL_YUV_ORDER_YUYV_EXT	include/EGL/eglext.h	945;"	d
+EGL_YUV_ORDER_YVU_EXT	include/EGL/eglext.h	944;"	d
+EGL_YUV_ORDER_YVYU_EXT	include/EGL/eglext.h	947;"	d
+EGL_YUV_PLANE0_TEXTURE_UNIT_NV	include/EGL/eglext.h	1148;"	d
+EGL_YUV_PLANE1_TEXTURE_UNIT_NV	include/EGL/eglext.h	1149;"	d
+EGL_YUV_PLANE2_TEXTURE_UNIT_NV	include/EGL/eglext.h	1150;"	d
+EGL_YUV_PLANE_BPP_0_EXT	include/EGL/eglext.h	958;"	d
+EGL_YUV_PLANE_BPP_10_EXT	include/EGL/eglext.h	960;"	d
+EGL_YUV_PLANE_BPP_8_EXT	include/EGL/eglext.h	959;"	d
+EGL_YUV_PLANE_BPP_EXT	include/EGL/eglext.h	941;"	d
+EGL_YUV_SUBSAMPLE_4_2_0_EXT	include/EGL/eglext.h	950;"	d
+EGL_YUV_SUBSAMPLE_4_2_2_EXT	include/EGL/eglext.h	951;"	d
+EGL_YUV_SUBSAMPLE_4_4_4_EXT	include/EGL/eglext.h	952;"	d
+EGL_YUV_SUBSAMPLE_EXT	include/EGL/eglext.h	938;"	d
+EGL_Y_AXIS_NV	include/EGL/eglext.h	1251;"	d
+EGL_Y_INVERTED_NOK	include/EGL/eglext.h	1066;"	d
+EGLenum	include/EGL/egl.h	/^typedef unsigned int EGLenum;$/;"	t
+EGLint	include/EGL/eglplatform.h	/^typedef khronos_int32_t EGLint;$/;"	t
+EGLnsecsANDROID	include/EGL/eglext.h	/^typedef khronos_stime_nanoseconds_t EGLnsecsANDROID;$/;"	t
+EGLsizeiANDROID	include/EGL/eglext.h	/^typedef khronos_ssize_t EGLsizeiANDROID;$/;"	t
+EGLuint64KHR	include/EGL/eglext.h	/^typedef khronos_uint64_t EGLuint64KHR;$/;"	t
+EGLuint64NV	include/EGL/eglext.h	/^typedef khronos_utime_nanoseconds_t EGLuint64NV;$/;"	t
+EXES	Makefile	/^EXES=$(LIB_GLES)$/;"	m
+EXES	samples/Makefile	/^EXES=sample1 sample2$/;"	m
+FALSE	glclient.h	74;"	d
+FALSE	glsutil.c	39;"	d	file:
+FALSE	samples/sample2.c	54;"	d	file:
+FShader1	samples/sample1.c	/^static const GLchar *FShader1 = $/;"	v	file:
+FShader1	samples/sample2.c	/^static const GLchar *FShader1 = $/;"	v	file:
+GLS_OUT_BUFFER_SIZE	glclient.h	55;"	d
+GLS_PUSH_BATCH	glclient.h	64;"	d
+GLS_SEND_PACKET	glclient.h	71;"	d
+GLS_SET_COMMAND_PTR	glclient.h	68;"	d
+GLS_SET_COMMAND_PTR_BATCH	glclient.h	61;"	d
+GLS_TIMEOUT_SEC	glclient.h	57;"	d
+GL_ACTIVE_ATTRIBUTES	include/GLES2/gl2.h	303;"	d
+GL_ACTIVE_ATTRIBUTE_MAX_LENGTH	include/GLES2/gl2.h	304;"	d
+GL_ACTIVE_TEXTURE	include/GLES2/gl2.h	399;"	d
+GL_ACTIVE_UNIFORMS	include/GLES2/gl2.h	301;"	d
+GL_ACTIVE_UNIFORM_MAX_LENGTH	include/GLES2/gl2.h	302;"	d
+GL_ALIASED_LINE_WIDTH_RANGE	include/GLES2/gl2.h	198;"	d
+GL_ALIASED_POINT_SIZE_RANGE	include/GLES2/gl2.h	197;"	d
+GL_ALPHA	include/GLES2/gl2.h	274;"	d
+GL_ALPHA_BITS	include/GLES2/gl2.h	233;"	d
+GL_ALWAYS	include/GLES2/gl2.h	316;"	d
+GL_APICALL	include/GLES2/gl2platform.h	53;"	d
+GL_APIENTRY	include/GLES2/gl2platform.h	57;"	d
+GL_ARRAY_BUFFER	include/GLES2/gl2.h	143;"	d
+GL_ARRAY_BUFFER_BINDING	include/GLES2/gl2.h	145;"	d
+GL_ATTACHED_SHADERS	include/GLES2/gl2.h	300;"	d
+GL_BACK	include/GLES2/gl2.h	159;"	d
+GL_BLEND	include/GLES2/gl2.h	175;"	d
+GL_BLEND_COLOR	include/GLES2/gl2.h	140;"	d
+GL_BLEND_DST_ALPHA	include/GLES2/gl2.h	134;"	d
+GL_BLEND_DST_RGB	include/GLES2/gl2.h	132;"	d
+GL_BLEND_EQUATION	include/GLES2/gl2.h	123;"	d
+GL_BLEND_EQUATION_ALPHA	include/GLES2/gl2.h	125;"	d
+GL_BLEND_EQUATION_RGB	include/GLES2/gl2.h	124;"	d
+GL_BLEND_SRC_ALPHA	include/GLES2/gl2.h	135;"	d
+GL_BLEND_SRC_RGB	include/GLES2/gl2.h	133;"	d
+GL_BLUE_BITS	include/GLES2/gl2.h	232;"	d
+GL_BOOL	include/GLES2/gl2.h	413;"	d
+GL_BOOL_VEC2	include/GLES2/gl2.h	414;"	d
+GL_BOOL_VEC3	include/GLES2/gl2.h	415;"	d
+GL_BOOL_VEC4	include/GLES2/gl2.h	416;"	d
+GL_BUFFER_SIZE	include/GLES2/gl2.h	152;"	d
+GL_BUFFER_USAGE	include/GLES2/gl2.h	153;"	d
+GL_BYTE	include/GLES2/gl2.h	263;"	d
+GL_CCW	include/GLES2/gl2.h	193;"	d
+GL_CLAMP_TO_EDGE	include/GLES2/gl2.h	403;"	d
+GL_COLOR_ATTACHMENT0	include/GLES2/gl2.h	480;"	d
+GL_COLOR_BUFFER_BIT	include/GLES2/gl2.h	75;"	d
+GL_COLOR_CLEAR_VALUE	include/GLES2/gl2.h	223;"	d
+GL_COLOR_WRITEMASK	include/GLES2/gl2.h	224;"	d
+GL_COMPILE_STATUS	include/GLES2/gl2.h	437;"	d
+GL_COMPRESSED_TEXTURE_FORMATS	include/GLES2/gl2.h	252;"	d
+GL_CONSTANT_ALPHA	include/GLES2/gl2.h	138;"	d
+GL_CONSTANT_COLOR	include/GLES2/gl2.h	136;"	d
+GL_CULL_FACE	include/GLES2/gl2.h	174;"	d
+GL_CULL_FACE_MODE	include/GLES2/gl2.h	199;"	d
+GL_CURRENT_PROGRAM	include/GLES2/gl2.h	306;"	d
+GL_CURRENT_VERTEX_ATTRIB	include/GLES2/gl2.h	155;"	d
+GL_CW	include/GLES2/gl2.h	192;"	d
+GL_DECR	include/GLES2/gl2.h	323;"	d
+GL_DECR_WRAP	include/GLES2/gl2.h	326;"	d
+GL_DELETE_STATUS	include/GLES2/gl2.h	297;"	d
+GL_DEPTH_ATTACHMENT	include/GLES2/gl2.h	481;"	d
+GL_DEPTH_BITS	include/GLES2/gl2.h	234;"	d
+GL_DEPTH_BUFFER_BIT	include/GLES2/gl2.h	73;"	d
+GL_DEPTH_CLEAR_VALUE	include/GLES2/gl2.h	203;"	d
+GL_DEPTH_COMPONENT	include/GLES2/gl2.h	273;"	d
+GL_DEPTH_COMPONENT16	include/GLES2/gl2.h	461;"	d
+GL_DEPTH_FUNC	include/GLES2/gl2.h	204;"	d
+GL_DEPTH_RANGE	include/GLES2/gl2.h	201;"	d
+GL_DEPTH_TEST	include/GLES2/gl2.h	178;"	d
+GL_DEPTH_WRITEMASK	include/GLES2/gl2.h	202;"	d
+GL_DITHER	include/GLES2/gl2.h	176;"	d
+GL_DONT_CARE	include/GLES2/gl2.h	255;"	d
+GL_DST_ALPHA	include/GLES2/gl2.h	107;"	d
+GL_DST_COLOR	include/GLES2/gl2.h	113;"	d
+GL_DYNAMIC_DRAW	include/GLES2/gl2.h	150;"	d
+GL_ELEMENT_ARRAY_BUFFER	include/GLES2/gl2.h	144;"	d
+GL_ELEMENT_ARRAY_BUFFER_BINDING	include/GLES2/gl2.h	146;"	d
+GL_EQUAL	include/GLES2/gl2.h	311;"	d
+GL_ES_VERSION_2_0	include/GLES2/gl2.h	70;"	d
+GL_EXTENSIONS	include/GLES2/gl2.h	332;"	d
+GL_FALSE	include/GLES2/gl2.h	78;"	d
+GL_FASTEST	include/GLES2/gl2.h	256;"	d
+GL_FIXED	include/GLES2/gl2.h	270;"	d
+GL_FLOAT	include/GLES2/gl2.h	269;"	d
+GL_FLOAT_MAT2	include/GLES2/gl2.h	417;"	d
+GL_FLOAT_MAT3	include/GLES2/gl2.h	418;"	d
+GL_FLOAT_MAT4	include/GLES2/gl2.h	419;"	d
+GL_FLOAT_VEC2	include/GLES2/gl2.h	407;"	d
+GL_FLOAT_VEC3	include/GLES2/gl2.h	408;"	d
+GL_FLOAT_VEC4	include/GLES2/gl2.h	409;"	d
+GL_FRAGMENT_SHADER	include/GLES2/gl2.h	287;"	d
+GL_FRAMEBUFFER	include/GLES2/gl2.h	455;"	d
+GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME	include/GLES2/gl2.h	476;"	d
+GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE	include/GLES2/gl2.h	475;"	d
+GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE	include/GLES2/gl2.h	478;"	d
+GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL	include/GLES2/gl2.h	477;"	d
+GL_FRAMEBUFFER_BINDING	include/GLES2/gl2.h	492;"	d
+GL_FRAMEBUFFER_COMPLETE	include/GLES2/gl2.h	486;"	d
+GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT	include/GLES2/gl2.h	487;"	d
+GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS	include/GLES2/gl2.h	489;"	d
+GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT	include/GLES2/gl2.h	488;"	d
+GL_FRAMEBUFFER_UNSUPPORTED	include/GLES2/gl2.h	490;"	d
+GL_FRONT	include/GLES2/gl2.h	158;"	d
+GL_FRONT_AND_BACK	include/GLES2/gl2.h	160;"	d
+GL_FRONT_FACE	include/GLES2/gl2.h	200;"	d
+GL_FUNC_ADD	include/GLES2/gl2.h	122;"	d
+GL_FUNC_REVERSE_SUBTRACT	include/GLES2/gl2.h	129;"	d
+GL_FUNC_SUBTRACT	include/GLES2/gl2.h	128;"	d
+GL_GENERATE_MIPMAP_HINT	include/GLES2/gl2.h	260;"	d
+GL_GEQUAL	include/GLES2/gl2.h	315;"	d
+GL_GREATER	include/GLES2/gl2.h	313;"	d
+GL_GREEN_BITS	include/GLES2/gl2.h	231;"	d
+GL_HIGH_FLOAT	include/GLES2/gl2.h	449;"	d
+GL_HIGH_INT	include/GLES2/gl2.h	452;"	d
+GL_IMPLEMENTATION_COLOR_READ_FORMAT	include/GLES2/gl2.h	434;"	d
+GL_IMPLEMENTATION_COLOR_READ_TYPE	include/GLES2/gl2.h	433;"	d
+GL_INCR	include/GLES2/gl2.h	322;"	d
+GL_INCR_WRAP	include/GLES2/gl2.h	325;"	d
+GL_INFO_LOG_LENGTH	include/GLES2/gl2.h	438;"	d
+GL_INT	include/GLES2/gl2.h	267;"	d
+GL_INT_VEC2	include/GLES2/gl2.h	410;"	d
+GL_INT_VEC3	include/GLES2/gl2.h	411;"	d
+GL_INT_VEC4	include/GLES2/gl2.h	412;"	d
+GL_INVALID_ENUM	include/GLES2/gl2.h	186;"	d
+GL_INVALID_FRAMEBUFFER_OPERATION	include/GLES2/gl2.h	496;"	d
+GL_INVALID_OPERATION	include/GLES2/gl2.h	188;"	d
+GL_INVALID_VALUE	include/GLES2/gl2.h	187;"	d
+GL_INVERT	include/GLES2/gl2.h	324;"	d
+GL_KEEP	include/GLES2/gl2.h	320;"	d
+GL_LEQUAL	include/GLES2/gl2.h	312;"	d
+GL_LESS	include/GLES2/gl2.h	310;"	d
+GL_LINEAR	include/GLES2/gl2.h	336;"	d
+GL_LINEAR_MIPMAP_LINEAR	include/GLES2/gl2.h	344;"	d
+GL_LINEAR_MIPMAP_NEAREST	include/GLES2/gl2.h	342;"	d
+GL_LINES	include/GLES2/gl2.h	83;"	d
+GL_LINE_LOOP	include/GLES2/gl2.h	84;"	d
+GL_LINE_STRIP	include/GLES2/gl2.h	85;"	d
+GL_LINE_WIDTH	include/GLES2/gl2.h	196;"	d
+GL_LINK_STATUS	include/GLES2/gl2.h	298;"	d
+GL_LOW_FLOAT	include/GLES2/gl2.h	447;"	d
+GL_LOW_INT	include/GLES2/gl2.h	450;"	d
+GL_LUMINANCE	include/GLES2/gl2.h	277;"	d
+GL_LUMINANCE_ALPHA	include/GLES2/gl2.h	278;"	d
+GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS	include/GLES2/gl2.h	292;"	d
+GL_MAX_CUBE_MAP_TEXTURE_SIZE	include/GLES2/gl2.h	364;"	d
+GL_MAX_FRAGMENT_UNIFORM_VECTORS	include/GLES2/gl2.h	295;"	d
+GL_MAX_RENDERBUFFER_SIZE	include/GLES2/gl2.h	494;"	d
+GL_MAX_TEXTURE_IMAGE_UNITS	include/GLES2/gl2.h	294;"	d
+GL_MAX_TEXTURE_SIZE	include/GLES2/gl2.h	227;"	d
+GL_MAX_VARYING_VECTORS	include/GLES2/gl2.h	291;"	d
+GL_MAX_VERTEX_ATTRIBS	include/GLES2/gl2.h	289;"	d
+GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS	include/GLES2/gl2.h	293;"	d
+GL_MAX_VERTEX_UNIFORM_VECTORS	include/GLES2/gl2.h	290;"	d
+GL_MAX_VIEWPORT_DIMS	include/GLES2/gl2.h	228;"	d
+GL_MEDIUM_FLOAT	include/GLES2/gl2.h	448;"	d
+GL_MEDIUM_INT	include/GLES2/gl2.h	451;"	d
+GL_MIRRORED_REPEAT	include/GLES2/gl2.h	404;"	d
+GL_NEAREST	include/GLES2/gl2.h	335;"	d
+GL_NEAREST_MIPMAP_LINEAR	include/GLES2/gl2.h	343;"	d
+GL_NEAREST_MIPMAP_NEAREST	include/GLES2/gl2.h	341;"	d
+GL_NEVER	include/GLES2/gl2.h	309;"	d
+GL_NICEST	include/GLES2/gl2.h	257;"	d
+GL_NONE	include/GLES2/gl2.h	484;"	d
+GL_NOTEQUAL	include/GLES2/gl2.h	314;"	d
+GL_NO_ERROR	include/GLES2/gl2.h	185;"	d
+GL_NUM_COMPRESSED_TEXTURE_FORMATS	include/GLES2/gl2.h	251;"	d
+GL_NUM_SHADER_BINARY_FORMATS	include/GLES2/gl2.h	444;"	d
+GL_ONE	include/GLES2/gl2.h	102;"	d
+GL_ONE_MINUS_CONSTANT_ALPHA	include/GLES2/gl2.h	139;"	d
+GL_ONE_MINUS_CONSTANT_COLOR	include/GLES2/gl2.h	137;"	d
+GL_ONE_MINUS_DST_ALPHA	include/GLES2/gl2.h	108;"	d
+GL_ONE_MINUS_DST_COLOR	include/GLES2/gl2.h	114;"	d
+GL_ONE_MINUS_SRC_ALPHA	include/GLES2/gl2.h	106;"	d
+GL_ONE_MINUS_SRC_COLOR	include/GLES2/gl2.h	104;"	d
+GL_OUT_OF_MEMORY	include/GLES2/gl2.h	189;"	d
+GL_PACK_ALIGNMENT	include/GLES2/gl2.h	226;"	d
+GL_POINTS	include/GLES2/gl2.h	82;"	d
+GL_POLYGON_OFFSET_FACTOR	include/GLES2/gl2.h	238;"	d
+GL_POLYGON_OFFSET_FILL	include/GLES2/gl2.h	180;"	d
+GL_POLYGON_OFFSET_UNITS	include/GLES2/gl2.h	236;"	d
+GL_RED_BITS	include/GLES2/gl2.h	230;"	d
+GL_RENDERBUFFER	include/GLES2/gl2.h	456;"	d
+GL_RENDERBUFFER_ALPHA_SIZE	include/GLES2/gl2.h	471;"	d
+GL_RENDERBUFFER_BINDING	include/GLES2/gl2.h	493;"	d
+GL_RENDERBUFFER_BLUE_SIZE	include/GLES2/gl2.h	470;"	d
+GL_RENDERBUFFER_DEPTH_SIZE	include/GLES2/gl2.h	472;"	d
+GL_RENDERBUFFER_GREEN_SIZE	include/GLES2/gl2.h	469;"	d
+GL_RENDERBUFFER_HEIGHT	include/GLES2/gl2.h	466;"	d
+GL_RENDERBUFFER_INTERNAL_FORMAT	include/GLES2/gl2.h	467;"	d
+GL_RENDERBUFFER_RED_SIZE	include/GLES2/gl2.h	468;"	d
+GL_RENDERBUFFER_STENCIL_SIZE	include/GLES2/gl2.h	473;"	d
+GL_RENDERBUFFER_WIDTH	include/GLES2/gl2.h	465;"	d
+GL_RENDERER	include/GLES2/gl2.h	330;"	d
+GL_REPEAT	include/GLES2/gl2.h	402;"	d
+GL_REPLACE	include/GLES2/gl2.h	321;"	d
+GL_RGB	include/GLES2/gl2.h	275;"	d
+GL_RGB565	include/GLES2/gl2.h	460;"	d
+GL_RGB5_A1	include/GLES2/gl2.h	459;"	d
+GL_RGBA	include/GLES2/gl2.h	276;"	d
+GL_RGBA4	include/GLES2/gl2.h	458;"	d
+GL_SAMPLER_2D	include/GLES2/gl2.h	420;"	d
+GL_SAMPLER_CUBE	include/GLES2/gl2.h	421;"	d
+GL_SAMPLES	include/GLES2/gl2.h	241;"	d
+GL_SAMPLE_ALPHA_TO_COVERAGE	include/GLES2/gl2.h	181;"	d
+GL_SAMPLE_BUFFERS	include/GLES2/gl2.h	240;"	d
+GL_SAMPLE_COVERAGE	include/GLES2/gl2.h	182;"	d
+GL_SAMPLE_COVERAGE_INVERT	include/GLES2/gl2.h	243;"	d
+GL_SAMPLE_COVERAGE_VALUE	include/GLES2/gl2.h	242;"	d
+GL_SCISSOR_BOX	include/GLES2/gl2.h	221;"	d
+GL_SCISSOR_TEST	include/GLES2/gl2.h	179;"	d
+GL_SHADER_BINARY_FORMATS	include/GLES2/gl2.h	443;"	d
+GL_SHADER_COMPILER	include/GLES2/gl2.h	440;"	d
+GL_SHADER_SOURCE_LENGTH	include/GLES2/gl2.h	439;"	d
+GL_SHADER_TYPE	include/GLES2/gl2.h	296;"	d
+GL_SHADING_LANGUAGE_VERSION	include/GLES2/gl2.h	305;"	d
+GL_SHORT	include/GLES2/gl2.h	265;"	d
+GL_SRC_ALPHA	include/GLES2/gl2.h	105;"	d
+GL_SRC_ALPHA_SATURATE	include/GLES2/gl2.h	115;"	d
+GL_SRC_COLOR	include/GLES2/gl2.h	103;"	d
+GL_STATIC_DRAW	include/GLES2/gl2.h	149;"	d
+GL_STENCIL_ATTACHMENT	include/GLES2/gl2.h	482;"	d
+GL_STENCIL_BACK_FAIL	include/GLES2/gl2.h	214;"	d
+GL_STENCIL_BACK_FUNC	include/GLES2/gl2.h	213;"	d
+GL_STENCIL_BACK_PASS_DEPTH_FAIL	include/GLES2/gl2.h	215;"	d
+GL_STENCIL_BACK_PASS_DEPTH_PASS	include/GLES2/gl2.h	216;"	d
+GL_STENCIL_BACK_REF	include/GLES2/gl2.h	217;"	d
+GL_STENCIL_BACK_VALUE_MASK	include/GLES2/gl2.h	218;"	d
+GL_STENCIL_BACK_WRITEMASK	include/GLES2/gl2.h	219;"	d
+GL_STENCIL_BITS	include/GLES2/gl2.h	235;"	d
+GL_STENCIL_BUFFER_BIT	include/GLES2/gl2.h	74;"	d
+GL_STENCIL_CLEAR_VALUE	include/GLES2/gl2.h	205;"	d
+GL_STENCIL_FAIL	include/GLES2/gl2.h	207;"	d
+GL_STENCIL_FUNC	include/GLES2/gl2.h	206;"	d
+GL_STENCIL_INDEX	include/GLES2/gl2.h	462;"	d
+GL_STENCIL_INDEX8	include/GLES2/gl2.h	463;"	d
+GL_STENCIL_PASS_DEPTH_FAIL	include/GLES2/gl2.h	208;"	d
+GL_STENCIL_PASS_DEPTH_PASS	include/GLES2/gl2.h	209;"	d
+GL_STENCIL_REF	include/GLES2/gl2.h	210;"	d
+GL_STENCIL_TEST	include/GLES2/gl2.h	177;"	d
+GL_STENCIL_VALUE_MASK	include/GLES2/gl2.h	211;"	d
+GL_STENCIL_WRITEMASK	include/GLES2/gl2.h	212;"	d
+GL_STREAM_DRAW	include/GLES2/gl2.h	148;"	d
+GL_SUBPIXEL_BITS	include/GLES2/gl2.h	229;"	d
+GL_TEXTURE	include/GLES2/gl2.h	354;"	d
+GL_TEXTURE0	include/GLES2/gl2.h	367;"	d
+GL_TEXTURE1	include/GLES2/gl2.h	368;"	d
+GL_TEXTURE10	include/GLES2/gl2.h	377;"	d
+GL_TEXTURE11	include/GLES2/gl2.h	378;"	d
+GL_TEXTURE12	include/GLES2/gl2.h	379;"	d
+GL_TEXTURE13	include/GLES2/gl2.h	380;"	d
+GL_TEXTURE14	include/GLES2/gl2.h	381;"	d
+GL_TEXTURE15	include/GLES2/gl2.h	382;"	d
+GL_TEXTURE16	include/GLES2/gl2.h	383;"	d
+GL_TEXTURE17	include/GLES2/gl2.h	384;"	d
+GL_TEXTURE18	include/GLES2/gl2.h	385;"	d
+GL_TEXTURE19	include/GLES2/gl2.h	386;"	d
+GL_TEXTURE2	include/GLES2/gl2.h	369;"	d
+GL_TEXTURE20	include/GLES2/gl2.h	387;"	d
+GL_TEXTURE21	include/GLES2/gl2.h	388;"	d
+GL_TEXTURE22	include/GLES2/gl2.h	389;"	d
+GL_TEXTURE23	include/GLES2/gl2.h	390;"	d
+GL_TEXTURE24	include/GLES2/gl2.h	391;"	d
+GL_TEXTURE25	include/GLES2/gl2.h	392;"	d
+GL_TEXTURE26	include/GLES2/gl2.h	393;"	d
+GL_TEXTURE27	include/GLES2/gl2.h	394;"	d
+GL_TEXTURE28	include/GLES2/gl2.h	395;"	d
+GL_TEXTURE29	include/GLES2/gl2.h	396;"	d
+GL_TEXTURE3	include/GLES2/gl2.h	370;"	d
+GL_TEXTURE30	include/GLES2/gl2.h	397;"	d
+GL_TEXTURE31	include/GLES2/gl2.h	398;"	d
+GL_TEXTURE4	include/GLES2/gl2.h	371;"	d
+GL_TEXTURE5	include/GLES2/gl2.h	372;"	d
+GL_TEXTURE6	include/GLES2/gl2.h	373;"	d
+GL_TEXTURE7	include/GLES2/gl2.h	374;"	d
+GL_TEXTURE8	include/GLES2/gl2.h	375;"	d
+GL_TEXTURE9	include/GLES2/gl2.h	376;"	d
+GL_TEXTURE_2D	include/GLES2/gl2.h	173;"	d
+GL_TEXTURE_BINDING_2D	include/GLES2/gl2.h	239;"	d
+GL_TEXTURE_BINDING_CUBE_MAP	include/GLES2/gl2.h	357;"	d
+GL_TEXTURE_CUBE_MAP	include/GLES2/gl2.h	356;"	d
+GL_TEXTURE_CUBE_MAP_NEGATIVE_X	include/GLES2/gl2.h	359;"	d
+GL_TEXTURE_CUBE_MAP_NEGATIVE_Y	include/GLES2/gl2.h	361;"	d
+GL_TEXTURE_CUBE_MAP_NEGATIVE_Z	include/GLES2/gl2.h	363;"	d
+GL_TEXTURE_CUBE_MAP_POSITIVE_X	include/GLES2/gl2.h	358;"	d
+GL_TEXTURE_CUBE_MAP_POSITIVE_Y	include/GLES2/gl2.h	360;"	d
+GL_TEXTURE_CUBE_MAP_POSITIVE_Z	include/GLES2/gl2.h	362;"	d
+GL_TEXTURE_MAG_FILTER	include/GLES2/gl2.h	347;"	d
+GL_TEXTURE_MIN_FILTER	include/GLES2/gl2.h	348;"	d
+GL_TEXTURE_WRAP_S	include/GLES2/gl2.h	349;"	d
+GL_TEXTURE_WRAP_T	include/GLES2/gl2.h	350;"	d
+GL_TRIANGLES	include/GLES2/gl2.h	86;"	d
+GL_TRIANGLE_FAN	include/GLES2/gl2.h	88;"	d
+GL_TRIANGLE_STRIP	include/GLES2/gl2.h	87;"	d
+GL_TRUE	include/GLES2/gl2.h	79;"	d
+GL_UNPACK_ALIGNMENT	include/GLES2/gl2.h	225;"	d
+GL_UNSIGNED_BYTE	include/GLES2/gl2.h	264;"	d
+GL_UNSIGNED_INT	include/GLES2/gl2.h	268;"	d
+GL_UNSIGNED_SHORT	include/GLES2/gl2.h	266;"	d
+GL_UNSIGNED_SHORT_4_4_4_4	include/GLES2/gl2.h	282;"	d
+GL_UNSIGNED_SHORT_5_5_5_1	include/GLES2/gl2.h	283;"	d
+GL_UNSIGNED_SHORT_5_6_5	include/GLES2/gl2.h	284;"	d
+GL_VALIDATE_STATUS	include/GLES2/gl2.h	299;"	d
+GL_VENDOR	include/GLES2/gl2.h	329;"	d
+GL_VERSION	include/GLES2/gl2.h	331;"	d
+GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING	include/GLES2/gl2.h	430;"	d
+GL_VERTEX_ATTRIB_ARRAY_ENABLED	include/GLES2/gl2.h	424;"	d
+GL_VERTEX_ATTRIB_ARRAY_NORMALIZED	include/GLES2/gl2.h	428;"	d
+GL_VERTEX_ATTRIB_ARRAY_POINTER	include/GLES2/gl2.h	429;"	d
+GL_VERTEX_ATTRIB_ARRAY_SIZE	include/GLES2/gl2.h	425;"	d
+GL_VERTEX_ATTRIB_ARRAY_STRIDE	include/GLES2/gl2.h	426;"	d
+GL_VERTEX_ATTRIB_ARRAY_TYPE	include/GLES2/gl2.h	427;"	d
+GL_VERTEX_SHADER	include/GLES2/gl2.h	288;"	d
+GL_VIEWPORT	include/GLES2/gl2.h	220;"	d
+GL_ZERO	include/GLES2/gl2.h	101;"	d
+GLbitfield	include/GLES2/gl2.h	/^typedef unsigned int     GLbitfield;$/;"	t
+GLboolean	include/GLES2/gl2.h	/^typedef unsigned char    GLboolean;$/;"	t
+GLbyte	include/GLES2/gl2.h	/^typedef khronos_int8_t   GLbyte;$/;"	t
+GLchar	include/GLES2/gl2.h	/^typedef char             GLchar;$/;"	t
+GLclampf	include/GLES2/gl2.h	/^typedef khronos_float_t  GLclampf;$/;"	t
+GLenum	include/GLES2/gl2.h	/^typedef unsigned int     GLenum;$/;"	t
+GLfixed	include/GLES2/gl2.h	/^typedef khronos_int32_t  GLfixed;$/;"	t
+GLfloat	include/GLES2/gl2.h	/^typedef khronos_float_t  GLfloat;$/;"	t
+GLint	include/GLES2/gl2.h	/^typedef int              GLint;$/;"	t
+GLintptr	include/GLES2/gl2.h	/^typedef khronos_intptr_t GLintptr;$/;"	t
+GLshort	include/GLES2/gl2.h	/^typedef short            GLshort;$/;"	t
+GLsizei	include/GLES2/gl2.h	/^typedef int              GLsizei;$/;"	t
+GLsizeiptr	include/GLES2/gl2.h	/^typedef khronos_ssize_t  GLsizeiptr;$/;"	t
+GLubyte	include/GLES2/gl2.h	/^typedef khronos_uint8_t  GLubyte;$/;"	t
+GLuint	include/GLES2/gl2.h	/^typedef unsigned int     GLuint;$/;"	t
+GLushort	include/GLES2/gl2.h	/^typedef unsigned short   GLushort;$/;"	t
+GLvoid	include/GLES2/gl2.h	/^typedef void             GLvoid;$/;"	t
+INCLUDES	samples/Makefile	/^INCLUDES=-I.. -I..\/include -I..\/..\/common$/;"	m
+KHAPI	include/KHR/khrplatform.h	95;"	d
+KHRONOS_APIATTRIBUTES	include/KHR/khrplatform.h	115;"	d
+KHRONOS_APIATTRIBUTES	include/KHR/khrplatform.h	117;"	d
+KHRONOS_APICALL	include/KHR/khrplatform.h	97;"	d
+KHRONOS_APIENTRY	include/KHR/khrplatform.h	106;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	135;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	148;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	160;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	177;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	190;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	200;"	d
+KHRONOS_SUPPORT_FLOAT	include/KHR/khrplatform.h	213;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	134;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	147;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	159;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	176;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	189;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	199;"	d
+KHRONOS_SUPPORT_INT64	include/KHR/khrplatform.h	212;"	d
+LIBS	Makefile	/^LIBS=-pthread -ldl -lX11$/;"	m
+LIBS	samples/Makefile	/^LIBS=-lpthread -lm -ldl -lX11$/;"	m
+LIB_GLES	Makefile	/^LIB_GLES=libGLESv2.so.2$/;"	m
+NativeDisplayType	include/EGL/eglplatform.h	/^typedef EGLNativeDisplayType NativeDisplayType;$/;"	t
+NativePixmapType	include/EGL/eglplatform.h	/^typedef EGLNativePixmapType  NativePixmapType;$/;"	t
+NativeWindowType	include/EGL/eglplatform.h	/^typedef EGLNativeWindowType  NativeWindowType;$/;"	t
+OBJS	Makefile	/^OBJS=fifo.o server.o clientegl.o clientgles.o glclient.o$/;"	m
+OBJS	samples/Makefile	/^OBJS=..\/fifo.o ..\/server.o ..\/glclient.o ..\/glsutil.o ..\/clientegl.o ..\/clientgles.o$/;"	m
+PFNEGLBINDAPIPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLBINDAPIPROC) (EGLenum api);$/;"	t
+PFNEGLBINDTEXIMAGEPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLBINDTEXIMAGEPROC) (EGLDisplay dpy, EGLSurface surface, EGLint buffer);$/;"	t
+PFNEGLCHOOSECONFIGPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLCHOOSECONFIGPROC) (EGLDisplay dpy, const EGLint *attrib_list, EGLConfig *configs, EGLint config_size, EGLint *num_config);$/;"	t
+PFNEGLCLIENTSIGNALSYNCEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLCLIENTSIGNALSYNCEXTPROC) (EGLDisplay dpy, EGLSync sync, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLCLIENTWAITSYNCKHRPROC	include/EGL/eglext.h	/^typedef EGLint (EGLAPIENTRYP PFNEGLCLIENTWAITSYNCKHRPROC) (EGLDisplay dpy, EGLSyncKHR sync, EGLint flags, EGLTimeKHR timeout);$/;"	t
+PFNEGLCLIENTWAITSYNCNVPROC	include/EGL/eglext.h	/^typedef EGLint (EGLAPIENTRYP PFNEGLCLIENTWAITSYNCNVPROC) (EGLSyncNV sync, EGLint flags, EGLTimeNV timeout);$/;"	t
+PFNEGLCLIENTWAITSYNCPROC	include/EGL/egl.h	/^typedef EGLint (EGLAPIENTRYP PFNEGLCLIENTWAITSYNCPROC) (EGLDisplay dpy, EGLSync sync, EGLint flags, EGLTime timeout);$/;"	t
+PFNEGLCOMPOSITORBINDTEXWINDOWEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLCOMPOSITORBINDTEXWINDOWEXTPROC) (EGLint external_win_id);$/;"	t
+PFNEGLCOMPOSITORSETCONTEXTATTRIBUTESEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLCOMPOSITORSETCONTEXTATTRIBUTESEXTPROC) (EGLint external_ref_id, const EGLint *context_attributes, EGLint num_entries);$/;"	t
+PFNEGLCOMPOSITORSETCONTEXTLISTEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLCOMPOSITORSETCONTEXTLISTEXTPROC) (const EGLint *external_ref_ids, EGLint num_entries);$/;"	t
+PFNEGLCOMPOSITORSETSIZEEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLCOMPOSITORSETSIZEEXTPROC) (EGLint external_win_id, EGLint width, EGLint height);$/;"	t
+PFNEGLCOMPOSITORSETWINDOWATTRIBUTESEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLCOMPOSITORSETWINDOWATTRIBUTESEXTPROC) (EGLint external_win_id, const EGLint *window_attributes, EGLint num_entries);$/;"	t
+PFNEGLCOMPOSITORSETWINDOWLISTEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLCOMPOSITORSETWINDOWLISTEXTPROC) (EGLint external_ref_id, const EGLint *external_win_ids, EGLint num_entries);$/;"	t
+PFNEGLCOMPOSITORSWAPPOLICYEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLCOMPOSITORSWAPPOLICYEXTPROC) (EGLint external_win_id, EGLint policy);$/;"	t
+PFNEGLCOPYBUFFERSPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLCOPYBUFFERSPROC) (EGLDisplay dpy, EGLSurface surface, EGLNativePixmapType target);$/;"	t
+PFNEGLCREATECONTEXTPROC	include/EGL/egl.h	/^typedef EGLContext (EGLAPIENTRYP PFNEGLCREATECONTEXTPROC) (EGLDisplay dpy, EGLConfig config, EGLContext share_context, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATEDRMIMAGEMESAPROC	include/EGL/eglext.h	/^typedef EGLImageKHR (EGLAPIENTRYP PFNEGLCREATEDRMIMAGEMESAPROC) (EGLDisplay dpy, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATEFENCESYNCNVPROC	include/EGL/eglext.h	/^typedef EGLSyncNV (EGLAPIENTRYP PFNEGLCREATEFENCESYNCNVPROC) (EGLDisplay dpy, EGLenum condition, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATEIMAGEKHRPROC	include/EGL/eglext.h	/^typedef EGLImageKHR (EGLAPIENTRYP PFNEGLCREATEIMAGEKHRPROC) (EGLDisplay dpy, EGLContext ctx, EGLenum target, EGLClientBuffer buffer, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATEIMAGEPROC	include/EGL/egl.h	/^typedef EGLImage (EGLAPIENTRYP PFNEGLCREATEIMAGEPROC) (EGLDisplay dpy, EGLContext ctx, EGLenum target, EGLClientBuffer buffer, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLCREATENATIVECLIENTBUFFERANDROIDPROC	include/EGL/eglext.h	/^typedef EGLClientBuffer (EGLAPIENTRYP PFNEGLCREATENATIVECLIENTBUFFERANDROIDPROC) (const EGLint *attrib_list);$/;"	t
+PFNEGLCREATEPBUFFERFROMCLIENTBUFFERPROC	include/EGL/egl.h	/^typedef EGLSurface (EGLAPIENTRYP PFNEGLCREATEPBUFFERFROMCLIENTBUFFERPROC) (EGLDisplay dpy, EGLenum buftype, EGLClientBuffer buffer, EGLConfig config, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATEPBUFFERSURFACEPROC	include/EGL/egl.h	/^typedef EGLSurface (EGLAPIENTRYP PFNEGLCREATEPBUFFERSURFACEPROC) (EGLDisplay dpy, EGLConfig config, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATEPIXMAPSURFACEHIPROC	include/EGL/eglext.h	/^typedef EGLSurface (EGLAPIENTRYP PFNEGLCREATEPIXMAPSURFACEHIPROC) (EGLDisplay dpy, EGLConfig config, struct EGLClientPixmapHI *pixmap);$/;"	t
+PFNEGLCREATEPIXMAPSURFACEPROC	include/EGL/egl.h	/^typedef EGLSurface (EGLAPIENTRYP PFNEGLCREATEPIXMAPSURFACEPROC) (EGLDisplay dpy, EGLConfig config, EGLNativePixmapType pixmap, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATEPLATFORMPIXMAPSURFACEEXTPROC	include/EGL/eglext.h	/^typedef EGLSurface (EGLAPIENTRYP PFNEGLCREATEPLATFORMPIXMAPSURFACEEXTPROC) (EGLDisplay dpy, EGLConfig config, void *native_pixmap, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATEPLATFORMPIXMAPSURFACEPROC	include/EGL/egl.h	/^typedef EGLSurface (EGLAPIENTRYP PFNEGLCREATEPLATFORMPIXMAPSURFACEPROC) (EGLDisplay dpy, EGLConfig config, void *native_pixmap, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLCREATEPLATFORMWINDOWSURFACEEXTPROC	include/EGL/eglext.h	/^typedef EGLSurface (EGLAPIENTRYP PFNEGLCREATEPLATFORMWINDOWSURFACEEXTPROC) (EGLDisplay dpy, EGLConfig config, void *native_window, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATEPLATFORMWINDOWSURFACEPROC	include/EGL/egl.h	/^typedef EGLSurface (EGLAPIENTRYP PFNEGLCREATEPLATFORMWINDOWSURFACEPROC) (EGLDisplay dpy, EGLConfig config, void *native_window, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLCREATESTREAMATTRIBKHRPROC	include/EGL/eglext.h	/^typedef EGLStreamKHR (EGLAPIENTRYP PFNEGLCREATESTREAMATTRIBKHRPROC) (EGLDisplay dpy, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLCREATESTREAMFROMFILEDESCRIPTORKHRPROC	include/EGL/eglext.h	/^typedef EGLStreamKHR (EGLAPIENTRYP PFNEGLCREATESTREAMFROMFILEDESCRIPTORKHRPROC) (EGLDisplay dpy, EGLNativeFileDescriptorKHR file_descriptor);$/;"	t
+PFNEGLCREATESTREAMKHRPROC	include/EGL/eglext.h	/^typedef EGLStreamKHR (EGLAPIENTRYP PFNEGLCREATESTREAMKHRPROC) (EGLDisplay dpy, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATESTREAMPRODUCERSURFACEKHRPROC	include/EGL/eglext.h	/^typedef EGLSurface (EGLAPIENTRYP PFNEGLCREATESTREAMPRODUCERSURFACEKHRPROC) (EGLDisplay dpy, EGLConfig config, EGLStreamKHR stream, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATESTREAMSYNCNVPROC	include/EGL/eglext.h	/^typedef EGLSyncKHR (EGLAPIENTRYP PFNEGLCREATESTREAMSYNCNVPROC) (EGLDisplay dpy, EGLStreamKHR stream, EGLenum type, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATESYNC64KHRPROC	include/EGL/eglext.h	/^typedef EGLSyncKHR (EGLAPIENTRYP PFNEGLCREATESYNC64KHRPROC) (EGLDisplay dpy, EGLenum type, const EGLAttribKHR *attrib_list);$/;"	t
+PFNEGLCREATESYNCKHRPROC	include/EGL/eglext.h	/^typedef EGLSyncKHR (EGLAPIENTRYP PFNEGLCREATESYNCKHRPROC) (EGLDisplay dpy, EGLenum type, const EGLint *attrib_list);$/;"	t
+PFNEGLCREATESYNCPROC	include/EGL/egl.h	/^typedef EGLSync (EGLAPIENTRYP PFNEGLCREATESYNCPROC) (EGLDisplay dpy, EGLenum type, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLCREATEWINDOWSURFACEPROC	include/EGL/egl.h	/^typedef EGLSurface (EGLAPIENTRYP PFNEGLCREATEWINDOWSURFACEPROC) (EGLDisplay dpy, EGLConfig config, EGLNativeWindowType win, const EGLint *attrib_list);$/;"	t
+PFNEGLDEBUGMESSAGECONTROLKHRPROC	include/EGL/eglext.h	/^typedef EGLint (EGLAPIENTRYP PFNEGLDEBUGMESSAGECONTROLKHRPROC) (EGLDEBUGPROCKHR callback, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLDESTROYCONTEXTPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLDESTROYCONTEXTPROC) (EGLDisplay dpy, EGLContext ctx);$/;"	t
+PFNEGLDESTROYIMAGEKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLDESTROYIMAGEKHRPROC) (EGLDisplay dpy, EGLImageKHR image);$/;"	t
+PFNEGLDESTROYIMAGEPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLDESTROYIMAGEPROC) (EGLDisplay dpy, EGLImage image);$/;"	t
+PFNEGLDESTROYSTREAMKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLDESTROYSTREAMKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream);$/;"	t
+PFNEGLDESTROYSURFACEPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLDESTROYSURFACEPROC) (EGLDisplay dpy, EGLSurface surface);$/;"	t
+PFNEGLDESTROYSYNCKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLDESTROYSYNCKHRPROC) (EGLDisplay dpy, EGLSyncKHR sync);$/;"	t
+PFNEGLDESTROYSYNCNVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLDESTROYSYNCNVPROC) (EGLSyncNV sync);$/;"	t
+PFNEGLDESTROYSYNCPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLDESTROYSYNCPROC) (EGLDisplay dpy, EGLSync sync);$/;"	t
+PFNEGLDUPNATIVEFENCEFDANDROIDPROC	include/EGL/eglext.h	/^typedef EGLint (EGLAPIENTRYP PFNEGLDUPNATIVEFENCEFDANDROIDPROC) (EGLDisplay dpy, EGLSyncKHR sync);$/;"	t
+PFNEGLEXPORTDMABUFIMAGEMESAPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLEXPORTDMABUFIMAGEMESAPROC) (EGLDisplay dpy, EGLImageKHR image, int *fds, EGLint *strides, EGLint *offsets);$/;"	t
+PFNEGLEXPORTDMABUFIMAGEQUERYMESAPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLEXPORTDMABUFIMAGEQUERYMESAPROC) (EGLDisplay dpy, EGLImageKHR image, int *fourcc, int *num_planes, EGLuint64KHR *modifiers);$/;"	t
+PFNEGLEXPORTDRMIMAGEMESAPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLEXPORTDRMIMAGEMESAPROC) (EGLDisplay dpy, EGLImageKHR image, EGLint *name, EGLint *handle, EGLint *stride);$/;"	t
+PFNEGLFENCENVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLFENCENVPROC) (EGLSyncNV sync);$/;"	t
+PFNEGLGETCOMPOSITORTIMINGANDROIDPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETCOMPOSITORTIMINGANDROIDPROC) (EGLDisplay dpy, EGLSurface surface, EGLint numTimestamps,  const EGLint *names, EGLnsecsANDROID *values);$/;"	t
+PFNEGLGETCOMPOSITORTIMINGSUPPORTEDANDROIDPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETCOMPOSITORTIMINGSUPPORTEDANDROIDPROC) (EGLDisplay dpy, EGLSurface surface, EGLint name);$/;"	t
+PFNEGLGETCONFIGATTRIBPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETCONFIGATTRIBPROC) (EGLDisplay dpy, EGLConfig config, EGLint attribute, EGLint *value);$/;"	t
+PFNEGLGETCONFIGSPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETCONFIGSPROC) (EGLDisplay dpy, EGLConfig *configs, EGLint config_size, EGLint *num_config);$/;"	t
+PFNEGLGETCURRENTCONTEXTPROC	include/EGL/egl.h	/^typedef EGLContext (EGLAPIENTRYP PFNEGLGETCURRENTCONTEXTPROC) (void);$/;"	t
+PFNEGLGETCURRENTDISPLAYPROC	include/EGL/egl.h	/^typedef EGLDisplay (EGLAPIENTRYP PFNEGLGETCURRENTDISPLAYPROC) (void);$/;"	t
+PFNEGLGETCURRENTSURFACEPROC	include/EGL/egl.h	/^typedef EGLSurface (EGLAPIENTRYP PFNEGLGETCURRENTSURFACEPROC) (EGLint readdraw);$/;"	t
+PFNEGLGETDISPLAYDRIVERCONFIGPROC	include/EGL/eglext.h	/^typedef char *(EGLAPIENTRYP PFNEGLGETDISPLAYDRIVERCONFIGPROC) (EGLDisplay dpy);$/;"	t
+PFNEGLGETDISPLAYDRIVERNAMEPROC	include/EGL/eglext.h	/^typedef const char *(EGLAPIENTRYP PFNEGLGETDISPLAYDRIVERNAMEPROC) (EGLDisplay dpy);$/;"	t
+PFNEGLGETDISPLAYPROC	include/EGL/egl.h	/^typedef EGLDisplay (EGLAPIENTRYP PFNEGLGETDISPLAYPROC) (EGLNativeDisplayType display_id);$/;"	t
+PFNEGLGETERRORPROC	include/EGL/egl.h	/^typedef EGLint (EGLAPIENTRYP PFNEGLGETERRORPROC) (void);$/;"	t
+PFNEGLGETFRAMETIMESTAMPSANDROIDPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETFRAMETIMESTAMPSANDROIDPROC) (EGLDisplay dpy, EGLSurface surface, EGLuint64KHR frameId, EGLint numTimestamps,  const EGLint *timestamps, EGLnsecsANDROID *values);$/;"	t
+PFNEGLGETFRAMETIMESTAMPSUPPORTEDANDROIDPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETFRAMETIMESTAMPSUPPORTEDANDROIDPROC) (EGLDisplay dpy, EGLSurface surface, EGLint timestamp);$/;"	t
+PFNEGLGETNATIVECLIENTBUFFERANDROIDPROC	include/EGL/eglext.h	/^typedef EGLClientBuffer (EGLAPIENTRYP PFNEGLGETNATIVECLIENTBUFFERANDROIDPROC) (const struct AHardwareBuffer *buffer);$/;"	t
+PFNEGLGETNEXTFRAMEIDANDROIDPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETNEXTFRAMEIDANDROIDPROC) (EGLDisplay dpy, EGLSurface surface, EGLuint64KHR *frameId);$/;"	t
+PFNEGLGETOUTPUTLAYERSEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETOUTPUTLAYERSEXTPROC) (EGLDisplay dpy, const EGLAttrib *attrib_list, EGLOutputLayerEXT *layers, EGLint max_layers, EGLint *num_layers);$/;"	t
+PFNEGLGETOUTPUTPORTSEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETOUTPUTPORTSEXTPROC) (EGLDisplay dpy, const EGLAttrib *attrib_list, EGLOutputPortEXT *ports, EGLint max_ports, EGLint *num_ports);$/;"	t
+PFNEGLGETPLATFORMDISPLAYEXTPROC	include/EGL/eglext.h	/^typedef EGLDisplay (EGLAPIENTRYP PFNEGLGETPLATFORMDISPLAYEXTPROC) (EGLenum platform, void *native_display, const EGLint *attrib_list);$/;"	t
+PFNEGLGETPLATFORMDISPLAYPROC	include/EGL/egl.h	/^typedef EGLDisplay (EGLAPIENTRYP PFNEGLGETPLATFORMDISPLAYPROC) (EGLenum platform, void *native_display, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLGETPROCADDRESSPROC	include/EGL/egl.h	/^typedef __eglMustCastToProperFunctionPointerType (EGLAPIENTRYP PFNEGLGETPROCADDRESSPROC) (const char *procname);$/;"	t
+PFNEGLGETSTREAMFILEDESCRIPTORKHRPROC	include/EGL/eglext.h	/^typedef EGLNativeFileDescriptorKHR (EGLAPIENTRYP PFNEGLGETSTREAMFILEDESCRIPTORKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream);$/;"	t
+PFNEGLGETSYNCATTRIBKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETSYNCATTRIBKHRPROC) (EGLDisplay dpy, EGLSyncKHR sync, EGLint attribute, EGLint *value);$/;"	t
+PFNEGLGETSYNCATTRIBNVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETSYNCATTRIBNVPROC) (EGLSyncNV sync, EGLint attribute, EGLint *value);$/;"	t
+PFNEGLGETSYNCATTRIBPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLGETSYNCATTRIBPROC) (EGLDisplay dpy, EGLSync sync, EGLint attribute, EGLAttrib *value);$/;"	t
+PFNEGLGETSYSTEMTIMEFREQUENCYNVPROC	include/EGL/eglext.h	/^typedef EGLuint64NV (EGLAPIENTRYP PFNEGLGETSYSTEMTIMEFREQUENCYNVPROC) (void);$/;"	t
+PFNEGLGETSYSTEMTIMENVPROC	include/EGL/eglext.h	/^typedef EGLuint64NV (EGLAPIENTRYP PFNEGLGETSYSTEMTIMENVPROC) (void);$/;"	t
+PFNEGLINITIALIZEPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLINITIALIZEPROC) (EGLDisplay dpy, EGLint *major, EGLint *minor);$/;"	t
+PFNEGLLABELOBJECTKHRPROC	include/EGL/eglext.h	/^typedef EGLint (EGLAPIENTRYP PFNEGLLABELOBJECTKHRPROC) (EGLDisplay display, EGLenum objectType, EGLObjectKHR object, EGLLabelKHR label);$/;"	t
+PFNEGLLOCKSURFACEKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLLOCKSURFACEKHRPROC) (EGLDisplay dpy, EGLSurface surface, const EGLint *attrib_list);$/;"	t
+PFNEGLMAKECURRENTPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLMAKECURRENTPROC) (EGLDisplay dpy, EGLSurface draw, EGLSurface read, EGLContext ctx);$/;"	t
+PFNEGLOUTPUTLAYERATTRIBEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLOUTPUTLAYERATTRIBEXTPROC) (EGLDisplay dpy, EGLOutputLayerEXT layer, EGLint attribute, EGLAttrib value);$/;"	t
+PFNEGLOUTPUTPORTATTRIBEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLOUTPUTPORTATTRIBEXTPROC) (EGLDisplay dpy, EGLOutputPortEXT port, EGLint attribute, EGLAttrib value);$/;"	t
+PFNEGLPOSTSUBBUFFERNVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLPOSTSUBBUFFERNVPROC) (EGLDisplay dpy, EGLSurface surface, EGLint x, EGLint y, EGLint width, EGLint height);$/;"	t
+PFNEGLPRESENTATIONTIMEANDROIDPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLPRESENTATIONTIMEANDROIDPROC) (EGLDisplay dpy, EGLSurface surface, EGLnsecsANDROID time);$/;"	t
+PFNEGLQUERYAPIPROC	include/EGL/egl.h	/^typedef EGLenum (EGLAPIENTRYP PFNEGLQUERYAPIPROC) (void);$/;"	t
+PFNEGLQUERYCONTEXTPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYCONTEXTPROC) (EGLDisplay dpy, EGLContext ctx, EGLint attribute, EGLint *value);$/;"	t
+PFNEGLQUERYDEBUGKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYDEBUGKHRPROC) (EGLint attribute, EGLAttrib *value);$/;"	t
+PFNEGLQUERYDEVICEATTRIBEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYDEVICEATTRIBEXTPROC) (EGLDeviceEXT device, EGLint attribute, EGLAttrib *value);$/;"	t
+PFNEGLQUERYDEVICESEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYDEVICESEXTPROC) (EGLint max_devices, EGLDeviceEXT *devices, EGLint *num_devices);$/;"	t
+PFNEGLQUERYDEVICESTRINGEXTPROC	include/EGL/eglext.h	/^typedef const char *(EGLAPIENTRYP PFNEGLQUERYDEVICESTRINGEXTPROC) (EGLDeviceEXT device, EGLint name);$/;"	t
+PFNEGLQUERYDISPLAYATTRIBEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYDISPLAYATTRIBEXTPROC) (EGLDisplay dpy, EGLint attribute, EGLAttrib *value);$/;"	t
+PFNEGLQUERYDISPLAYATTRIBKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYDISPLAYATTRIBKHRPROC) (EGLDisplay dpy, EGLint name, EGLAttrib *value);$/;"	t
+PFNEGLQUERYDISPLAYATTRIBNVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYDISPLAYATTRIBNVPROC) (EGLDisplay dpy, EGLint attribute, EGLAttrib *value);$/;"	t
+PFNEGLQUERYDMABUFFORMATSEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYDMABUFFORMATSEXTPROC) (EGLDisplay dpy, EGLint max_formats, EGLint *formats, EGLint *num_formats);$/;"	t
+PFNEGLQUERYDMABUFMODIFIERSEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYDMABUFMODIFIERSEXTPROC) (EGLDisplay dpy, EGLint format, EGLint max_modifiers, EGLuint64KHR *modifiers, EGLBoolean *external_only, EGLint *num_modifiers);$/;"	t
+PFNEGLQUERYNATIVEDISPLAYNVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYNATIVEDISPLAYNVPROC) (EGLDisplay dpy, EGLNativeDisplayType *display_id);$/;"	t
+PFNEGLQUERYNATIVEPIXMAPNVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYNATIVEPIXMAPNVPROC) (EGLDisplay dpy, EGLSurface surf, EGLNativePixmapType *pixmap);$/;"	t
+PFNEGLQUERYNATIVEWINDOWNVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYNATIVEWINDOWNVPROC) (EGLDisplay dpy, EGLSurface surf, EGLNativeWindowType *window);$/;"	t
+PFNEGLQUERYOUTPUTLAYERATTRIBEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYOUTPUTLAYERATTRIBEXTPROC) (EGLDisplay dpy, EGLOutputLayerEXT layer, EGLint attribute, EGLAttrib *value);$/;"	t
+PFNEGLQUERYOUTPUTLAYERSTRINGEXTPROC	include/EGL/eglext.h	/^typedef const char *(EGLAPIENTRYP PFNEGLQUERYOUTPUTLAYERSTRINGEXTPROC) (EGLDisplay dpy, EGLOutputLayerEXT layer, EGLint name);$/;"	t
+PFNEGLQUERYOUTPUTPORTATTRIBEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYOUTPUTPORTATTRIBEXTPROC) (EGLDisplay dpy, EGLOutputPortEXT port, EGLint attribute, EGLAttrib *value);$/;"	t
+PFNEGLQUERYOUTPUTPORTSTRINGEXTPROC	include/EGL/eglext.h	/^typedef const char *(EGLAPIENTRYP PFNEGLQUERYOUTPUTPORTSTRINGEXTPROC) (EGLDisplay dpy, EGLOutputPortEXT port, EGLint name);$/;"	t
+PFNEGLQUERYSTREAMATTRIBKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYSTREAMATTRIBKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream, EGLenum attribute, EGLAttrib *value);$/;"	t
+PFNEGLQUERYSTREAMKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYSTREAMKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream, EGLenum attribute, EGLint *value);$/;"	t
+PFNEGLQUERYSTREAMMETADATANVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYSTREAMMETADATANVPROC) (EGLDisplay dpy, EGLStreamKHR stream, EGLenum name, EGLint n, EGLint offset, EGLint size, void *data);$/;"	t
+PFNEGLQUERYSTREAMTIMEKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYSTREAMTIMEKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream, EGLenum attribute, EGLTimeKHR *value);$/;"	t
+PFNEGLQUERYSTREAMU64KHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYSTREAMU64KHRPROC) (EGLDisplay dpy, EGLStreamKHR stream, EGLenum attribute, EGLuint64KHR *value);$/;"	t
+PFNEGLQUERYSTRINGPROC	include/EGL/egl.h	/^typedef const char *(EGLAPIENTRYP PFNEGLQUERYSTRINGPROC) (EGLDisplay dpy, EGLint name);$/;"	t
+PFNEGLQUERYSURFACE64KHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYSURFACE64KHRPROC) (EGLDisplay dpy, EGLSurface surface, EGLint attribute, EGLAttribKHR *value);$/;"	t
+PFNEGLQUERYSURFACEPOINTERANGLEPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYSURFACEPOINTERANGLEPROC) (EGLDisplay dpy, EGLSurface surface, EGLint attribute, void **value);$/;"	t
+PFNEGLQUERYSURFACEPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLQUERYSURFACEPROC) (EGLDisplay dpy, EGLSurface surface, EGLint attribute, EGLint *value);$/;"	t
+PFNEGLRELEASETEXIMAGEPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLRELEASETEXIMAGEPROC) (EGLDisplay dpy, EGLSurface surface, EGLint buffer);$/;"	t
+PFNEGLRELEASETHREADPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLRELEASETHREADPROC) (void);$/;"	t
+PFNEGLRESETSTREAMNVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLRESETSTREAMNVPROC) (EGLDisplay dpy, EGLStreamKHR stream);$/;"	t
+PFNEGLSETBLOBCACHEFUNCSANDROIDPROC	include/EGL/eglext.h	/^typedef void (EGLAPIENTRYP PFNEGLSETBLOBCACHEFUNCSANDROIDPROC) (EGLDisplay dpy, EGLSetBlobFuncANDROID set, EGLGetBlobFuncANDROID get);$/;"	t
+PFNEGLSETDAMAGEREGIONKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSETDAMAGEREGIONKHRPROC) (EGLDisplay dpy, EGLSurface surface, EGLint *rects, EGLint n_rects);$/;"	t
+PFNEGLSETSTREAMATTRIBKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSETSTREAMATTRIBKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream, EGLenum attribute, EGLAttrib value);$/;"	t
+PFNEGLSETSTREAMMETADATANVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSETSTREAMMETADATANVPROC) (EGLDisplay dpy, EGLStreamKHR stream, EGLint n, EGLint offset, EGLint size, const void *data);$/;"	t
+PFNEGLSIGNALSYNCKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSIGNALSYNCKHRPROC) (EGLDisplay dpy, EGLSyncKHR sync, EGLenum mode);$/;"	t
+PFNEGLSIGNALSYNCNVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSIGNALSYNCNVPROC) (EGLSyncNV sync, EGLenum mode);$/;"	t
+PFNEGLSTREAMATTRIBKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSTREAMATTRIBKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream, EGLenum attribute, EGLint value);$/;"	t
+PFNEGLSTREAMCONSUMERACQUIREATTRIBKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSTREAMCONSUMERACQUIREATTRIBKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLSTREAMCONSUMERACQUIREKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSTREAMCONSUMERACQUIREKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream);$/;"	t
+PFNEGLSTREAMCONSUMERGLTEXTUREEXTERNALATTRIBSNVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSTREAMCONSUMERGLTEXTUREEXTERNALATTRIBSNVPROC) (EGLDisplay dpy, EGLStreamKHR stream, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLSTREAMCONSUMERGLTEXTUREEXTERNALKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSTREAMCONSUMERGLTEXTUREEXTERNALKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream);$/;"	t
+PFNEGLSTREAMCONSUMEROUTPUTEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSTREAMCONSUMEROUTPUTEXTPROC) (EGLDisplay dpy, EGLStreamKHR stream, EGLOutputLayerEXT layer);$/;"	t
+PFNEGLSTREAMCONSUMERRELEASEATTRIBKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSTREAMCONSUMERRELEASEATTRIBKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLSTREAMCONSUMERRELEASEKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSTREAMCONSUMERRELEASEKHRPROC) (EGLDisplay dpy, EGLStreamKHR stream);$/;"	t
+PFNEGLSTREAMFLUSHNVPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSTREAMFLUSHNVPROC) (EGLDisplay dpy, EGLStreamKHR stream);$/;"	t
+PFNEGLSURFACEATTRIBPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSURFACEATTRIBPROC) (EGLDisplay dpy, EGLSurface surface, EGLint attribute, EGLint value);$/;"	t
+PFNEGLSWAPBUFFERSPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSWAPBUFFERSPROC) (EGLDisplay dpy, EGLSurface surface);$/;"	t
+PFNEGLSWAPBUFFERSREGION2NOKPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSWAPBUFFERSREGION2NOKPROC) (EGLDisplay dpy, EGLSurface surface, EGLint numRects, const EGLint *rects);$/;"	t
+PFNEGLSWAPBUFFERSREGIONNOKPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSWAPBUFFERSREGIONNOKPROC) (EGLDisplay dpy, EGLSurface surface, EGLint numRects, const EGLint *rects);$/;"	t
+PFNEGLSWAPBUFFERSWITHDAMAGEEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSWAPBUFFERSWITHDAMAGEEXTPROC) (EGLDisplay dpy, EGLSurface surface, EGLint *rects, EGLint n_rects);$/;"	t
+PFNEGLSWAPBUFFERSWITHDAMAGEKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSWAPBUFFERSWITHDAMAGEKHRPROC) (EGLDisplay dpy, EGLSurface surface, EGLint *rects, EGLint n_rects);$/;"	t
+PFNEGLSWAPINTERVALPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLSWAPINTERVALPROC) (EGLDisplay dpy, EGLint interval);$/;"	t
+PFNEGLTERMINATEPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLTERMINATEPROC) (EGLDisplay dpy);$/;"	t
+PFNEGLUNLOCKSURFACEKHRPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLUNLOCKSURFACEKHRPROC) (EGLDisplay dpy, EGLSurface surface);$/;"	t
+PFNEGLUNSIGNALSYNCEXTPROC	include/EGL/eglext.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLUNSIGNALSYNCEXTPROC) (EGLDisplay dpy, EGLSync sync, const EGLAttrib *attrib_list);$/;"	t
+PFNEGLWAITCLIENTPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLWAITCLIENTPROC) (void);$/;"	t
+PFNEGLWAITGLPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLWAITGLPROC) (void);$/;"	t
+PFNEGLWAITNATIVEPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLWAITNATIVEPROC) (EGLint engine);$/;"	t
+PFNEGLWAITSYNCKHRPROC	include/EGL/eglext.h	/^typedef EGLint (EGLAPIENTRYP PFNEGLWAITSYNCKHRPROC) (EGLDisplay dpy, EGLSyncKHR sync, EGLint flags);$/;"	t
+PFNEGLWAITSYNCPROC	include/EGL/egl.h	/^typedef EGLBoolean (EGLAPIENTRYP PFNEGLWAITSYNCPROC) (EGLDisplay dpy, EGLSync sync, EGLint flags);$/;"	t
+TRUE	glclient.h	73;"	d
+TRUE	glsutil.c	38;"	d	file:
+TRUE	samples/sample2.c	53;"	d	file:
+VShader1	samples/sample1.c	/^static const GLchar *VShader1 = $/;"	v	file:
+VShader1	samples/sample2.c	/^static const GLchar *VShader1 = $/;"	v	file:
+WIN32_LEAN_AND_MEAN	include/EGL/eglplatform.h	72;"	d
+__eglMustCastToProperFunctionPointerType	include/EGL/egl.h	/^typedef void (*__eglMustCastToProperFunctionPointerType)(void);$/;"	t
+__egl_h_	include/EGL/egl.h	2;"	d
+__eglext_h_	include/EGL/eglext.h	2;"	d
+__eglplatform_h_	include/EGL/eglplatform.h	2;"	d
+__gl2_h_	include/GLES2/gl2.h	28;"	d
+__gl2platform_h_	include/GLES2/gl2platform.h	28;"	d
+__khrplatform_h_	include/KHR/khrplatform.h	2;"	d
+a	samples/sample1.c	/^      uint8_t a;$/;"	m	struct:__anon4::__anon5::__anon6	file:
+attrib_ptr_s	glclient.h	/^struct attrib_ptr_s {$/;"	s
+b	samples/sample1.c	/^      uint8_t b;$/;"	m	struct:__anon4::__anon5::__anon6	file:
+bitmap	glsutil.h	/^  char *bitmap;$/;"	m	struct:__anon11
+bpp	glsutil.h	/^  uint16_t bpp;$/;"	m	struct:__anon10
+check_batch_overflow	glclient.c	/^int check_batch_overflow(size_t size, const char *msg)$/;"	f
+cmd_data	glclient.h	/^  void *cmd_data;$/;"	m	struct:__anon12
+col	samples/sample1.c	/^static float col[4];$/;"	v	file:
+color	samples/sample1.c	/^  color_t color;$/;"	m	struct:__anon7	file:
+color_t	samples/sample1.c	/^} color_t;$/;"	t	typeref:struct:__anon4	file:
+compression	glsutil.h	/^  uint32_t compression;$/;"	m	struct:__anon10
+create_texture	samples/sample2.c	/^GLuint create_texture(const char *filename)$/;"	f
+create_vbo	samples/sample1.c	/^GLuint create_vbo(GLenum target, void *vtx, size_t size)$/;"	f
+create_vbo	samples/sample2.c	/^GLuint create_vbo(GLenum target, void *vtx, size_t size)$/;"	f
+data_offset	glsutil.h	/^  uint32_t data_offset;$/;"	m	struct:__anon10
+drx	samples/sample1.c	/^  float drx;$/;"	m	struct:__anon7	file:
+drx	samples/sample2.c	/^  float drx;$/;"	m	struct:__anon1	file:
+dry	samples/sample1.c	/^  float dry;$/;"	m	struct:__anon7	file:
+dry	samples/sample2.c	/^  float dry;$/;"	m	struct:__anon1	file:
+drz	samples/sample1.c	/^  float drz;$/;"	m	struct:__anon7	file:
+drz	samples/sample2.c	/^  float drz;$/;"	m	struct:__anon1	file:
+dx	samples/sample1.c	/^  float dx;$/;"	m	struct:__anon7	file:
+dx	samples/sample2.c	/^  float dx;$/;"	m	struct:__anon1	file:
+dy	samples/sample1.c	/^  float dy;$/;"	m	struct:__anon7	file:
+dy	samples/sample2.c	/^  float dy;$/;"	m	struct:__anon1	file:
+dz	samples/sample1.c	/^  float dz;$/;"	m	struct:__anon7	file:
+dz	samples/sample2.c	/^  float dz;$/;"	m	struct:__anon1	file:
+eglBindAPI	clientegl.c	/^EGLBoolean eglBindAPI(EGLenum api)$/;"	f
+eglBindTexImage	clientegl.c	/^EGLBoolean eglBindTexImage(EGLDisplay dpy, EGLSurface surface, EGLint buffer)$/;"	f
+eglChooseConfig	clientegl.c	/^EGLBoolean eglChooseConfig( EGLDisplay dpy, const EGLint *attrib_list, EGLConfig *configs, EGLint config_size, EGLint *num_config )$/;"	f
+eglCopyBuffers	clientegl.c	/^EGLBoolean eglCopyBuffers( EGLDisplay dpy, EGLSurface surface, NativePixmapType target )$/;"	f
+eglCreateContext	clientegl.c	/^EGLContext eglCreateContext( EGLDisplay dpy, EGLConfig config, EGLContext share_list, const EGLint *attrib_list )$/;"	f
+eglCreatePbufferSurface	clientegl.c	/^EGLSurface eglCreatePbufferSurface( EGLDisplay dpy, EGLConfig config, const EGLint *attrib_list )$/;"	f
+eglCreatePixmapSurface	clientegl.c	/^EGLSurface eglCreatePixmapSurface( EGLDisplay dpy, EGLConfig config, NativePixmapType pixmap, const EGLint *attrib_list )$/;"	f
+eglCreateWindowSurface	clientegl.c	/^EGLSurface eglCreateWindowSurface( EGLDisplay dpy, EGLConfig config, NativeWindowType window, const EGLint *attrib_list )$/;"	f
+eglDestroyContext	clientegl.c	/^EGLBoolean eglDestroyContext( EGLDisplay dpy, EGLContext ctx )$/;"	f
+eglDestroySurface	clientegl.c	/^EGLBoolean eglDestroySurface( EGLDisplay dpy, EGLSurface surface )$/;"	f
+eglGetConfigAttrib	clientegl.c	/^EGLBoolean eglGetConfigAttrib( EGLDisplay dpy, EGLConfig config, EGLint attribute, EGLint *value )$/;"	f
+eglGetConfigs	clientegl.c	/^EGLBoolean eglGetConfigs( EGLDisplay dpy, EGLConfig *configs, EGLint config_size, EGLint *num_config )$/;"	f
+eglGetCurrentContext	clientegl.c	/^EGLContext eglGetCurrentContext(void)$/;"	f
+eglGetCurrentDisplay	clientegl.c	/^EGLDisplay eglGetCurrentDisplay(void)$/;"	f
+eglGetCurrentSurface	clientegl.c	/^EGLSurface eglGetCurrentSurface(EGLint readdraw)$/;"	f
+eglGetDisplay	clientegl.c	/^EGLDisplay eglGetDisplay(NativeDisplayType display)$/;"	f
+eglGetError	clientegl.c	/^EGLint eglGetError( void )$/;"	f
+eglGetProcAddress	clientegl.c	/^EGLAPI __eglMustCastToProperFunctionPointerType EGLAPIENTRY eglGetProcAddress( const char *procname )$/;"	f
+eglInitialize	clientegl.c	/^EGLBoolean eglInitialize( EGLDisplay dpy, EGLint *major, EGLint *minor )$/;"	f
+eglMakeCurrent	clientegl.c	/^EGLBoolean eglMakeCurrent( EGLDisplay dpy, EGLSurface draw, EGLSurface read, EGLContext ctx )$/;"	f
+eglQueryContext	clientegl.c	/^EGLBoolean eglQueryContext( EGLDisplay dpy, EGLContext ctx, EGLint attribute, EGLint *value )$/;"	f
+eglQueryString	clientegl.c	/^const char *eglQueryString( EGLDisplay dpy, EGLint name )$/;"	f
+eglQuerySurface	clientegl.c	/^EGLBoolean eglQuerySurface( EGLDisplay dpy, EGLSurface surface, EGLint attribute, EGLint *value )$/;"	f
+eglReleaseTexImage	clientegl.c	/^EGLBoolean eglReleaseTexImage( EGLDisplay dpy, EGLSurface surface, EGLint buffer )$/;"	f
+eglSurfaceAttrib	clientegl.c	/^EGLBoolean eglSurfaceAttrib(EGLDisplay dpy, EGLSurface surface, EGLint attribute, EGLint value)$/;"	f
+eglSwapBuffers	clientegl.c	/^EGLBoolean eglSwapBuffers( EGLDisplay dpy, EGLSurface draw )$/;"	f
+eglSwapInterval	clientegl.c	/^EGLBoolean eglSwapInterval( EGLDisplay dpy, EGLint interval )$/;"	f
+eglTerminate	clientegl.c	/^EGLBoolean eglTerminate( EGLDisplay dpy )$/;"	f
+eglWaitGL	clientegl.c	/^EGLBoolean eglWaitGL( void )$/;"	f
+eglWaitNative	clientegl.c	/^EGLBoolean eglWaitNative( EGLint engine )$/;"	f
+file_size	glsutil.h	/^  uint32_t file_size;$/;"	m	struct:__anon10
+file_type	glsutil.h	/^  uint16_t file_type;$/;"	m	struct:__anon10
+fshader	samples/sample1.c	/^  GLuint fshader;$/;"	m	struct:__anon8	file:
+fshader	samples/sample2.c	/^  GLuint fshader;$/;"	m	struct:__anon2	file:
+g	samples/sample1.c	/^      uint8_t g;$/;"	m	struct:__anon4::__anon5::__anon6	file:
+g_stride_nor	samples/sample1.c	49;"	d	file:
+g_stride_nor	samples/sample2.c	50;"	d	file:
+g_stride_pos	samples/sample1.c	47;"	d	file:
+g_stride_pos	samples/sample2.c	48;"	d	file:
+g_stride_tex	samples/sample2.c	52;"	d	file:
+g_vsize_nor	samples/sample1.c	48;"	d	file:
+g_vsize_nor	samples/sample2.c	49;"	d	file:
+g_vsize_pos	samples/sample1.c	46;"	d	file:
+g_vsize_pos	samples/sample2.c	47;"	d	file:
+g_vsize_tex	samples/sample2.c	51;"	d	file:
+get_diff_time	glclient.c	/^float get_diff_time(struct timeval start, struct timeval end)$/;"	f
+get_diff_time	samples/sample2.c	/^float get_diff_time(struct timeval start, struct timeval end)$/;"	f
+glActiveTexture	clientgles.c	/^GL_APICALL void GL_APIENTRY glActiveTexture (GLenum texture)$/;"	f
+glAttachShader	clientgles.c	/^GL_APICALL void GL_APIENTRY glAttachShader (GLuint program, GLuint shader)$/;"	f
+glBindAttribLocation	clientgles.c	/^GL_APICALL void GL_APIENTRY glBindAttribLocation (GLuint program, GLuint index, const GLchar* name)$/;"	f
+glBindBuffer	clientgles.c	/^GL_APICALL void GL_APIENTRY glBindBuffer (GLenum target, GLuint buffer)$/;"	f
+glBindFramebuffer	clientgles.c	/^GL_APICALL void GL_APIENTRY glBindFramebuffer (GLenum target, GLuint framebuffer)$/;"	f
+glBindTexture	clientgles.c	/^GL_APICALL void GL_APIENTRY glBindTexture (GLenum target, GLuint texture)$/;"	f
+glBlendEquationSeparate	clientgles.c	/^GL_APICALL void GL_APIENTRY glBlendEquationSeparate (GLenum modeRGB, GLenum modeAlpha)$/;"	f
+glBlendFunc	clientgles.c	/^GL_APICALL void GL_APIENTRY glBlendFunc (GLenum sfactor, GLenum dfactor)$/;"	f
+glBlendFuncSeparate	clientgles.c	/^GL_APICALL void GL_APIENTRY glBlendFuncSeparate (GLenum srcRGB, GLenum dstRGB, GLenum srcAlpha, GLenum dstAlpha)$/;"	f
+glBufferData	clientgles.c	/^GL_APICALL void GL_APIENTRY glBufferData (GLenum target, GLsizeiptr size, const GLvoid* data, GLenum usage)$/;"	f
+glBufferSubData	clientgles.c	/^GL_APICALL void GL_APIENTRY glBufferSubData (GLenum target, GLintptr offset, GLsizeiptr size, const GLvoid* data)$/;"	f
+glClear	clientgles.c	/^GL_APICALL void GL_APIENTRY glClear (GLbitfield mask)$/;"	f
+glClearColor	clientgles.c	/^GL_APICALL void GL_APIENTRY glClearColor (GLclampf red, GLclampf green, GLclampf blue, GLclampf alpha)$/;"	f
+glClearDepthf	clientgles.c	/^GL_APICALL void GL_APIENTRY glClearDepthf (GLclampf depth)$/;"	f
+glClearStencil	clientgles.c	/^GL_APICALL void GL_APIENTRY glClearStencil (GLint s)$/;"	f
+glColorMask	clientgles.c	/^GL_APICALL void GL_APIENTRY glColorMask(GLboolean red, GLboolean green, GLboolean blue, GLboolean alpha)$/;"	f
+glCompileShader	clientgles.c	/^GL_APICALL void GL_APIENTRY glCompileShader (GLuint shader)$/;"	f
+glCreateProgram	clientgles.c	/^GL_APICALL GLuint GL_APIENTRY glCreateProgram (void)$/;"	f
+glCreateShader	clientgles.c	/^GL_APICALL GLuint GL_APIENTRY glCreateShader (GLenum type)$/;"	f
+glCullFace	clientgles.c	/^GL_APICALL void GL_APIENTRY glCullFace (GLenum mode)$/;"	f
+glDeleteBuffers	clientgles.c	/^GL_APICALL void GL_APIENTRY glDeleteBuffers (GLsizei n, const GLuint* buffers)$/;"	f
+glDeleteProgram	clientgles.c	/^GL_APICALL void GL_APIENTRY glDeleteProgram (GLuint program)$/;"	f
+glDeleteShader	clientgles.c	/^GL_APICALL void GL_APIENTRY glDeleteShader (GLuint shader)$/;"	f
+glDeleteTextures	clientgles.c	/^GL_APICALL void GL_APIENTRY glDeleteTextures (GLsizei n, const GLuint* textures)$/;"	f
+glDepthFunc	clientgles.c	/^GL_APICALL void GL_APIENTRY glDepthFunc (GLenum func)$/;"	f
+glDepthMask	clientgles.c	/^GL_APICALL void GL_APIENTRY glDepthMask (GLboolean flag)$/;"	f
+glDepthRangef	clientgles.c	/^GL_APICALL void         GL_APIENTRY glDepthRangef (GLclampf zNear, GLclampf zFar)$/;"	f
+glDisable	clientgles.c	/^GL_APICALL void GL_APIENTRY glDisable (GLenum cap)$/;"	f
+glDisableVertexAttribArray	clientgles.c	/^GL_APICALL void GL_APIENTRY glDisableVertexAttribArray (GLuint index)$/;"	f
+glDrawArrays	clientgles.c	/^GL_APICALL void GL_APIENTRY glDrawArrays (GLenum mode, GLint first, GLsizei count)$/;"	f
+glDrawElements	clientgles.c	/^GL_APICALL void GL_APIENTRY glDrawElements (GLenum mode, GLsizei count, GLenum type, const GLvoid* indices)$/;"	f
+glDrawRangeElements	clientgles.c	/^GLvoid glDrawRangeElements( GLenum mode, GLuint start, GLuint end, GLsizei count, GLenum type, const GLvoid *indices )$/;"	f
+glEnable	clientgles.c	/^GL_APICALL void GL_APIENTRY glEnable (GLenum cap)$/;"	f
+glEnableVertexAttribArray	clientgles.c	/^GL_APICALL void GL_APIENTRY glEnableVertexAttribArray (GLuint index)$/;"	f
+glFinish	clientgles.c	/^GL_APICALL void GL_APIENTRY glFinish (void)$/;"	f
+glFlush	clientgles.c	/^GL_APICALL void GL_APIENTRY glFlush (void)$/;"	f
+glGenBuffers	clientgles.c	/^GL_APICALL void GL_APIENTRY glGenBuffers (GLsizei n, GLuint* buffers)$/;"	f
+glGenTextures	clientgles.c	/^GL_APICALL void GL_APIENTRY glGenTextures (GLsizei n, GLuint* textures)$/;"	f
+glGetActiveUniform	clientgles.c	/^GL_APICALL void GL_APIENTRY glGetActiveUniform (GLuint program, GLuint index, GLsizei bufsize, GLsizei* length, GLint* size, GLenum* type, GLchar* name)$/;"	f
+glGetAttribLocation	clientgles.c	/^GL_APICALL int GL_APIENTRY glGetAttribLocation (GLuint program, const GLchar* name)$/;"	f
+glGetError	clientgles.c	/^GL_APICALL GLenum GL_APIENTRY glGetError()$/;"	f
+glGetFloatv	clientgles.c	/^GL_APICALL void GL_APIENTRY glGetFloatv(GLenum name, GLfloat *params)$/;"	f
+glGetIntegerv	clientgles.c	/^GL_APICALL void GL_APIENTRY glGetIntegerv(GLenum name, GLint *params)$/;"	f
+glGetProgramInfoLog	clientgles.c	/^GL_APICALL void GL_APIENTRY glGetProgramInfoLog (GLuint program, GLsizei bufsize, GLsizei* length, GLchar* infolog)$/;"	f
+glGetProgramiv	clientgles.c	/^GL_APICALL void GL_APIENTRY glGetProgramiv (GLuint program, GLenum pname, GLint* params)$/;"	f
+glGetShaderInfoLog	clientgles.c	/^GL_APICALL void GL_APIENTRY glGetShaderInfoLog (GLuint shader, GLsizei bufsize, GLsizei* length, GLchar* infolog)$/;"	f
+glGetShaderiv	clientgles.c	/^GL_APICALL void GL_APIENTRY glGetShaderiv (GLuint shader, GLenum pname, GLint* params) {$/;"	f
+glGetString	clientgles.c	/^GL_APICALL const GLubyte* GL_APIENTRY glGetString(GLenum name)$/;"	f
+glGetUniformLocation	clientgles.c	/^GL_APICALL int GL_APIENTRY glGetUniformLocation (GLuint program, const GLchar* name)$/;"	f
+glHint	clientgles.c	/^GL_APICALL void GL_APIENTRY glHint (GLenum target, GLenum mode)$/;"	f
+glLineWidth	clientgles.c	/^GL_APICALL void GL_APIENTRY glLineWidth (GLfloat width)$/;"	f
+glLinkProgram	clientgles.c	/^GL_APICALL void GL_APIENTRY glLinkProgram (GLuint program)$/;"	f
+glPixelStorei	clientgles.c	/^GL_APICALL void GL_APIENTRY glPixelStorei (GLenum pname, GLint param)$/;"	f
+glPolygonOffset	clientgles.c	/^GL_APICALL void GL_APIENTRY glPolygonOffset (GLfloat factor, GLfloat units)$/;"	f
+glReadPixels	clientgles.c	/^GL_APICALL void GL_APIENTRY glReadPixels (GLint x, GLint y, GLsizei width, GLsizei height, GLenum format, GLenum type, GLvoid* pixels)$/;"	f
+glShaderSource	clientgles.c	/^GL_APICALL void GL_APIENTRY glShaderSource (GLuint shader, GLsizei count, const GLchar** string, const GLint* length)$/;"	f
+glStencilFunc	clientgles.c	/^GL_APICALL void GL_APIENTRY glStencilFunc(GLenum func, GLint r, GLuint m)$/;"	f
+glStencilMask	clientgles.c	/^GL_APICALL void GL_APIENTRY glStencilMask (GLuint mask)$/;"	f
+glStencilOp	clientgles.c	/^GL_APICALL void GL_APIENTRY glStencilOp (GLenum fail, GLenum zfail, GLenum zpass)$/;"	f
+glTexImage2D	clientgles.c	/^GL_APICALL void GL_APIENTRY glTexImage2D (GLenum target, GLint level, GLint internalformat, GLsizei width, GLsizei height, GLint border, GLenum format, GLenum type, const GLvoid* pixels)$/;"	f
+glTexParameteri	clientgles.c	/^GL_APICALL void GL_APIENTRY glTexParameteri (GLenum target, GLenum pname, GLint param)$/;"	f
+glTexSubImage2D	clientgles.c	/^GL_APICALL void GL_APIENTRY glTexSubImage2D (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLsizei width, GLsizei height, GLenum format, GLenum type, const GLvoid* pixels)$/;"	f
+glUniform1f	clientgles.c	/^GL_APICALL void GL_APIENTRY glUniform1f (GLint location, GLfloat x)$/;"	f
+glUniform4fv	clientgles.c	/^GL_APICALL void GL_APIENTRY glUniform4fv (GLint location, GLsizei count, const GLfloat* v)$/;"	f
+glUniformMatrix4fv	clientgles.c	/^GL_APICALL void GL_APIENTRY glUniformMatrix4fv (GLint location, GLsizei count, GLboolean transpose, const GLfloat* value)$/;"	f
+glUseProgram	clientgles.c	/^GL_APICALL void GL_APIENTRY glUseProgram (GLuint program)$/;"	f
+glVertexAttribPointer	clientgles.c	/^GL_APICALL void GL_APIENTRY glVertexAttribPointer (GLuint indx, GLint size, GLenum type, GLboolean normalized, GLsizei stride, const GLvoid* ptr)$/;"	f
+glVertexAttribPointer_vbo	clientgles.c	/^GL_APICALL void GL_APIENTRY glVertexAttribPointer_vbo (GLuint indx, GLint size, GLenum type, GLboolean normalized, GLsizei stride, const GLvoid* ptr)$/;"	f
+glViewport	clientgles.c	/^GL_APICALL void GL_APIENTRY glViewport (GLint x, GLint y, GLsizei width, GLsizei height)$/;"	f
+glclient_context_t	samples/sample1.c	/^} glclient_context_t;$/;"	t	typeref:struct:__anon9	file:
+glclient_context_t	samples/sample2.c	/^} glclient_context_t;$/;"	t	typeref:struct:__anon3	file:
+glclient_thread	samples/sample1.c	/^void * glclient_thread(void * arg)$/;"	f
+glclient_thread	samples/sample2.c	/^void * glclient_thread(void * arg)$/;"	f
+gls_bitmap_t	glsutil.h	/^} gls_bitmap_t;$/;"	t	typeref:struct:__anon11
+gls_bmp_header_t	glsutil.h	/^} __attribute__ ((__packed__)) gls_bmp_header_t;$/;"	t	typeref:struct:__anon10
+gls_cmd_flip	glclient.c	/^int gls_cmd_flip(unsigned int frame)$/;"	f
+gls_cmd_flush	glclient.c	/^int gls_cmd_flush()$/;"	f
+gls_cmd_get_context	glclient.c	/^int gls_cmd_get_context()$/;"	f
+gls_cmd_recv_data	glclient.c	/^int gls_cmd_recv_data()$/;"	f
+gls_cmd_send_data	glclient.c	/^int gls_cmd_send_data(uint32_t offset, uint32_t size, void *data)$/;"	f
+gls_context_t	glclient.h	/^} gls_context_t;$/;"	t	typeref:struct:__anon12
+gls_delete_bitmap	glsutil.c	/^void gls_delete_bitmap(gls_bitmap_t *bitmap)$/;"	f
+gls_free	glclient.c	/^int gls_free()$/;"	f
+gls_init	glclient.c	/^int gls_init(server_context_t *arg)$/;"	f
+gls_init_library	glclient.c	/^void gls_init_library()$/;"	f
+gls_load_bitmap	glsutil.c	/^int gls_load_bitmap(gls_bitmap_t *bitmap, const char *filename)$/;"	f
+glsc_global	glclient.h	/^gls_context_t glsc_global;$/;"	v
+graphics_context_t	samples/sample1.c	/^} graphics_context_t;$/;"	t	typeref:struct:__anon8	file:
+graphics_context_t	samples/sample2.c	/^} graphics_context_t;$/;"	t	typeref:struct:__anon2	file:
+header_size	glsutil.h	/^  uint32_t header_size;$/;"	m	struct:__anon10
+height	glsutil.h	/^  uint32_t height;$/;"	m	struct:__anon10
+height	glsutil.h	/^  unsigned int height;$/;"	m	struct:__anon11
+iHeight	include/EGL/eglext.h	/^    EGLint iHeight;$/;"	m	struct:EGLClientPixmapHI
+iStride	include/EGL/eglext.h	/^    EGLint iStride;$/;"	m	struct:EGLClientPixmapHI
+iWidth	include/EGL/eglext.h	/^    EGLint iWidth;$/;"	m	struct:EGLClientPixmapHI
+ibo	glclient.h	/^    GLuint vbo, ibo, ibo_emu;$/;"	m	struct:vbo_state
+ibo_emu	glclient.h	/^    GLuint vbo, ibo, ibo_emu;$/;"	m	struct:vbo_state
+image_size	glsutil.h	/^  uint32_t image_size;$/;"	m	struct:__anon10
+ind_cube	samples/sample1.c	/^static GLushort ind_cube[] =$/;"	v	file:
+ind_model	model1.h	/^static GLushort ind_model[] =$/;"	v
+ind_model	samples/model1.h	/^static GLushort ind_model[] =$/;"	v
+init_gl	samples/sample1.c	/^void init_gl(graphics_context_t *gc)$/;"	f
+init_gl	samples/sample2.c	/^void init_gl(graphics_context_t *gc)$/;"	f
+init_shader	samples/sample1.c	/^void init_shader(graphics_context_t *gc, const GLchar *vs, const GLchar *fs)$/;"	f
+init_shader	samples/sample2.c	/^void init_shader(graphics_context_t *gc, const GLchar *vs, const GLchar *fs)$/;"	f
+isenabled	glclient.h	/^    GLboolean   isenabled;$/;"	m	struct:attrib_ptr_s
+joy_dev	samples/sample1.c	/^  char joy_dev[GLS_STRING_SIZE_PLUS];$/;"	m	struct:__anon9	file:
+joy_dev	samples/sample2.c	/^  char joy_dev[GLS_STRING_SIZE_PLUS];$/;"	m	struct:__anon3	file:
+khronos_float_t	include/KHR/khrplatform.h	/^typedef          float         khronos_float_t;$/;"	t
+khronos_int16_t	include/KHR/khrplatform.h	/^typedef signed   short int     khronos_int16_t;$/;"	t
+khronos_int32_t	include/KHR/khrplatform.h	/^typedef __int32                 khronos_int32_t;$/;"	t
+khronos_int32_t	include/KHR/khrplatform.h	/^typedef int                     khronos_int32_t;$/;"	t
+khronos_int32_t	include/KHR/khrplatform.h	/^typedef int32_t                 khronos_int32_t;$/;"	t
+khronos_int64_t	include/KHR/khrplatform.h	/^typedef __int64                 khronos_int64_t;$/;"	t
+khronos_int64_t	include/KHR/khrplatform.h	/^typedef int64_t                 khronos_int64_t;$/;"	t
+khronos_int64_t	include/KHR/khrplatform.h	/^typedef long int                khronos_int64_t;$/;"	t
+khronos_int64_t	include/KHR/khrplatform.h	/^typedef long long int           khronos_int64_t;$/;"	t
+khronos_int8_t	include/KHR/khrplatform.h	/^typedef signed   char          khronos_int8_t;$/;"	t
+khronos_intptr_t	include/KHR/khrplatform.h	/^typedef signed   long  int     khronos_intptr_t;$/;"	t
+khronos_ssize_t	include/KHR/khrplatform.h	/^typedef signed   long  int     khronos_ssize_t;$/;"	t
+khronos_stime_nanoseconds_t	include/KHR/khrplatform.h	/^typedef khronos_int64_t        khronos_stime_nanoseconds_t;$/;"	t
+khronos_uint16_t	include/KHR/khrplatform.h	/^typedef unsigned short int     khronos_uint16_t;$/;"	t
+khronos_uint32_t	include/KHR/khrplatform.h	/^typedef uint32_t                khronos_uint32_t;$/;"	t
+khronos_uint32_t	include/KHR/khrplatform.h	/^typedef unsigned __int32        khronos_uint32_t;$/;"	t
+khronos_uint32_t	include/KHR/khrplatform.h	/^typedef unsigned int            khronos_uint32_t;$/;"	t
+khronos_uint64_t	include/KHR/khrplatform.h	/^typedef uint64_t                khronos_uint64_t;$/;"	t
+khronos_uint64_t	include/KHR/khrplatform.h	/^typedef unsigned __int64        khronos_uint64_t;$/;"	t
+khronos_uint64_t	include/KHR/khrplatform.h	/^typedef unsigned long int       khronos_uint64_t;$/;"	t
+khronos_uint64_t	include/KHR/khrplatform.h	/^typedef unsigned long long int  khronos_uint64_t;$/;"	t
+khronos_uint8_t	include/KHR/khrplatform.h	/^typedef unsigned char          khronos_uint8_t;$/;"	t
+khronos_uintptr_t	include/KHR/khrplatform.h	/^typedef unsigned long  int     khronos_uintptr_t;$/;"	t
+khronos_usize_t	include/KHR/khrplatform.h	/^typedef unsigned long  int     khronos_usize_t;$/;"	t
+khronos_utime_nanoseconds_t	include/KHR/khrplatform.h	/^typedef khronos_uint64_t       khronos_utime_nanoseconds_t;$/;"	t
+light_pos	samples/sample1.c	/^static GLfloat light_pos[4] = {5.0, 5.0, 10.0, 1.0};$/;"	v	file:
+light_pos	samples/sample2.c	/^static GLfloat light_pos[4] = {5.0, 5.0, 10.0, 1.0};$/;"	v	file:
+main	main.c	/^int main(int argc, char * argv[])$/;"	f
+main	samples/sample1.c	/^int main(int argc, char * argv[])$/;"	f
+main	samples/sample2.c	/^int main(int argc, char * argv[])$/;"	f
+mat_copy	glsutil.c	/^void mat_copy(float *a, float *b)$/;"	f
+mat_identity	glsutil.c	/^void mat_identity(float *m)$/;"	f
+mat_invert	glsutil.c	/^void mat_invert(float *m)$/;"	f
+mat_mul	glsutil.c	/^void mat_mul(float *a, float *b)$/;"	f
+mat_perspective	glsutil.c	/^void mat_perspective(float *m, float aspect, float near, float far, float fview)$/;"	f
+mat_rotate_x	glsutil.c	/^void mat_rotate_x(float *a, float angle)$/;"	f
+mat_rotate_y	glsutil.c	/^void mat_rotate_y(float *a, float angle)$/;"	f
+mat_rotate_z	glsutil.c	/^void mat_rotate_z(float *a, float angle)$/;"	f
+mat_translate	glsutil.c	/^void mat_translate(float *a, float x, float y, float z)$/;"	f
+mat_transpose	glsutil.c	/^void mat_transpose(float *m)$/;"	f
+model_mat	samples/sample1.c	/^static float model_mat[16];$/;"	v	file:
+model_mat	samples/sample2.c	/^static float model_mat[16];$/;"	v	file:
+modelproj_mat	samples/sample1.c	/^  float modelproj_mat[16];$/;"	m	struct:__anon7	file:
+modelproj_mat	samples/sample1.c	/^static float modelproj_mat[16];$/;"	v	file:
+modelproj_mat	samples/sample2.c	/^  float modelproj_mat[16];$/;"	m	struct:__anon1	file:
+modelproj_mat	samples/sample2.c	/^static float modelproj_mat[16];$/;"	v	file:
+nor_cube	samples/sample1.c	/^static GLfloat nor_cube[] =$/;"	v	file:
+nor_mat	samples/sample1.c	/^  float nor_mat[16];$/;"	m	struct:__anon7	file:
+nor_mat	samples/sample1.c	/^static float nor_mat[16];$/;"	v	file:
+nor_mat	samples/sample2.c	/^  float nor_mat[16];$/;"	m	struct:__anon1	file:
+nor_mat	samples/sample2.c	/^static float nor_mat[16];$/;"	v	file:
+nor_model	model1.h	/^static GLfloat nor_model[] =$/;"	v
+nor_model	samples/model1.h	/^static GLfloat nor_model[] =$/;"	v
+normalized	glclient.h	/^    GLboolean   normalized;$/;"	m	struct:attrib_ptr_s
+obj	samples/sample1.c	/^static obj_3d_t obj[1024];$/;"	v	file:
+obj	samples/sample2.c	/^static obj_3d_t obj[1024];$/;"	v	file:
+obj_3d_t	samples/sample1.c	/^} obj_3d_t;$/;"	t	typeref:struct:__anon7	file:
+obj_3d_t	samples/sample2.c	/^} obj_3d_t;$/;"	t	typeref:struct:__anon1	file:
+out_buf	glclient.h	/^  gls_buffer_t out_buf;$/;"	m	struct:__anon12
+pData	include/EGL/eglext.h	/^    void  *pData;$/;"	m	struct:EGLClientPixmapHI
+pack_alignment	glclient.h	/^  int32_t pack_alignment;$/;"	m	struct:__anon12
+plane	glsutil.h	/^  uint16_t plane;$/;"	m	struct:__anon10
+program	samples/sample1.c	/^  GLuint program;$/;"	m	struct:__anon8	file:
+program	samples/sample2.c	/^  GLuint program;$/;"	m	struct:__anon2	file:
+proj_mat	samples/sample1.c	/^static GLfloat proj_mat[16];$/;"	v	file:
+proj_mat	samples/sample2.c	/^static GLfloat proj_mat[16];$/;"	v	file:
+ptr	glclient.h	/^    const GLvoid *ptr;$/;"	m	struct:attrib_ptr_s
+push_batch_command	glclient.c	/^void push_batch_command(size_t size)$/;"	f
+r	samples/sample1.c	/^      uint8_t r;$/;"	m	struct:__anon4::__anon5::__anon6	file:
+randf	samples/sample1.c	/^static inline float randf(void)$/;"	f	file:
+randf	samples/sample2.c	/^static inline float randf(void)$/;"	f	file:
+release_gl	samples/sample1.c	/^void release_gl(graphics_context_t *gc)$/;"	f
+release_gl	samples/sample2.c	/^void release_gl(graphics_context_t *gc)$/;"	f
+release_shader	samples/sample1.c	/^void release_shader(graphics_context_t *gc)$/;"	f
+release_shader	samples/sample2.c	/^void release_shader(graphics_context_t *gc)$/;"	f
+release_texture	samples/sample2.c	/^void release_texture(GLuint texture)$/;"	f
+release_vbo	samples/sample1.c	/^void release_vbo(GLenum target, GLuint vbo)$/;"	f
+release_vbo	samples/sample2.c	/^void release_vbo(GLenum target, GLuint vbo)$/;"	f
+reserved1	glsutil.h	/^  uint16_t reserved1;$/;"	m	struct:__anon10
+reserved2	glsutil.h	/^  uint16_t reserved2;$/;"	m	struct:__anon10
+rgba	samples/sample1.c	/^    uint32_t rgba;$/;"	m	union:__anon4::__anon5	file:
+rx	samples/sample1.c	/^  float rx;$/;"	m	struct:__anon7	file:
+rx	samples/sample2.c	/^  float rx;$/;"	m	struct:__anon1	file:
+ry	samples/sample1.c	/^  float ry;$/;"	m	struct:__anon7	file:
+ry	samples/sample2.c	/^  float ry;$/;"	m	struct:__anon1	file:
+rz	samples/sample1.c	/^  float rz;$/;"	m	struct:__anon7	file:
+rz	samples/sample2.c	/^  float rz;$/;"	m	struct:__anon1	file:
+screen_height	glclient.h	/^  uint32_t screen_height;$/;"	m	struct:__anon12
+screen_height	samples/sample1.c	/^  uint32_t screen_height;$/;"	m	struct:__anon8	file:
+screen_height	samples/sample2.c	/^  uint32_t screen_height;$/;"	m	struct:__anon2	file:
+screen_width	glclient.h	/^  uint32_t screen_width;$/;"	m	struct:__anon12
+screen_width	samples/sample1.c	/^  uint32_t screen_width;$/;"	m	struct:__anon8	file:
+screen_width	samples/sample2.c	/^  uint32_t screen_width;$/;"	m	struct:__anon2	file:
+send_packet	glclient.c	/^int send_packet(size_t size)$/;"	f
+size	glclient.h	/^    GLint       size;$/;"	m	struct:attrib_ptr_s
+sta	glclient.h	/^  server_context_t *sta;$/;"	m	struct:__anon12
+stride	glclient.h	/^    GLsizei     stride;$/;"	m	struct:attrib_ptr_s
+tex_model	model1.h	/^static GLfloat tex_model[] =$/;"	v
+tex_model	samples/model1.h	/^static GLfloat tex_model[] =$/;"	v
+texture	samples/sample2.c	/^  GLuint texture;$/;"	m	struct:__anon2	file:
+tmp_buf	glclient.h	/^  gls_buffer_t tmp_buf;$/;"	m	struct:__anon12
+type	glclient.h	/^    GLenum      type;$/;"	m	struct:attrib_ptr_s
+type	samples/sample1.c	/^  uint32_t type;$/;"	m	struct:__anon7	file:
+type	samples/sample2.c	/^  uint32_t type;$/;"	m	struct:__anon1	file:
+uloc_col	samples/sample1.c	/^  GLuint uloc_col;$/;"	m	struct:__anon8	file:
+uloc_light	samples/sample1.c	/^  GLuint uloc_light;$/;"	m	struct:__anon8	file:
+uloc_light	samples/sample2.c	/^  GLuint uloc_light;$/;"	m	struct:__anon2	file:
+uloc_model	samples/sample1.c	/^  GLuint uloc_model;$/;"	m	struct:__anon8	file:
+uloc_model	samples/sample2.c	/^  GLuint uloc_model;$/;"	m	struct:__anon2	file:
+uloc_nor	samples/sample1.c	/^  GLuint uloc_nor;$/;"	m	struct:__anon8	file:
+uloc_nor	samples/sample2.c	/^  GLuint uloc_nor;$/;"	m	struct:__anon2	file:
+unpack_alignment	glclient.h	/^  int32_t unpack_alignment;$/;"	m	struct:__anon12
+vbo	glclient.h	/^    GLuint vbo, ibo, ibo_emu;$/;"	m	struct:vbo_state
+vbo	glclient.h	/^} vbo;$/;"	v	typeref:struct:vbo_state
+vbo_id	glclient.h	/^    GLuint vbo_id;$/;"	m	struct:attrib_ptr_s
+vbo_ind	samples/sample1.c	/^  GLuint vbo_ind;$/;"	m	struct:__anon8	file:
+vbo_ind	samples/sample2.c	/^  GLuint vbo_ind;$/;"	m	struct:__anon2	file:
+vbo_nor	samples/sample1.c	/^  GLuint vbo_nor;$/;"	m	struct:__anon8	file:
+vbo_nor	samples/sample2.c	/^  GLuint vbo_nor;$/;"	m	struct:__anon2	file:
+vbo_pos	samples/sample1.c	/^  GLuint vbo_pos;$/;"	m	struct:__anon8	file:
+vbo_pos	samples/sample2.c	/^  GLuint vbo_pos;$/;"	m	struct:__anon2	file:
+vbo_state	glclient.h	/^static struct vbo_state$/;"	s
+vbo_tex	samples/sample2.c	/^  GLuint vbo_tex;$/;"	m	struct:__anon2	file:
+vloc_nor	samples/sample1.c	/^  GLint vloc_nor;$/;"	m	struct:__anon8	file:
+vloc_nor	samples/sample2.c	/^  GLint vloc_nor;$/;"	m	struct:__anon2	file:
+vloc_pos	samples/sample1.c	/^  GLint vloc_pos;$/;"	m	struct:__anon8	file:
+vloc_pos	samples/sample2.c	/^  GLint vloc_pos;$/;"	m	struct:__anon2	file:
+vloc_tex	samples/sample2.c	/^  GLint vloc_tex;$/;"	m	struct:__anon2	file:
+vshader	samples/sample1.c	/^  GLuint vshader;$/;"	m	struct:__anon8	file:
+vshader	samples/sample2.c	/^  GLuint vshader;$/;"	m	struct:__anon2	file:
+vt_attrib_pointer	glclient.h	/^} vt_attrib_pointer[16];$/;"	v	typeref:struct:attrib_ptr_s
+vtx_cube	samples/sample1.c	/^static GLfloat vtx_cube[] =$/;"	v	file:
+vtx_model	model1.h	/^static GLfloat vtx_model[] =$/;"	v
+vtx_model	samples/model1.h	/^static GLfloat vtx_model[] =$/;"	v
+vtx_nor	samples/sample1.c	/^  GLfloat* vtx_nor;$/;"	m	struct:__anon8	file:
+vtx_pos	samples/sample1.c	/^  GLfloat* vtx_pos;$/;"	m	struct:__anon8	file:
+wait_for_data	glclient.c	/^int wait_for_data(char *str)$/;"	f
+webgl_vbo_id	glclient.h	/^    GLuint webgl_vbo_id;$/;"	m	struct:attrib_ptr_s
+wes_vertex_attrib_pointer	clientgles.c	/^static void wes_vertex_attrib_pointer(int i, int count)$/;"	f	file:
+width	glsutil.h	/^  uint32_t width;$/;"	m	struct:__anon10
+width	glsutil.h	/^  unsigned int width;$/;"	m	struct:__anon11
+x	samples/sample1.c	/^  float x;$/;"	m	struct:__anon7	file:
+x	samples/sample2.c	/^  float x;$/;"	m	struct:__anon1	file:
+xDisplay	glclient.h	/^Display *xDisplay;$/;"	v
+xScreenId	glclient.h	/^int xScreenId;$/;"	v
+y	samples/sample1.c	/^  float y;$/;"	m	struct:__anon7	file:
+y	samples/sample2.c	/^  float y;$/;"	m	struct:__anon1	file:
+z	samples/sample1.c	/^  float z;$/;"	m	struct:__anon7	file:
+z	samples/sample2.c	/^  float z;$/;"	m	struct:__anon1	file:
