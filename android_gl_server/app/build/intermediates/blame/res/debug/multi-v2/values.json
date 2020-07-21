@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/work/codes/android_gl_server/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/work/codes/gl-streaming/android_gl_server/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/work/codes/android_gl_server/app/src/main/res/values/strings.xml",
+                    "source": "/work/codes/gl-streaming/android_gl_server/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

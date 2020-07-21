@@ -1,4 +1,4 @@
-#Tue Jul 21 21:38:59 CST 2020
-base.0=/work/codes/android_gl_server/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+#Tue Jul 21 21:41:21 CST 2020
+base.0=/work/codes/gl-streaming/android_gl_server/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

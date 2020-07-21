@@ -5,49 +5,49 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-7-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:6:5-73
+7-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:6:5-73
 8        android:minSdkVersion="21"
-8-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:6:15-41
+8-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:6:15-41
 9        android:targetSdkVersion="25" />
-9-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:6:42-71
+9-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:6:42-71
 10
 11    <uses-feature android:glEsVersion="0x00020000" />
-11-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:7:2-50
-11-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:7:16-48
+11-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:7:2-50
+11-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:7:16-48
 12
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:8:2-77
-13-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:8:19-75
+13-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:8:2-77
+13-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:8:19-75
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:9:2-76
-14-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:9:19-74
+14-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:9:2-76
+14-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:9:19-74
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:10:2-63
-15-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:10:19-61
+15-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:10:2-63
+15-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:10:19-61
 16
 17    <application
-17-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:12:5-22:19
+17-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:12:5-22:19
 18        android:debuggable="true"
-18-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:13:18-43
+18-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:13:18-43
 19        android:label="@string/app_name" >
-19-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:12:18-50
+19-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:12:18-50
 20        <activity
-20-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:14:9-21:20
+20-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:14:9-21:20
 21            android:name="com.kdt.glstreamserver.GLStreamingActivity"
-21-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:14:19-54
+21-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:14:19-54
 22            android:configChanges="keyboardHidden|orientation|screenSize"
-22-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:16:4-65
+22-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:16:4-65
 23            android:label="@string/app_name" >
-23-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:15:4-36
+23-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:15:4-36
 24            <intent-filter>
-24-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:17:13-20:29
+24-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:17:13-20:29
 25                <action android:name="android.intent.action.MAIN" />
-25-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:18:17-69
-25-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:18:25-66
+25-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:18:17-69
+25-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:18:25-66
 26
 27                <category android:name="android.intent.category.LAUNCHER" />
-27-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:19:17-77
-27-->/work/codes/android_gl_server/app/src/main/AndroidManifest.xml:19:27-74
+27-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:19:17-77
+27-->/work/codes/gl-streaming/android_gl_server/app/src/main/AndroidManifest.xml:19:27-74
 28            </intent-filter>
 29        </activity>
 30    </application>
