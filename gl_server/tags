@@ -1,0 +1,132 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFLAGS	Makefile	/^CFLAGS=-g -Wall -DUSE_X11 -DGLS_SERVER$/;"	m
+FALSE	glserver.h	38;"	d
+GLSE_OUT_BUFFER_SIZE	glserver.h	41;"	d
+GLSE_SET_COMMAND_PTR	glserver.h	43;"	d
+GLSE_TMP_BUFFER_SIZE	glserver.h	40;"	d
+INCLUDES	Makefile	/^INCLUDES=-I\/opt\/vc\/include\/ -I\/opt\/vc\/include\/interface\/vcos\/pthreads -I\/opt\/vc\/include\/interface\/vmcs_host\/linux -I..\/common -I. -I.\/include$/;"	m
+LIBS	Makefile	/^LIBS=-L\/opt\/vc\/lib\/ -lX11 -lGLESv2 -lEGL -lpthread -lrt$/;"	m
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES := $(LOCAL_PATH) \\$/;"	m
+LOCAL_EXPORT_C_INCLUDES	Android.mk	/^LOCAL_EXPORT_C_INCLUDES := $(LOCAL_C_INCLUDES)$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE    := gl_server$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := ..\/common\/fifo.c   \\$/;"	m
+OBJS	Makefile	/^OBJS=fifo.o glcontrol.o server.o serveregl.o servergles.o glserver.o$/;"	m
+TRUE	glserver.h	37;"	d
+check_gl_err	glcontrol.c	/^void check_gl_err(uint32_t cmd) {$/;"	f
+cmd_data	glserver.h	/^  void *cmd_data;$/;"	m	struct:__anon2
+config	glcontrol.h	/^EGLConfig config;$/;"	v
+context	glcontrol.h	/^  EGLContext context;$/;"	m	struct:__anon1
+d_window	glcontrol.h	/^  ANativeWindow* d_window;$/;"	m	struct:__anon1
+display	glcontrol.h	/^  EGLDisplay display;$/;"	m	struct:__anon1
+egl_executeCommand	serveregl.c	/^int egl_executeCommand(gls_command_t *c) {$/;"	f
+egl_flushCommand	serveregl.c	/^int egl_flushCommand(gls_command_t *c) {$/;"	f
+gc	glserver.h	/^  graphics_context_t *gc;$/;"	m	struct:__anon2
+gles_executeCommand	servergles.c	/^int gles_executeCommand(gls_command_t *c) {$/;"	f
+gles_flushCommand	servergles.c	/^int gles_flushCommand(gls_command_t *c) {$/;"	f
+glse_cmd_flip	glserver.c	/^void glse_cmd_flip()$/;"	f
+glse_cmd_flush	glserver.c	/^void glse_cmd_flush()$/;"	f
+glse_cmd_get_context	glserver.c	/^void glse_cmd_get_context()$/;"	f
+glse_cmd_recv_data	glserver.c	/^int glse_cmd_recv_data()$/;"	f
+glse_cmd_send_data	glserver.c	/^int glse_cmd_send_data(uint32_t offset, uint32_t size, void *data)$/;"	f
+glse_context_t	glserver.h	/^} glse_context_t;$/;"	t	typeref:struct:__anon2
+glse_eglBindAPI	serveregl.c	/^void glse_eglBindAPI()$/;"	f
+glse_eglChooseConfig	serveregl.c	/^void glse_eglChooseConfig()$/;"	f
+glse_eglGetConfigAttrib	serveregl.c	/^void glse_eglGetConfigAttrib()$/;"	f
+glse_eglGetConfigs	serveregl.c	/^void glse_eglGetConfigs()$/;"	f
+glse_eglGetCurrentContext	serveregl.c	/^void glse_eglGetCurrentContext()$/;"	f
+glse_eglGetCurrentDisplay	serveregl.c	/^void glse_eglGetCurrentDisplay()$/;"	f
+glse_eglGetCurrentSurface	serveregl.c	/^void glse_eglGetCurrentSurface()$/;"	f
+glse_eglGetError	serveregl.c	/^void glse_eglGetError()$/;"	f
+glse_eglInitialize	serveregl.c	/^void glse_eglInitialize()$/;"	f
+glse_eglQueryContext	serveregl.c	/^void glse_eglQueryContext()$/;"	f
+glse_eglQueryString	serveregl.c	/^void glse_eglQueryString()$/;"	f
+glse_eglQuerySurface	serveregl.c	/^void glse_eglQuerySurface()$/;"	f
+glse_eglTerminate	serveregl.c	/^void glse_eglTerminate()$/;"	f
+glse_glActiveTexture	servergles.c	/^void glse_glActiveTexture()$/;"	f
+glse_glAttachShader	servergles.c	/^void glse_glAttachShader()$/;"	f
+glse_glBindAttribLocation	servergles.c	/^void glse_glBindAttribLocation()$/;"	f
+glse_glBindBuffer	servergles.c	/^void glse_glBindBuffer()$/;"	f
+glse_glBindFramebuffer	servergles.c	/^void glse_glBindFramebuffer()$/;"	f
+glse_glBindTexture	servergles.c	/^void glse_glBindTexture()$/;"	f
+glse_glBlendEquationSeparate	servergles.c	/^void glse_glBlendEquationSeparate()$/;"	f
+glse_glBlendFunc	servergles.c	/^void glse_glBlendFunc()$/;"	f
+glse_glBlendFuncSeparate	servergles.c	/^void glse_glBlendFuncSeparate()$/;"	f
+glse_glBufferData	servergles.c	/^void glse_glBufferData()$/;"	f
+glse_glBufferSubData	servergles.c	/^void glse_glBufferSubData()$/;"	f
+glse_glClear	servergles.c	/^void glse_glClear()$/;"	f
+glse_glClearColor	servergles.c	/^void glse_glClearColor()$/;"	f
+glse_glClearDepthf	servergles.c	/^void glse_glClearDepthf()$/;"	f
+glse_glColorMask	servergles.c	/^void glse_glColorMask()$/;"	f
+glse_glCompileShader	servergles.c	/^void glse_glCompileShader()$/;"	f
+glse_glCreateProgram	servergles.c	/^void glse_glCreateProgram()$/;"	f
+glse_glCreateShader	servergles.c	/^void glse_glCreateShader()$/;"	f
+glse_glCullFace	servergles.c	/^void glse_glCullFace()$/;"	f
+glse_glDeleteBuffers	servergles.c	/^void glse_glDeleteBuffers()$/;"	f
+glse_glDeleteProgram	servergles.c	/^void glse_glDeleteProgram()$/;"	f
+glse_glDeleteShader	servergles.c	/^void glse_glDeleteShader()$/;"	f
+glse_glDeleteTextures	servergles.c	/^void glse_glDeleteTextures()$/;"	f
+glse_glDepthFunc	servergles.c	/^void glse_glDepthFunc()$/;"	f
+glse_glDepthMask	servergles.c	/^void glse_glDepthMask()$/;"	f
+glse_glDepthRangef	servergles.c	/^void glse_glDepthRangef()$/;"	f
+glse_glDisable	servergles.c	/^void glse_glDisable()$/;"	f
+glse_glDisableVertexAttribArray	servergles.c	/^void glse_glDisableVertexAttribArray()$/;"	f
+glse_glDrawArrays	servergles.c	/^void glse_glDrawArrays()$/;"	f
+glse_glDrawElements	servergles.c	/^void glse_glDrawElements()$/;"	f
+glse_glEnable	servergles.c	/^void glse_glEnable()$/;"	f
+glse_glEnableVertexAttribArray	servergles.c	/^void glse_glEnableVertexAttribArray()$/;"	f
+glse_glFinish	servergles.c	/^void glse_glFinish()$/;"	f
+glse_glFlush	servergles.c	/^void glse_glFlush()$/;"	f
+glse_glGenBuffers	servergles.c	/^void glse_glGenBuffers()$/;"	f
+glse_glGenTextures	servergles.c	/^void glse_glGenTextures()$/;"	f
+glse_glGetActiveUniform	servergles.c	/^void glse_glGetActiveUniform()$/;"	f
+glse_glGetAttribLocation	servergles.c	/^void glse_glGetAttribLocation()$/;"	f
+glse_glGetError	servergles.c	/^void glse_glGetError()$/;"	f
+glse_glGetFloatv	servergles.c	/^void glse_glGetFloatv()$/;"	f
+glse_glGetIntegerv	servergles.c	/^void glse_glGetIntegerv()$/;"	f
+glse_glGetProgramInfoLog	servergles.c	/^void glse_glGetProgramInfoLog()$/;"	f
+glse_glGetProgramiv	servergles.c	/^void glse_glGetProgramiv()$/;"	f
+glse_glGetShaderInfoLog	servergles.c	/^void glse_glGetShaderInfoLog()$/;"	f
+glse_glGetShaderiv	servergles.c	/^void glse_glGetShaderiv()$/;"	f
+glse_glGetString	servergles.c	/^void glse_glGetString()$/;"	f
+glse_glGetUniformLocation	servergles.c	/^void glse_glGetUniformLocation()$/;"	f
+glse_glHint	servergles.c	/^void glse_glHint()$/;"	f
+glse_glLineWidth	servergles.c	/^void glse_glLineWidth()$/;"	f
+glse_glLinkProgram	servergles.c	/^void glse_glLinkProgram()$/;"	f
+glse_glPixelStorei	servergles.c	/^void glse_glPixelStorei()$/;"	f
+glse_glPolygonOffset	servergles.c	/^void glse_glPolygonOffset()$/;"	f
+glse_glReadPixels	servergles.c	/^void glse_glReadPixels()$/;"	f
+glse_glShaderSource	servergles.c	/^void glse_glShaderSource()$/;"	f
+glse_glStencilFunc	servergles.c	/^void glse_glStencilFunc()$/;"	f
+glse_glStencilMask	servergles.c	/^void glse_glStencilMask()$/;"	f
+glse_glStencilOp	servergles.c	/^void glse_glStencilOp()$/;"	f
+glse_glTexImage2D	servergles.c	/^void glse_glTexImage2D()$/;"	f
+glse_glTexParameteri	servergles.c	/^void glse_glTexParameteri()$/;"	f
+glse_glTexSubImage2D	servergles.c	/^void glse_glTexSubImage2D()$/;"	f
+glse_glUniform1f	servergles.c	/^void glse_glUniform1f()$/;"	f
+glse_glUniform4fv	servergles.c	/^void glse_glUniform4fv()$/;"	f
+glse_glUniformMatrix4fv	servergles.c	/^void glse_glUniformMatrix4fv()$/;"	f
+glse_glUseProgram	servergles.c	/^void glse_glUseProgram()$/;"	f
+glse_glVertexAttribPointer	servergles.c	/^void glse_glVertexAttribPointer()$/;"	f
+glse_glViewport	servergles.c	/^void glse_glViewport()$/;"	f
+glsec_global	glserver.c	/^glse_context_t glsec_global;$/;"	v
+glserver_thread	glserver.c	/^void * glserver_thread(void * arg)$/;"	f
+graphics_context_t	glcontrol.h	/^} graphics_context_t;$/;"	t	typeref:struct:__anon1
+init_android_main	main.c	/^void init_android_main()$/;"	f
+init_egl	glcontrol.c	/^void init_egl(graphics_context_t *gc)$/;"	f
+main	main.c	/^int main(int argc, char * argv[])$/;"	f
+make_x_window	glcontrol.c	/^void make_x_window(Display *x_dpy, EGLDisplay egl_dpy, const char *name, int x, int y, int width, int height, Window *winRet, EGLContext *ctxRet, EGLSurface *surfRet)$/;"	f
+out_buf	glserver.h	/^  gls_buffer_t out_buf;$/;"	m	struct:__anon2
+pop_batch_command	glserver.c	/^void pop_batch_command(size_t size)$/;"	f
+release_egl	glcontrol.c	/^void release_egl(graphics_context_t *gc)$/;"	f
+screen_height	glcontrol.h	/^  uint32_t screen_height;$/;"	m	struct:__anon1
+screen_width	glcontrol.h	/^  uint32_t screen_width;$/;"	m	struct:__anon1
+send_packet	glserver.c	/^int send_packet(size_t size)$/;"	f
+sta	glserver.h	/^  server_thread_args_t *sta;$/;"	m	struct:__anon2
+surface	glcontrol.h	/^  EGLSurface surface;$/;"	m	struct:__anon1
+tmp_buf	glserver.h	/^  gls_buffer_t tmp_buf;$/;"	m	struct:__anon2

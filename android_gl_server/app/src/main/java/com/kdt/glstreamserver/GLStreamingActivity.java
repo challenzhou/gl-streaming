@@ -104,10 +104,11 @@ public class GLStreamingActivity extends Activity
 						@Override
 						public void onClick(View p1) {
 							String serverPortStr = editServerPort.getText().toString();
-							int serverPort = 18145;
+							int serverPort = 8001;
 							String clientAddr = editClientAddr.getText().toString();
-							String outClientAddr = "127.0.0.1";
-							int outClientPort = 18146;
+							//String outClientAddr = "127.0.0.1";
+							String outClientAddr = "10.24.72.33";
+							int outClientPort = 8000;
 							
 							if (serverPortStr.isEmpty()) {
 								// Default server port

@@ -153,8 +153,9 @@ void init_egl(graphics_context_t *gc)
   assert(gc->d_window != NULL);
   gc->surface = eglCreateWindowSurface(gc->display, config, gc->d_window, NULL);
 #elif defined (GLS_SERVER) && defined(USE_X11)
-  make_x_window(x_dpy, gc->display, "OpenGL ES 2.x streaming", 0, 0, glsurfaceview_width, glsurfaceview_height, &win, &gc->context, &gc->surface);
-  gc->surface = eglCreateWindowSurface(gc->surface, config, win, NULL);
+//  make_x_window(x_dpy, gc->display, "OpenGL ES 2.x streaming", 0, 0, glsurfaceview_width, glsurfaceview_height, &win, &gc->context, &gc->surface);
+  make_x_window(x_dpy, gc->display, "OpenGL ES 2.x streaming", 0, 0, 400, 200, &win, &gc->context, &gc->surface);
+//  gc->surface = eglCreateWindowSurface(gc->surface, config, win, NULL);
 #endif
 
   if (gc->surface == EGL_NO_SURFACE) {
@@ -289,7 +290,7 @@ void make_x_window(Display *x_dpy, EGLDisplay egl_dpy, const char *name, int x, 
    {
       EGLint val;
       eglQueryContext(egl_dpy, ctx, EGL_CONTEXT_CLIENT_VERSION, &val);
-      assert(val == 2);
+      assert(val == 3);
    }
 XMapWindow(x_dpy, win);
    *surfRet = eglCreateWindowSurface(egl_dpy, config, win, NULL);

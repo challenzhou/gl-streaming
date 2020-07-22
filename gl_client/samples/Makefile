@@ -1,4 +1,4 @@
-CFLAGS=-O3 -Wall
+CFLAGS=-g3 -Wall -DGLS_CLIENT
 
 INCLUDES=-I.. -I../include -I../../common
 LIBS=-lpthread -lm -ldl -lX11

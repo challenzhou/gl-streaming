@@ -1,4 +1,4 @@
-CFLAGS=-O3 -Wall -DUSE_X11 -DGLS_SERVER
+CFLAGS=-g -Wall -DUSE_X11 -DGLS_SERVER
 
 LIBS=-L/opt/vc/lib/ -lX11 -lGLESv2 -lEGL -lpthread -lrt
 # -lopenmaxil -lbcm_host -lvcos -lvchiq_arm 

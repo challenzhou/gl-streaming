@@ -523,8 +523,8 @@ int main(int argc, char * argv[])
   int opt;
   char my_ip[GLS_STRING_SIZE_PLUS];
   char his_ip[GLS_STRING_SIZE_PLUS];
-  uint16_t my_port = 18146;
-  uint16_t his_port = 18145;
+  uint16_t my_port = 8001;
+  uint16_t his_port = 8000;
   strncpy(my_ip, "127.0.0.1", GLS_STRING_SIZE);
   strncpy(his_ip, "127.0.0.1", GLS_STRING_SIZE);
   strncpy(glcc.joy_dev, "/dev/input/js0", GLS_STRING_SIZE);
@@ -550,8 +550,8 @@ int main(int argc, char * argv[])
     }
   }
   server_init(&sc);
-  set_server_address_port(&sc, my_ip, my_port);
-  set_client_address_port(&sc, his_ip, his_port);
+  set_client_address_port(&sc, my_ip, my_port);
+  set_server_address_port(&sc, his_ip, his_port);
   set_client_user_context(&sc, &glcc);
 
   server_run(&sc, glclient_thread);

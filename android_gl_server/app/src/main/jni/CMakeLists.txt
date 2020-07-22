@@ -8,7 +8,7 @@ set(GL_SERVER_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../gl_server)
 #set(GL_SERVER_DIRS /work/codes/gl-streaming/gl_server)
 set(GL_COMMON_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../common)
 
-add_definitions(-D__ANDROID__)
+add_definitions(-D__ANDROID__ -DGLS_SERVER)
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
 # You can define multiple libraries, and CMake builds them for you.

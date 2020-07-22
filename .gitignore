@@ -28,3 +28,6 @@ android_gl_server/app/build
 android_gl_server/app/.cxx
 android_gl_server/.gradle/*
 android_gl_server/.idea/*
+*.swp
+cscope.*
+tags
