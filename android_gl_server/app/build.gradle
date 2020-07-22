@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId 'com.tencent.glstreamserver'
+        applicationId 'com.kdt.glstreamserver'
         minSdkVersion 28
         targetSdkVersion 30
         versionCode 1

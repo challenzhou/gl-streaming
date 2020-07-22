@@ -24,7 +24,7 @@ include_directories(
 # you want to add. CMake verifies that the library exists before
 # completing its build.
 find_library( # Sets the name of the path variable.
-        log-lib
+        log_lib
         android
         # Specifies the name of the NDK library that
         # you want CMake to locate.
@@ -32,7 +32,7 @@ find_library( # Sets the name of the path variable.
         )
 
 find_library( # Sets the name of the path variable.
-        graphic-lib
+        graphic_lib
         EGL
         GLESv2
         )
@@ -57,8 +57,6 @@ target_link_libraries( # Specifies the target library.
         # included in the NDK.
         GLESv2
         log
-        ${log-lib}
-        ${graphic-lib}
         )
 
 add_library( # Sets the name of the library.
@@ -78,8 +76,8 @@ target_link_libraries( # Specifies the target library.
         # Links the target library to the log library
         gl_server
         # included in the NDK.
-        ${log-lib}
-        ${graphic-lib}
+        ${log_lib}
+        ${graphic_lib}
 
         )
 
