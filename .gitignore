@@ -24,3 +24,7 @@ android_gl_server/gen
 # Adding below remove even .so and .jar library!
 # android_gl_server/libs
 android_gl_server/obj
+android_gl_server/app/build
+android_gl_server/app/.cxx
+android_gl_server/.gradle
+android_gl_server/.idea
