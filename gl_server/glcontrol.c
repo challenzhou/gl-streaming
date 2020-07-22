@@ -36,8 +36,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <assert.h>
 #include <unistd.h>
 
+#ifndef __ANDROID__
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
+#endif
 
 #include "glcontrol.h"
 
@@ -189,6 +191,8 @@ void release_egl(graphics_context_t *gc)
  *
  **************************************************************************/
 
+
+#ifndef __ANDROID__
 /*
  * Create an RGB, double-buffered X window.
  * Return the window and context handles.
@@ -306,5 +310,5 @@ XMapWindow(x_dpy, win);
    *winRet = win;
    *ctxRet = ctx;
 }
-
+#endif
 
