@@ -40,7 +40,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "glserver.h"
 
-// #define GL_DEBUG
+#define GL_DEBUG
 
 glse_context_t glsec_global;
 
@@ -167,7 +167,7 @@ void * glserver_thread(void * arg)
 {
   FILE *fl;
 #ifdef GL_DEBUG
-  fl = fopen("/sdcard/mthr_log.txt", "w");
+  fl = fopen("/tmp/mthr_log.txt", "w");
 #endif
   int quit = FALSE;
   server_thread_args_t * a = (server_thread_args_t *)arg;
@@ -201,6 +201,7 @@ void * glserver_thread(void * arg)
       glsec_global.cmd_data = c;
 #ifdef GL_DEBUG
       fprintf(fl,"@MainLoop: Attempting to execute command %i \n",c->cmd);
+      printf("@MainLoop: Attempting to execute command %i \n",c->cmd);
 #endif
 
       switch (c->cmd)
@@ -214,12 +215,14 @@ void * glserver_thread(void * arg)
         case GLSC_FLUSH:
 #ifdef GL_DEBUG
           fprintf(fl,"@Exec: Flushing command buffer...\n");
+          printf("@Exec: Flushing command buffer...\n");
 #endif
           glse_cmd_flush();
           break;
         case GLSC_get_context:
 #ifdef GL_DEBUG
           fprintf(fl,"@Exec: Feeding context to client...\n");
+          printf("@Exec: Feeding context to client...\n");
 #endif
           glse_cmd_get_context();
           break;
@@ -234,6 +237,7 @@ void * glserver_thread(void * arg)
 		  if (result == FALSE) {
 #ifdef GL_DEBUG
           	fprintf(fl,"@Exec: %i : Undefined command\n",c->cmd);
+          	printf("@Exec: %i : Undefined command\n",c->cmd);
 #endif
 		  	LOGE("Error: Undefined command %i", c->cmd);
 		  }
