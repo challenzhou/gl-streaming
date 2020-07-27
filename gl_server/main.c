@@ -70,6 +70,10 @@ int main(int argc, char * argv[])
         return 0;
     }
   }
+
+  glsurfaceview_width = 1280;
+  glsurfaceview_height = 720;
+
   server_init(&sc);
   set_server_address_port(&sc, my_ip, my_port);
   set_client_address_port(&sc, his_ip, his_port);

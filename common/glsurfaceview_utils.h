@@ -1,3 +1,6 @@
+#ifndef GLSURFACEVIEW_UTILS_H
+#define GLSURFACEVIEW_UTILS_H
+
 #ifdef __ANDROID__
 
 #include <android/native_window.h>
@@ -26,3 +29,4 @@ jstring jstrclient_addr;
 ANativeWindow* glsurfaceview_window;
 #endif // __ANDROID__
 
+#endif

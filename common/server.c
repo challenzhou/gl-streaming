@@ -72,6 +72,7 @@ void * server_thread(void * arg)
       LOGW("FIFO full!\n");
       usleep(a->sleep_usec);
     } else {
+      LOGW("FIFO NOT full!\n");
       int recive_size = recvfrom(a->sock_fd, pushptr, a->max_packet_size, 0, NULL, NULL);
       if (recive_size == -1) {
         LOGE("Socket recvfrom Error.\n");

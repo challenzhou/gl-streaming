@@ -113,8 +113,8 @@ void gls_init_library()
     int opt;
     char my_ip[GLS_STRING_SIZE_PLUS];
     char his_ip[GLS_STRING_SIZE_PLUS];
-    uint16_t my_port = 18146;
-    uint16_t his_port = 18145;
+    uint16_t my_port = 8001;
+    uint16_t his_port = 8000;
 	
 	const char* env_serverIp = getenv("GLS_SERVER_IP");
 	

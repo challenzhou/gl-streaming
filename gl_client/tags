@@ -5,8 +5,8 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 BATCH_AUTO_FLUSH_SIZE	glclient.h	56;"	d
-CFLAGS	Makefile	/^CFLAGS=-O3 -Wall -I..\/common -I. -I.\/include -DUSE_X11 -fPIC$/;"	m
-CFLAGS	samples/Makefile	/^CFLAGS=-O3 -Wall$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-g3 -Wall -I..\/common -I. -I.\/include -DUSE_X11 -fPIC$/;"	m
+CFLAGS	samples/Makefile	/^CFLAGS=-g3 -Wall -DGLS_CLIENT$/;"	m
 EGLAPI	include/EGL/eglplatform.h	50;"	d
 EGLAPIENTRY	include/EGL/eglplatform.h	54;"	d
 EGLAPIENTRYP	include/EGL/eglplatform.h	56;"	d
@@ -1369,7 +1369,6 @@ g_vsize_pos	samples/sample1.c	46;"	d	file:
 g_vsize_pos	samples/sample2.c	47;"	d	file:
 g_vsize_tex	samples/sample2.c	51;"	d	file:
 get_diff_time	glclient.c	/^float get_diff_time(struct timeval start, struct timeval end)$/;"	f
-get_diff_time	samples/sample2.c	/^float get_diff_time(struct timeval start, struct timeval end)$/;"	f
 glActiveTexture	clientgles.c	/^GL_APICALL void GL_APIENTRY glActiveTexture (GLenum texture)$/;"	f
 glAttachShader	clientgles.c	/^GL_APICALL void GL_APIENTRY glAttachShader (GLuint program, GLuint shader)$/;"	f
 glBindAttribLocation	clientgles.c	/^GL_APICALL void GL_APIENTRY glBindAttribLocation (GLuint program, GLuint index, const GLchar* name)$/;"	f

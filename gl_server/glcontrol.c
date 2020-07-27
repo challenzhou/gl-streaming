@@ -153,8 +153,7 @@ void init_egl(graphics_context_t *gc)
   assert(gc->d_window != NULL);
   gc->surface = eglCreateWindowSurface(gc->display, config, gc->d_window, NULL);
 #elif defined (GLS_SERVER) && defined(USE_X11)
-//  make_x_window(x_dpy, gc->display, "OpenGL ES 2.x streaming", 0, 0, glsurfaceview_width, glsurfaceview_height, &win, &gc->context, &gc->surface);
-  make_x_window(x_dpy, gc->display, "OpenGL ES 2.x streaming", 0, 0, 400, 200, &win, &gc->context, &gc->surface);
+  make_x_window(x_dpy, gc->display, "OpenGL ES 2.x streaming", 0, 0, glsurfaceview_width, glsurfaceview_height, &win, &gc->context, &gc->surface);
 //  gc->surface = eglCreateWindowSurface(gc->surface, config, win, NULL);
 #endif
 

@@ -15,3 +15,11 @@
 ./main.c
 ./glsutil.h
 ./glclient.h
+../common/fastlog.h
+../common/fifo.c
+../common/fifo.h
+../common/gls_command.h
+../common/glsurfaceview_utils.h
+../common/server.c
+../common/server.h
+

@@ -516,8 +516,182 @@ void * glclient_thread(void * arg)
 }
 
 
+
+
+
+void glclient_draw( )
+{
+  static graphics_context_t gc;
+
+  static struct js_event joy;
+  int joy_fd;
+  static char button[32];
+
+  gc.screen_width = glsc_global.screen_width;
+  gc.screen_height = glsc_global.screen_height;
+  printf("width:%d height:%d\n",glsc_global.screen_width,glsc_global.screen_height);
+  init_gl(&gc);
+
+  float aspect = (float)gc.screen_width / (float)gc.screen_height;
+
+  mat_perspective(proj_mat, aspect, 1.0f, 1024.0f, 60.0f);
+  glUniform4fv(gc.uloc_light, 1, light_pos);
+
+  int j;
+  for (j = 0; j < 1024; j++)
+  {
+    obj[j].x = randf() * 60.0f - 30.0f;
+    obj[j].y = randf() * 60.0f - 30.0f;
+    obj[j].z = randf() * 300.0f - 300.0f;
+    obj[j].dx = randf() * 0.0f - 0.00f;
+    obj[j].dy = randf() * 0.0f - 0.00f;
+    obj[j].dz = randf() * 1.3f - 0.3f;
+    if (fabs(obj[j].dz) < 0.01f)
+    {
+      obj[j].dz = 0.01f;
+    }
+    obj[j].rx = randf() * 6.28;
+    obj[j].ry = randf() * 6.28;
+    obj[j].rz = randf() * 6.28;
+    obj[j].drx = randf() * 0.1f - 0.05f;
+    obj[j].dry = randf() * 0.1f - 0.05f;
+    obj[j].drz = randf() * 0.1f - 0.05f;
+    obj[j].color.r = (uint8_t)(randf() * 255.5f);
+    obj[j].color.g = (uint8_t)(randf() * 255.5f);
+    obj[j].color.b = (uint8_t)(randf() * 255.5f);
+    obj[j].color.a = (uint8_t)255;
+  }
+
+  float x = 0.0f;
+  float y = 0.0f;
+  float rx = 0.0f;
+  float ry = 0.0f;
+
+  int i;
+  for (i = 0; i < 432000; i++)
+  {
+    struct timeval times, timee;
+    gettimeofday(&times, NULL);
+
+    if (joy_fd != -1)
+    {
+      while (read(joy_fd, &joy, sizeof(struct js_event)) == sizeof(struct js_event))
+      {
+        if ((joy.type & JS_EVENT_BUTTON) == JS_EVENT_BUTTON)
+        {
+          button[joy.number] = joy.value;
+        }
+      }
+
+      if (button[4] > 0)
+      {
+        y += 0.01f;
+      }
+      if (button[6] > 0)
+      {
+        y += -0.01f;
+      }
+      if (button[5] > 0)
+      {
+        x += 0.01f * aspect;
+      }
+      if (button[7] > 0)
+      {
+        x += -0.01f * aspect;
+      }
+      if (button[12] > 0)
+      {
+        rx += -0.01f;
+      }
+      if (button[13] > 0)
+      {
+        ry += 0.01f;
+      }
+      if (button[14] > 0)
+      {
+        rx += 0.01f;
+      }
+      if (button[15] > 0)
+      {
+        ry += -0.01f;
+      }
+    }
+
+    glUseProgram(gc.program);
+    glBindBuffer(GL_ARRAY_BUFFER, gc.vbo_pos);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, gc.vbo_ind);
+    glEnableVertexAttribArray(gc.vloc_pos);
+    glEnableVertexAttribArray(gc.vloc_nor);
+
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+    for (j = 0; j < 240; j++)
+    {
+      obj[j].x += obj[j].dx;
+      obj[j].y += obj[j].dy;
+      obj[j].z += obj[j].dz + y;
+      if (obj[j].z > 1.0f)
+      {
+        obj[j].x = randf() * 60.0f - 30.0f;
+        obj[j].y = randf() * 60.0f - 30.0f;
+        obj[j].z = -300.0f;
+      }
+      if (obj[j].z < -400.0f)
+      {
+        obj[j].x = randf() * 60.0f - 30.0f;
+        obj[j].y = randf() * 60.0f - 30.0f;
+        obj[j].z = 1.0f;
+      }
+      obj[j].rx += obj[j].drx;
+      obj[j].ry += obj[j].dry;
+      obj[j].rz += obj[j].drz;
+
+      mat_identity(model_mat);
+      mat_translate(model_mat, obj[j].x, obj[j].y, obj[j].z);
+      mat_rotate_x(model_mat, obj[j].rx);
+      mat_rotate_y(model_mat, obj[j].ry);
+      mat_rotate_z(model_mat, obj[j].rz);
+
+      mat_copy(nor_mat, model_mat);
+      mat_invert(nor_mat);
+      mat_transpose(nor_mat);
+      glUniformMatrix4fv(gc.uloc_nor, 1, GL_FALSE, nor_mat);
+      mat_copy(obj[j].nor_mat, nor_mat);
+
+      mat_copy(modelproj_mat, proj_mat);
+      mat_mul(modelproj_mat, model_mat);
+      glUniformMatrix4fv(gc.uloc_model, 1, GL_FALSE, modelproj_mat);
+      mat_copy(obj[j].modelproj_mat, modelproj_mat);
+
+      col[0] = (float)obj[j].color.r * 0.00392156862745f;
+      col[1] = (float)obj[j].color.g * 0.00392156862745f;
+      col[2] = (float)obj[j].color.b * 0.00392156862745f;
+      col[3] = (float)obj[j].color.a * 0.00392156862745f;
+      glUniform4fv(gc.uloc_col, 1, col);
+
+      glDrawElements(GL_TRIANGLES, sizeof(ind_cube) / sizeof(GLushort), GL_UNSIGNED_SHORT, 0);
+    }
+    glDisableVertexAttribArray(gc.vloc_nor);
+    glDisableVertexAttribArray(gc.vloc_pos);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    gls_cmd_flip(i);
+    gettimeofday(&timee, NULL);
+    //printf("%d:%f ms ", i, get_diff_time(times, timee) * 1000.0f);
+  }
+  glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+  gls_cmd_flip(i);
+  release_gl(&gc);
+  gls_free();
+}
+
+
 int main(int argc, char * argv[])
 {
+
+#if 0
   static server_context_t sc;
   static glclient_context_t glcc;
   int opt;
@@ -555,6 +729,12 @@ int main(int argc, char * argv[])
   set_client_user_context(&sc, &glcc);
 
   server_run(&sc, glclient_thread);
+
+#else
+  gls_init_library();
+
+  glclient_draw();
+#endif
 
   return 0;
 }
